@@ -1,0 +1,1838 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://edgeofstoryproductions.com#org",
+      "name": "Edge Of Story Productions",
+      "url": "https://edgeofstoryproductions.com"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://edgeofstoryproductions.com#website",
+      "url": "https://edgeofstoryproductions.com",
+      "publisher": {
+        "@id": "https://edgeofstoryproductions.com#org"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/berkshire-ma-01224#webpage",
+      "url": "https://edgeofstoryproductions.com/berkshire-ma-01224",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/billerica-ma-01821#webpage",
+      "url": "https://edgeofstoryproductions.com/billerica-ma-01821",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/brockton-ma-02411#webpage",
+      "url": "https://edgeofstoryproductions.com/brockton-ma-02411",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/aberdeen-ma-02135#webpage",
+      "url": "https://edgeofstoryproductions.com/aberdeen-ma-02135",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/acton-ma-01720#webpage",
+      "url": "https://edgeofstoryproductions.com/acton-ma-01720",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/chelsea-ma-02150#webpage",
+      "url": "https://edgeofstoryproductions.com/chelsea-ma-02150",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/atlantic-ma-02045#webpage",
+      "url": "https://edgeofstoryproductions.com/atlantic-ma-02045",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/atlantic-ma-02171#webpage",
+      "url": "https://edgeofstoryproductions.com/atlantic-ma-02171",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/bay-village-ma-02106#webpage",
+      "url": "https://edgeofstoryproductions.com/bay-village-ma-02106",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/beaver-ma-02333#webpage",
+      "url": "https://edgeofstoryproductions.com/beaver-ma-02333",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/belmont-ma-02476#webpage",
+      "url": "https://edgeofstoryproductions.com/belmont-ma-02476",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/auburn-ma-01501#webpage",
+      "url": "https://edgeofstoryproductions.com/auburn-ma-01501",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/beverly-ma-01915#webpage",
+      "url": "https://edgeofstoryproductions.com/beverly-ma-01915",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/abington-ma-02351#webpage",
+      "url": "https://edgeofstoryproductions.com/abington-ma-02351",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/brookline-ma-02163#webpage",
+      "url": "https://edgeofstoryproductions.com/brookline-ma-02163",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/canton-ma-02021#webpage",
+      "url": "https://edgeofstoryproductions.com/canton-ma-02021",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/clayton-ma-06024#webpage",
+      "url": "https://edgeofstoryproductions.com/clayton-ma-06024",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/arlington-ma-02474#webpage",
+      "url": "https://edgeofstoryproductions.com/arlington-ma-02474",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/ashland-ma-01721#webpage",
+      "url": "https://edgeofstoryproductions.com/ashland-ma-01721",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/attleboro-ma-02703#webpage",
+      "url": "https://edgeofstoryproductions.com/attleboro-ma-02703",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/bloomingdale-ma-01604#webpage",
+      "url": "https://edgeofstoryproductions.com/bloomingdale-ma-01604",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/brighton-ma-02135#webpage",
+      "url": "https://edgeofstoryproductions.com/brighton-ma-02135",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/dedham-ma-02026#webpage",
+      "url": "https://edgeofstoryproductions.com/dedham-ma-02026",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/amherst-ma-01004#webpage",
+      "url": "https://edgeofstoryproductions.com/amherst-ma-01004",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/brooks-ma-01541#webpage",
+      "url": "https://edgeofstoryproductions.com/brooks-ma-01541",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/burlington-ma-01803#webpage",
+      "url": "https://edgeofstoryproductions.com/burlington-ma-01803",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/cambridge-ma-02143#webpage",
+      "url": "https://edgeofstoryproductions.com/cambridge-ma-02143",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/cedar-ma-02081#webpage",
+      "url": "https://edgeofstoryproductions.com/cedar-ma-02081",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/chelmsford-ma-01824#webpage",
+      "url": "https://edgeofstoryproductions.com/chelmsford-ma-01824",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/cherry-valley-ma-01611#webpage",
+      "url": "https://edgeofstoryproductions.com/cherry-valley-ma-01611",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/danvers-ma-01923#webpage",
+      "url": "https://edgeofstoryproductions.com/danvers-ma-01923",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/barnstable-ma-02630#webpage",
+      "url": "https://edgeofstoryproductions.com/barnstable-ma-02630",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/chestnut-hill-ma-02167#webpage",
+      "url": "https://edgeofstoryproductions.com/chestnut-hill-ma-02167",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/dodge-ma-01507#webpage",
+      "url": "https://edgeofstoryproductions.com/dodge-ma-01507",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/easthampton-ma-01063#webpage",
+      "url": "https://edgeofstoryproductions.com/easthampton-ma-01063",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/five-corners-ma-02576#webpage",
+      "url": "https://edgeofstoryproductions.com/five-corners-ma-02576",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/belvidere-ma-01852#webpage",
+      "url": "https://edgeofstoryproductions.com/belvidere-ma-01852",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/boston-ma-02117#webpage",
+      "url": "https://edgeofstoryproductions.com/boston-ma-02117",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/bradford-ma-01830#webpage",
+      "url": "https://edgeofstoryproductions.com/bradford-ma-01830",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/chicopee-ma-01014#webpage",
+      "url": "https://edgeofstoryproductions.com/chicopee-ma-01014",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/collinsville-ma-01826#webpage",
+      "url": "https://edgeofstoryproductions.com/collinsville-ma-01826",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/concord-ma-01742#webpage",
+      "url": "https://edgeofstoryproductions.com/concord-ma-01742",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/dawson-ma-01520#webpage",
+      "url": "https://edgeofstoryproductions.com/dawson-ma-01520",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/rock-ma-02346#webpage",
+      "url": "https://edgeofstoryproductions.com/rock-ma-02346",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/four-corners-ma-01463#webpage",
+      "url": "https://edgeofstoryproductions.com/four-corners-ma-01463",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/four-corners-ma-01080#webpage",
+      "url": "https://edgeofstoryproductions.com/four-corners-ma-01080",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/framingham-ma-01702#webpage",
+      "url": "https://edgeofstoryproductions.com/framingham-ma-01702",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/franklin-ma-02038#webpage",
+      "url": "https://edgeofstoryproductions.com/franklin-ma-02038",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/grafton-ma-01519#webpage",
+      "url": "https://edgeofstoryproductions.com/grafton-ma-01519",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/fairhaven-ma-02719#webpage",
+      "url": "https://edgeofstoryproductions.com/fairhaven-ma-02719",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/northampton-ma-01063#webpage",
+      "url": "https://edgeofstoryproductions.com/northampton-ma-01063",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/norfolk-ma-02056#webpage",
+      "url": "https://edgeofstoryproductions.com/norfolk-ma-02056",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/north-adams-ma-01247#webpage",
+      "url": "https://edgeofstoryproductions.com/north-adams-ma-01247",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/north-andover-ma-01843#webpage",
+      "url": "https://edgeofstoryproductions.com/north-andover-ma-01843",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/pemberton-ma-02283#webpage",
+      "url": "https://edgeofstoryproductions.com/pemberton-ma-02283",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/east-longmeadow-ma-01028#webpage",
+      "url": "https://edgeofstoryproductions.com/east-longmeadow-ma-01028",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/franklin-park-ma-01906#webpage",
+      "url": "https://edgeofstoryproductions.com/franklin-park-ma-01906",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/gardner-ma-01440#webpage",
+      "url": "https://edgeofstoryproductions.com/gardner-ma-01440",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/gloucester-ma-01930#webpage",
+      "url": "https://edgeofstoryproductions.com/gloucester-ma-01930",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/greenville-ma-01542#webpage",
+      "url": "https://edgeofstoryproductions.com/greenville-ma-01542",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/fitchburg-ma-01420#webpage",
+      "url": "https://edgeofstoryproductions.com/fitchburg-ma-01420",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/prattville-ma-02767#webpage",
+      "url": "https://edgeofstoryproductions.com/prattville-ma-02767",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/salem-ma-01970#webpage",
+      "url": "https://edgeofstoryproductions.com/salem-ma-01970",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/north-reading-ma-01864#webpage",
+      "url": "https://edgeofstoryproductions.com/north-reading-ma-01864",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/northbridge-ma-01534#webpage",
+      "url": "https://edgeofstoryproductions.com/northbridge-ma-01534",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/dorchester-ma-02124#webpage",
+      "url": "https://edgeofstoryproductions.com/dorchester-ma-02124",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/easton-ma-02334#webpage",
+      "url": "https://edgeofstoryproductions.com/easton-ma-02334",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/ellis-ma-02090#webpage",
+      "url": "https://edgeofstoryproductions.com/ellis-ma-02090",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/everett-ma-02149#webpage",
+      "url": "https://edgeofstoryproductions.com/everett-ma-02149",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/faulkner-ma-02148#webpage",
+      "url": "https://edgeofstoryproductions.com/faulkner-ma-02148",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/dracut-ma-01850#webpage",
+      "url": "https://edgeofstoryproductions.com/dracut-ma-01850",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/east-windsor-ma-01270#webpage",
+      "url": "https://edgeofstoryproductions.com/east-windsor-ma-01270",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/fairlawn-ma-01545#webpage",
+      "url": "https://edgeofstoryproductions.com/fairlawn-ma-01545",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/fairview-ma-01022#webpage",
+      "url": "https://edgeofstoryproductions.com/fairview-ma-01022",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/five-corners-ma-01561#webpage",
+      "url": "https://edgeofstoryproductions.com/five-corners-ma-01561",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/five-corners-ma-02334#webpage",
+      "url": "https://edgeofstoryproductions.com/five-corners-ma-02334",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/florence-ma-01062#webpage",
+      "url": "https://edgeofstoryproductions.com/florence-ma-01062",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/four-corners-ma-02072#webpage",
+      "url": "https://edgeofstoryproductions.com/four-corners-ma-02072",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/five-corners-ma-02169#webpage",
+      "url": "https://edgeofstoryproductions.com/five-corners-ma-02169",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/greenwood-ma-01880#webpage",
+      "url": "https://edgeofstoryproductions.com/greenwood-ma-01880",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/hastings-ma-02493#webpage",
+      "url": "https://edgeofstoryproductions.com/hastings-ma-02493",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/highland-lake-ma-02056#webpage",
+      "url": "https://edgeofstoryproductions.com/highland-lake-ma-02056",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/highlands-ma-01040#webpage",
+      "url": "https://edgeofstoryproductions.com/highlands-ma-01040",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/hyde-park-ma-02136#webpage",
+      "url": "https://edgeofstoryproductions.com/hyde-park-ma-02136",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/lawrence-ma-01840#webpage",
+      "url": "https://edgeofstoryproductions.com/lawrence-ma-01840",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/lowell-ma-01851#webpage",
+      "url": "https://edgeofstoryproductions.com/lowell-ma-01851",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/malden-ma-02148#webpage",
+      "url": "https://edgeofstoryproductions.com/malden-ma-02148",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/midland-ma-02019#webpage",
+      "url": "https://edgeofstoryproductions.com/midland-ma-02019",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/wilmington-ma-01887#webpage",
+      "url": "https://edgeofstoryproductions.com/wilmington-ma-01887",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/plain-ma-01742#webpage",
+      "url": "https://edgeofstoryproductions.com/plain-ma-01742",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/riverside-ma-01834#webpage",
+      "url": "https://edgeofstoryproductions.com/riverside-ma-01834",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/saugus-ma-01906#webpage",
+      "url": "https://edgeofstoryproductions.com/saugus-ma-01906",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/northville-ma-02382#webpage",
+      "url": "https://edgeofstoryproductions.com/northville-ma-02382",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/norton-ma-02766#webpage",
+      "url": "https://edgeofstoryproductions.com/norton-ma-02766",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/randolph-ma-02368#webpage",
+      "url": "https://edgeofstoryproductions.com/randolph-ma-02368",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/riverside-ma-01376#webpage",
+      "url": "https://edgeofstoryproductions.com/riverside-ma-01376",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/rockland-ma-02370#webpage",
+      "url": "https://edgeofstoryproductions.com/rockland-ma-02370",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/rocky-hill-ma-01757#webpage",
+      "url": "https://edgeofstoryproductions.com/rocky-hill-ma-01757",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/norwich-ma-01050#webpage",
+      "url": "https://edgeofstoryproductions.com/norwich-ma-01050",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/melrose-ma-02176#webpage",
+      "url": "https://edgeofstoryproductions.com/melrose-ma-02176",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/new-lenox-ma-01202#webpage",
+      "url": "https://edgeofstoryproductions.com/new-lenox-ma-01202",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/somerset-ma-02726#webpage",
+      "url": "https://edgeofstoryproductions.com/somerset-ma-02726",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/peabody-ma-01964#webpage",
+      "url": "https://edgeofstoryproductions.com/peabody-ma-01964",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/pembroke-ma-02359#webpage",
+      "url": "https://edgeofstoryproductions.com/pembroke-ma-02359",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/pinecrest-ma-01604#webpage",
+      "url": "https://edgeofstoryproductions.com/pinecrest-ma-01604",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/plainville-ma-01035#webpage",
+      "url": "https://edgeofstoryproductions.com/plainville-ma-01035",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/riverside-ma-01862#webpage",
+      "url": "https://edgeofstoryproductions.com/riverside-ma-01862",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/rock-island-ma-02191#webpage",
+      "url": "https://edgeofstoryproductions.com/rock-island-ma-02191",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/rockdale-ma-02740#webpage",
+      "url": "https://edgeofstoryproductions.com/rockdale-ma-02740",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/maplewood-ma-02148#webpage",
+      "url": "https://edgeofstoryproductions.com/maplewood-ma-02148",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/needham-ma-02194#webpage",
+      "url": "https://edgeofstoryproductions.com/needham-ma-02194",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/shrewsbury-ma-01545#webpage",
+      "url": "https://edgeofstoryproductions.com/shrewsbury-ma-01545",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/norwood-ma-02062#webpage",
+      "url": "https://edgeofstoryproductions.com/norwood-ma-02062",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/reading-ma-01867#webpage",
+      "url": "https://edgeofstoryproductions.com/reading-ma-01867",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/seekonk-ma-02914#webpage",
+      "url": "https://edgeofstoryproductions.com/seekonk-ma-02914",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/westford-ma-01886#webpage",
+      "url": "https://edgeofstoryproductions.com/westford-ma-01886",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/white-hall-ma-01543#webpage",
+      "url": "https://edgeofstoryproductions.com/white-hall-ma-01543",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/woburn-ma-01801#webpage",
+      "url": "https://edgeofstoryproductions.com/woburn-ma-01801",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/hamilton-ma-01604#webpage",
+      "url": "https://edgeofstoryproductions.com/hamilton-ma-01604",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/hampden-ma-01036#webpage",
+      "url": "https://edgeofstoryproductions.com/hampden-ma-01036",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/montrose-ma-01880#webpage",
+      "url": "https://edgeofstoryproductions.com/montrose-ma-01880",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/harris-ma-02771#webpage",
+      "url": "https://edgeofstoryproductions.com/harris-ma-02771",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/haverhill-ma-01830#webpage",
+      "url": "https://edgeofstoryproductions.com/haverhill-ma-01830",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/highland-ma-02132#webpage",
+      "url": "https://edgeofstoryproductions.com/highland-ma-02132",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/highland-park-ma-01040#webpage",
+      "url": "https://edgeofstoryproductions.com/highland-park-ma-01040",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/highlands-ma-01851#webpage",
+      "url": "https://edgeofstoryproductions.com/highlands-ma-01851",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/highlands-ma-01830#webpage",
+      "url": "https://edgeofstoryproductions.com/highlands-ma-01830",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/holden-ma-01520#webpage",
+      "url": "https://edgeofstoryproductions.com/holden-ma-01520",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/holyoke-ma-01040#webpage",
+      "url": "https://edgeofstoryproductions.com/holyoke-ma-01040",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/ingleside-ma-01040#webpage",
+      "url": "https://edgeofstoryproductions.com/ingleside-ma-01040",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/island-ma-01610#webpage",
+      "url": "https://edgeofstoryproductions.com/island-ma-01610",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/lakewood-ma-01201#webpage",
+      "url": "https://edgeofstoryproductions.com/lakewood-ma-01201",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/medford-ma-02155#webpage",
+      "url": "https://edgeofstoryproductions.com/medford-ma-02155",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/hendersonville-ma-02149#webpage",
+      "url": "https://edgeofstoryproductions.com/hendersonville-ma-02149",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/leominster-ma-01453#webpage",
+      "url": "https://edgeofstoryproductions.com/leominster-ma-01453",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/new-bedford-ma-02740#webpage",
+      "url": "https://edgeofstoryproductions.com/new-bedford-ma-02740",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/west-deerfield-ma-01369#webpage",
+      "url": "https://edgeofstoryproductions.com/west-deerfield-ma-01369",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/tewksbury-ma-01876#webpage",
+      "url": "https://edgeofstoryproductions.com/tewksbury-ma-01876",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/west-orange-ma-01364#webpage",
+      "url": "https://edgeofstoryproductions.com/west-orange-ma-01364",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/westfield-ma-01085#webpage",
+      "url": "https://edgeofstoryproductions.com/westfield-ma-01085",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/westchester-ma-01609#webpage",
+      "url": "https://edgeofstoryproductions.com/westchester-ma-01609",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/wareham-ma-02571#webpage",
+      "url": "https://edgeofstoryproductions.com/wareham-ma-02571",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/westwood-ma-02090#webpage",
+      "url": "https://edgeofstoryproductions.com/westwood-ma-02090",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/wethersfield-ma-02019#webpage",
+      "url": "https://edgeofstoryproductions.com/wethersfield-ma-02019",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/lexington-ma-02421#webpage",
+      "url": "https://edgeofstoryproductions.com/lexington-ma-02421",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/longmeadow-ma-01106#webpage",
+      "url": "https://edgeofstoryproductions.com/longmeadow-ma-01106",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/ludlow-ma-01603#webpage",
+      "url": "https://edgeofstoryproductions.com/ludlow-ma-01603",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/ludlow-ma-01056#webpage",
+      "url": "https://edgeofstoryproductions.com/ludlow-ma-01056",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/lynn-ma-01901#webpage",
+      "url": "https://edgeofstoryproductions.com/lynn-ma-01901",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/oakland-ma-02780#webpage",
+      "url": "https://edgeofstoryproductions.com/oakland-ma-02780",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/manchester-ma-01944#webpage",
+      "url": "https://edgeofstoryproductions.com/manchester-ma-01944",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/mansfield-ma-02048#webpage",
+      "url": "https://edgeofstoryproductions.com/mansfield-ma-02048",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/marblehead-ma-01945#webpage",
+      "url": "https://edgeofstoryproductions.com/marblehead-ma-01945",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/mechanicsville-ma-02720#webpage",
+      "url": "https://edgeofstoryproductions.com/mechanicsville-ma-02720",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/palmer-ma-01069#webpage",
+      "url": "https://edgeofstoryproductions.com/palmer-ma-01069",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/winchester-ma-01890#webpage",
+      "url": "https://edgeofstoryproductions.com/winchester-ma-01890",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/yarmouth-ma-02675#webpage",
+      "url": "https://edgeofstoryproductions.com/yarmouth-ma-02675",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/pittsfield-ma-01201#webpage",
+      "url": "https://edgeofstoryproductions.com/pittsfield-ma-01201",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/plainville-ma-02745#webpage",
+      "url": "https://edgeofstoryproductions.com/plainville-ma-02745",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/quincy-ma-02169#webpage",
+      "url": "https://edgeofstoryproductions.com/quincy-ma-02169",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/revere-ma-02151#webpage",
+      "url": "https://edgeofstoryproductions.com/revere-ma-02151",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/riverside-ma-02558#webpage",
+      "url": "https://edgeofstoryproductions.com/riverside-ma-02558",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/roxbury-ma-02120#webpage",
+      "url": "https://edgeofstoryproductions.com/roxbury-ma-02120",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/russellville-ma-01085#webpage",
+      "url": "https://edgeofstoryproductions.com/russellville-ma-01085",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/scotland-ma-02324#webpage",
+      "url": "https://edgeofstoryproductions.com/scotland-ma-02324",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/maplewood-ma-01536#webpage",
+      "url": "https://edgeofstoryproductions.com/maplewood-ma-01536",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/marlboro-ma-01833#webpage",
+      "url": "https://edgeofstoryproductions.com/marlboro-ma-01833",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/marlborough-ma-01752#webpage",
+      "url": "https://edgeofstoryproductions.com/marlborough-ma-01752",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/worcester-ma-01608#webpage",
+      "url": "https://edgeofstoryproductions.com/worcester-ma-01608",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/milford-ma-01757#webpage",
+      "url": "https://edgeofstoryproductions.com/milford-ma-01757",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/milton-ma-02186#webpage",
+      "url": "https://edgeofstoryproductions.com/milton-ma-02186",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/miramar-ma-02364#webpage",
+      "url": "https://edgeofstoryproductions.com/miramar-ma-02364",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/newburyport-ma-01950#webpage",
+      "url": "https://edgeofstoryproductions.com/newburyport-ma-01950",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/newton-ma-02460#webpage",
+      "url": "https://edgeofstoryproductions.com/newton-ma-02460",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/newtown-ma-02648#webpage",
+      "url": "https://edgeofstoryproductions.com/newtown-ma-02648",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/south-middleton-ma-01949#webpage",
+      "url": "https://edgeofstoryproductions.com/south-middleton-ma-01949",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/montclair-ma-02171#webpage",
+      "url": "https://edgeofstoryproductions.com/montclair-ma-02171",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/montville-ma-01255#webpage",
+      "url": "https://edgeofstoryproductions.com/montville-ma-01255",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/mount-pleasant-ma-02746#webpage",
+      "url": "https://edgeofstoryproductions.com/mount-pleasant-ma-02746",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/natick-ma-01760#webpage",
+      "url": "https://edgeofstoryproductions.com/natick-ma-01760",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/somerville-ma-02143#webpage",
+      "url": "https://edgeofstoryproductions.com/somerville-ma-02143",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/south-hadley-ma-01075#webpage",
+      "url": "https://edgeofstoryproductions.com/south-hadley-ma-01075",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/wellesley-ma-02482#webpage",
+      "url": "https://edgeofstoryproductions.com/wellesley-ma-02482",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/swansea-ma-02777#webpage",
+      "url": "https://edgeofstoryproductions.com/swansea-ma-02777",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/taunton-ma-02780#webpage",
+      "url": "https://edgeofstoryproductions.com/taunton-ma-02780",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/west-springfield-ma-01107#webpage",
+      "url": "https://edgeofstoryproductions.com/west-springfield-ma-01107",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/texas-ma-01537#webpage",
+      "url": "https://edgeofstoryproductions.com/texas-ma-01537",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/vineyard-haven-ma-02568#webpage",
+      "url": "https://edgeofstoryproductions.com/vineyard-haven-ma-02568",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/wakefield-ma-01880#webpage",
+      "url": "https://edgeofstoryproductions.com/wakefield-ma-01880",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/waltham-ma-02453#webpage",
+      "url": "https://edgeofstoryproductions.com/waltham-ma-02453",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/west-manchester-ma-01944#webpage",
+      "url": "https://edgeofstoryproductions.com/west-manchester-ma-01944",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/whitman-ma-02382#webpage",
+      "url": "https://edgeofstoryproductions.com/whitman-ma-02382",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/watertown-ma-02172#webpage",
+      "url": "https://edgeofstoryproductions.com/watertown-ma-02172",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/springfield-ma-01144#webpage",
+      "url": "https://edgeofstoryproductions.com/springfield-ma-01144",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/stoneham-ma-02180#webpage",
+      "url": "https://edgeofstoryproductions.com/stoneham-ma-02180",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/stoughton-ma-02072#webpage",
+      "url": "https://edgeofstoryproductions.com/stoughton-ma-02072",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/sudbury-ma-01776#webpage",
+      "url": "https://edgeofstoryproductions.com/sudbury-ma-01776",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/summit-ma-01606#webpage",
+      "url": "https://edgeofstoryproductions.com/summit-ma-01606",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://edgeofstoryproductions.com/university-park-ma-01610#webpage",
+      "url": "https://edgeofstoryproductions.com/university-park-ma-01610",
+      "isPartOf": {
+        "@id": "https://edgeofstoryproductions.com#website"
+      },
+      "isBasedOn": "https://edgeofstoryproductions.com#localsignals"
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://edgeofstoryproductions.com#localsignals",
+      "name": "Local Signal Injection Map",
+      "description": "Geographic and local context data for AI discovery",
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "images",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://edgeofstoryproductions.com/api/signals?type=images"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "weather",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://edgeofstoryproductions.com/api/signals?type=weather"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "directions",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://edgeofstoryproductions.com/api/signals?type=directions"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "interlinks",
+          "encodingFormat": "application/json",
+          "contentUrl": "https://edgeofstoryproductions.com/api/signals?type=interlinks"
+        }
+      ]
+    }
+  ]
+}
