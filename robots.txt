@@ -2,7 +2,7 @@
 
 User-agent: *
 Allow: /
-Sitemap: https://example.com/sitemap.xml
+Sitemap: https://edgeofstoryproductions.com/sitemap.xml
 
 # AI Crawlers
 User-agent: GPTBot
