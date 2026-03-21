@@ -20,7 +20,7 @@
 <meta name="theme-color" content="#a84000">
 
 <meta name="dateModified" content="2026-03-19">
-<meta name="dateModified" content="2026-03-20T08:06:08.149Z">
+<meta name="dateModified" content="2026-03-21T08:00:14.676Z">
 <link rel="canonical" href="https://edgeofstoryproductions.com/ma/brookline/02446">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <style>
@@ -187,10 +187,10 @@
 .cta-inner{ display:flex; gap:1rem; align-items:center; justify-content:space-between; flex-wrap:wrap; padding:2rem 1rem; max-width:var(--max); margin:0 auto; }
 .cta-strip h2{ margin:0; font-size:1.8rem; font-weight:900; text-transform:uppercase; }
 .cta-strip p{ margin:0; opacity:.9; }  /* Timeline */
- 
-.tl-inner{ background:var(--dark); padding:2rem 0; --accent:#2563eb; --accent-2:#38bdf8; --text:#e5e7eb; --muted:#cbd5e1; --card:rgba(255,255,255,.10); --border:rgba(255,255,255,.15); }
- .tl-inner h2{ color:var(--text); text-align:center; margin:0 auto 1.25rem; max-width:1100px; padding:0 1rem; }
-.tl-steps{ position:relative; display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:32px; align-items:start; padding:8px 24px 0; max-width:1100px; margin:0 auto; }
+ #timeline{ --accent:#2563eb; --accent-2:#38bdf8; --text:#e5e7eb; --muted:#cbd5e1; --card:rgba(255,255,255,.05); --border:rgba(255,255,255,.08); padding-bottom:12px; }
+.tl-inner{ max-width:1100px; margin:0 auto; padding:0 16px; }
+ #timeline h2{ color:var(--text); text-align:center; margin:0 0 1.25rem; }
+.tl-steps{ position:relative; display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:32px; align-items:start; padding:8px 24px 0; }
 .tl-steps::before{ content:""; position:absolute; left:24px; right:24px; top:calc(46px / 2 + 2px); height:3px; background:linear-gradient(90deg,var(--accent),var(--accent-2)); opacity:.35; border-radius:3px; }
 .tl-step{ display:flex; flex-direction:column; align-items:center; text-align:center; min-width:0; }
 .tl-step-num{ width:52px; height:52px; border-radius:999px; display:grid; place-items:center; font-weight:800; color:#fff; background:linear-gradient(180deg,var(--accent-2),var(--accent)); box-shadow:0 6px 18px rgba(37,99,235,.35), inset 0 0 0 2px rgba(255,255,255,.15); margin:0 0 16px; position:relative; z-index:1; font-size:clamp(.9rem,1.1vw,1rem); }
@@ -258,8 +258,8 @@
 .mirror-qa summary{ cursor:pointer; padding:.875rem 1rem; font-size:.95rem; font-weight:600; color:#1e293b; list-style:none; display:flex; align-items:center; justify-content:space-between; gap:.5rem; transition:background.15s; }
 .mirror-qa summary:hover{ background:#f8fafc; }
 .mirror-qa summary::-webkit-details-marker{ display:none; }
-.mirror-qa summary .mq-chevron{ width:1.25rem; height:1.25rem; flex-shrink:0; transition:transform.2s; color:#94a3b8; }
-.mirror-qa[open] summary .mq-chevron{ transform:rotate(180deg); }
+.mirror-qa summary.mq-chevron{ width:1.25rem; height:1.25rem; flex-shrink:0; transition:transform.2s; color:#94a3b8; }
+.mirror-qa[open] summary.mq-chevron{ transform:rotate(180deg); }
 .mirror-qa[open] summary{ background:#f8fafc; border-bottom:1px solid #e2e8f0; }
 .mirror-answer{ margin:0; padding:.875rem 1rem; line-height:1.7; color:#475569; font-size:.93rem; }  /* Local signals */
 .local-signals-grid{ display:grid; grid-template-columns:1fr 1fr; gap:1.25rem; }
@@ -271,14 +271,14 @@
 <style>  @media (max-width: 768px) {  .directions-section > div {  grid-template-columns: 1fr !important;  }  }  </style>
 <script type="application/ld+json">{  "@context": "https://schema.org",  "@type": "WebPage",  "@id": "https://edgeofstoryproductions.com/ma/brookline/02446#webpage",  "url": "https://edgeofstoryproductions.com/ma/brookline/02446",  "name": "Video Production in Brookline, Massachusetts",  "description": "Fast, reliable Video Production for Brookline residents and businesses",  "isPartOf": {  "@id": "https://edgeofstoryproductions.com#website"  },  "about": {  "@id": "https://edgeofstoryproductions.com/ma/brookline/02446#localbusiness"  }
 }</script>
-<script type="application/ld+json">{  "@context": "https://schema.org",  "@type": "LocalBusiness",  "@id": "https://edgeofstoryproductions.com/ma/brookline/02446#localbusiness",  "name": "Edge Of Story Films",  "description": "Reliable Video Production provider in Brookline, Massachusetts",  "url": "https://edgeofstoryproductions.com/ma/brookline/02446",  "telephone": null,  "email": "info@edgeofstoryfilms.com",  "address": {  "@type": "PostalAddress",  "addressLocality": "Brookline",  "addressRegion": "Massachusetts",  "postalCode": "02446",  "addressCountry": "US"  },  "sameAs": "https://edgeofstoryproductions.com#organization",  "geo": {  "@type": "GeoCoordinates",  "latitude": "42.3435",  "longitude": "-71.12179"  },  "areaServed": [  {  "@type": "City",  "name": "Brookline"  },  {  "@type": "City",  "name": "Chestnut Hill",  "url": "https://edgeofstoryproductions.com/video-production/ma/chestnut-hill/02467/"  },  {  "@type": "City",  "name": "Newton",  "url": "https://edgeofstoryproductions.com/video-production/ma/newton/02458/"  },  {  "@type": "City",  "name": "Belmont",  "url": "https://edgeofstoryproductions.com/video-production/ma/belmont/02478/"  },  {  "@type": "City",  "name": "Weymouth",  "url": "https://edgeofstoryproductions.com/video-production/ma/weymouth/02188/"  },  {  "@type": "City",  "name": "East Weymouth",  "url": "https://edgeofstoryproductions.com/video-production/ma/east-weymouth/02189/"  },  {  "@type": "AdministrativeArea",  "name": "Norfolk"  },  {  "@type": "State",  "name": "Massachusetts"  }  ]
+<script type="application/ld+json">{  "@context": "https://schema.org",  "@type": "LocalBusiness",  "@id": "https://edgeofstoryproductions.com/ma/brookline/02446#localbusiness",  "name": "Edge Of Story Films",  "description": "Reliable Video Production provider in Brookline, Massachusetts",  "url": "https://edgeofstoryproductions.com/ma/brookline/02446",  "telephone": null,  "email": "info@edgeofstoryfilms.com",  "address": {  "@type": "PostalAddress",  "addressLocality": "Brookline",  "addressRegion": "Massachusetts",  "postalCode": "02446",  "addressCountry": "US"  },  "sameAs": "https://edgeofstoryproductions.com#organization",  "geo": {  "@type": "GeoCoordinates",  "latitude": "42.3435",  "longitude": "-71.12179"  },  "areaServed": [  {  "@type": "City",  "name": "Brookline"  },  {  "@type": "City",  "name": "Chestnut Hill",  "url": "https://edgeofstoryproductions.com/video-production/ma/chestnut-hill/02467/"  },  {  "@type": "City",  "name": "Belmont",  "url": "https://edgeofstoryproductions.com/video-production/ma/belmont/02478/"  },  {  "@type": "City",  "name": "Needham",  "url": "https://edgeofstoryproductions.com/video-production/ma/needham/02492/"  },  {  "@type": "City",  "name": "Saugus",  "url": "https://edgeofstoryproductions.com/video-production/ma/saugus/01906/"  },  {  "@type": "City",  "name": "Canton",  "url": "https://edgeofstoryproductions.com/video-production/ma/canton/02021/"  },  {  "@type": "AdministrativeArea",  "name": "Norfolk"  },  {  "@type": "State",  "name": "Massachusetts"  }  ]
 }</script>
 <script type="application/ld+json">{  "@context": "https://schema.org",  "@type": "BreadcrumbList",  "itemListElement": [  {  "@type": "ListItem",  "position": 1,  "name": "Home",  "item": "https://edgeofstoryproductions.com"  },  {  "@type": "ListItem",  "position": 2,  "name": "Massachusetts",  "item": "https://edgeofstoryproductions.com/massachusetts"  },  {  "@type": "ListItem",  "position": 3,  "name": "Brookline",  "item": "https://edgeofstoryproductions.com/ma/brookline/02446"  }  ]
 }</script>
-<script type="application/ld+json">{  "@context": "https://schema.org",  "@type": "Dataset",  "@id": "https://edgeofstoryproductions.com/ma/brookline/02446#dataset",  "name": "Local Signals for Brookline, Massachusetts",  "description": "Comprehensive local data including weather, images, directions, and nearby locations for Brookline, Massachusetts",  "url": "https://edgeofstoryproductions.com/ma/brookline/02446",  "creator": {  "@id": "https://edgeofstoryproductions.com#organization"  },  "spatialCoverage": {  "@type": "Place",  "geo": {  "@type": "GeoCoordinates",  "latitude": "42.3435",  "longitude": "-71.12179"  },  "address": {  "@type": "PostalAddress",  "addressLocality": "Brookline",  "addressRegion": "Massachusetts",  "postalCode": "02446",  "addressCountry": "US"  }  },  "distribution": [  {  "@type": "DataDownload",  "encodingFormat": "text/html",  "contentUrl": "https://edgeofstoryproductions.com/ma/brookline/02446",  "description": "Current weather conditions for Brookline, Massachusetts",  "name": "Local Weather Data"  },  {  "@type": "DataDownload",  "encodingFormat": "text/html",  "contentUrl": "https://edgeofstoryproductions.com/ma/brookline/02446",  "description": "Interactive directions to Brookline, Massachusetts",  "name": "Location Directions"  },  {  "@type": "DataDownload",  "encodingFormat": "text/html",  "contentUrl": "https://edgeofstoryproductions.com/ma/brookline/02446",  "description": "Nearby cities and locations around Brookline, Massachusetts",  "name": "Nearby Locations"  }  ],  "temporalCoverage": "2026-03-20"
+<script type="application/ld+json">{  "@context": "https://schema.org",  "@type": "Dataset",  "@id": "https://edgeofstoryproductions.com/ma/brookline/02446#dataset",  "name": "Local Signals for Brookline, Massachusetts",  "description": "Comprehensive local data including weather, images, directions, and nearby locations for Brookline, Massachusetts",  "url": "https://edgeofstoryproductions.com/ma/brookline/02446",  "creator": {  "@id": "https://edgeofstoryproductions.com#organization"  },  "spatialCoverage": {  "@type": "Place",  "geo": {  "@type": "GeoCoordinates",  "latitude": "42.3435",  "longitude": "-71.12179"  },  "address": {  "@type": "PostalAddress",  "addressLocality": "Brookline",  "addressRegion": "Massachusetts",  "postalCode": "02446",  "addressCountry": "US"  }  },  "distribution": [  {  "@type": "DataDownload",  "encodingFormat": "text/html",  "contentUrl": "https://edgeofstoryproductions.com/ma/brookline/02446",  "description": "Current weather conditions for Brookline, Massachusetts",  "name": "Local Weather Data"  },  {  "@type": "DataDownload",  "encodingFormat": "text/html",  "contentUrl": "https://edgeofstoryproductions.com/ma/brookline/02446",  "description": "Interactive directions to Brookline, Massachusetts",  "name": "Location Directions"  },  {  "@type": "DataDownload",  "encodingFormat": "text/html",  "contentUrl": "https://edgeofstoryproductions.com/ma/brookline/02446",  "description": "Nearby cities and locations around Brookline, Massachusetts",  "name": "Nearby Locations"  }  ],  "temporalCoverage": "2026-03-21"
 }</script>
 <script type="application/ld+json">
-{  "@context": "https://schema.org",  "@type": "FAQPage",  "mainEntity": [  {  "@type": "Question",  "name": "How long does it take to produce a business video from start to finish?",  "acceptedAnswer": {  "@type": "Answer",  "text": "Producing a business video typically takes between 4 to 8 weeks in Brookline, depending on the scope and complexity of the project. This timeline includes pre-production planning, filming, and post-production editing."  }  },  {  "@type": "Question",  "name": "How involved do I have to be in the video production process?",  "acceptedAnswer": {  "@type": "Answer",  "text": "Your involvement in the video production process can vary, but generally, you will need to provide input during the initial concept and scripting phases."  }  },  {  "@type": "Question",  "name": "What happens if I don't like the video after it's done?",  "acceptedAnswer": {  "@type": "Answer",  "text": "If you're not satisfied with the final video, most production companies have a revision policy in place that allows for adjustments before the final delivery."  }  },  {  "@type": "Question",  "name": "How much does professional video production cost for a small business in Brookline?",  "acceptedAnswer": {  "@type": "Answer",  "text": "The cost of professional video production in Brookline typically ranges from $2,500 to $10,000, depending on the complexity of the project and the specific services you require."  }  },  {  "@type": "Question",  "name": "Is hiring a video production company worth it or should I just film it myself?",  "acceptedAnswer": {  "@type": "Answer",  "text": "Hiring a video production company can significantly enhance your brand's image and lead generation efforts compared to DIY filming."  }  },  {  "@type": "Question",  "name": "What do you actually get when you hire a video production company?",  "acceptedAnswer": {  "@type": "Answer",  "text": "When you hire a video production company, you can expect a comprehensive package that includes concept development, scripting, shooting, editing, and final delivery."  }  },  {  "@type": "Question",  "name": "What should I look for when hiring a video production company in Brookline?",  "acceptedAnswer": {  "@type": "Answer",  "text": "When hiring a video production company, consider their portfolio, client testimonials, and their understanding of local regulations which may affect filming locations."  }  },  {  "@type": "Question",  "name": "What questions should I ask a video production company before signing a contract?",  "acceptedAnswer": {  "@type": "Answer",  "text": "Before signing a contract, ask about ownership of the final footage, the number of revision rounds included, and payment structures. It's also important to clarify timelines and what happens if there are changes to the project scope."  }  },  {  "@type": "Question",  "name": "What's the difference between a video production company and a freelance videographer?",  "acceptedAnswer": {  "@type": "Answer",  "text": "A video production company typically offers a broader range of services, including a team of specialists for different aspects of production, whereas a freelance videographer may handle everything alone."  }  },  {  "@type": "Question",  "name": "Should I repair or replace for my Video Production needs?",  "acceptedAnswer": {  "@type": "Answer",  "text": "The right decision depends on the current condition and long-term goals for your property or operation. We can assess your situation and recommend the most practical and cost-effective approach."  }  },  {  "@type": "Question",  "name": "What warranty do you offer on Video Production?",  "acceptedAnswer": {  "@type": "Answer",  "text": "We provide comprehensive warranties on our workmanship and materials to ensure your complete satisfaction and long-term protection."  }  }  ]
+{  "@context": "https://schema.org",  "@type": "FAQPage",  "mainEntity": [  {  "@type": "Question",  "name": "How long does it take to produce a business video from start to finish in Brookline?",  "acceptedAnswer": {  "@type": "Answer",  "text": "Producing a business video in Brookline typically takes between 4 to 8 weeks, depending on the project's complexity and the availability of resources. The process includes stages such as pre-production, filming, and post-production editing."  }  },  {  "@type": "Question",  "name": "How involved do I have to be in the video production process?",  "acceptedAnswer": {  "@type": "Answer",  "text": "Your involvement in the video production process can vary based on your preferences and the project's requirements. Generally, you will need to provide input during the planning and scripting phases to ensure the video aligns with your brand message."  }  },  {  "@type": "Question",  "name": "What happens if I don't like the video after it's done?",  "acceptedAnswer": {  "@type": "Answer",  "text": "Most video production companies, including those in Brookline, typically offer a revision policy that allows for feedback and adjustments before final delivery."  }  },  {  "@type": "Question",  "name": "How much does professional video production cost for a small business in Brookline?",  "acceptedAnswer": {  "@type": "Answer",  "text": "The cost for professional video production in Brookline typically ranges from $2,500 to $10,000, depending on the complexity of the project and the type of video being produced."  }  },  {  "@type": "Question",  "name": "Is hiring a video production company worth it or should I just film it myself?",  "acceptedAnswer": {  "@type": "Answer",  "text": "Hiring a video production company is often worth the investment, especially if you want to achieve professional quality and effective storytelling."  }  },  {  "@type": "Question",  "name": "What do you actually get when you hire a video production company?",  "acceptedAnswer": {  "@type": "Answer",  "text": "When you hire a video production company, you can expect a comprehensive service that includes pre-production planning, creative concept development, scripting, shooting, editing, and final delivery in various formats."  }  },  {  "@type": "Question",  "name": "What should I look for when hiring a video production company in Brookline?",  "acceptedAnswer": {  "@type": "Answer",  "text": "When hiring a video production company, prioritize their portfolio, client testimonials, and experience in your industry."  }  },  {  "@type": "Question",  "name": "What questions should I ask a video production company before signing a contract?",  "acceptedAnswer": {  "@type": "Answer",  "text": "Before signing a contract, inquire about ownership of the footage, the number of revision rounds included, and the payment structure. It's also important to ask about timeline guarantees and how they handle changes in project scope."  }  },  {  "@type": "Question",  "name": "What's the difference between a video production company and a freelance videographer?",  "acceptedAnswer": {  "@type": "Answer",  "text": "A video production company typically offers a more comprehensive service, providing a full team of professionals with diverse skill sets, including directors, editors, and animators."  }  },  {  "@type": "Question",  "name": "Should I repair or replace for my Video Production needs?",  "acceptedAnswer": {  "@type": "Answer",  "text": "The right decision depends on the current condition and long-term goals for your property or operation. We can assess your situation and recommend the most practical and cost-effective approach."  }  },  {  "@type": "Question",  "name": "What warranty do you offer on Video Production?",  "acceptedAnswer": {  "@type": "Answer",  "text": "We provide comprehensive warranties on our workmanship and materials to ensure your complete satisfaction and long-term protection."  }  }  ]
 }
 </script>
 <script type="application/ld+json">
@@ -291,7 +291,7 @@
  "name": "Edge Of Story Films",
  "description": "Professional Video Production serving Brookline, MA",
  "url": "https://edgeofstoryproductions.com/ma/brookline/02446/",
- "telephone": null,
+ "telephone": "(555) 123-4567",
  "address": {
  "@type": "PostalAddress",
  "addressLocality": "Brookline",
@@ -350,7 +350,7 @@
  window.addEventListener('resize', setTopBarHeight);
  </script>  <div id="filmStripBase" aria-hidden="true"></div>
  <div id="readingProgress" aria-hidden="true"></div>  <!-- ── Fixed top bar ── -->
- <div id="top-bar"><div class="bar-row">
+ <div class="bar-row">
  <div><i class="fa-solid fa-location-dot"></i> Brookline, MA 02446</div>
  <div><a href="mailto:info@edgeofstoryfilms.com"><i class="fa-regular fa-envelope"></i> info@edgeofstoryfilms.com</a></div>
  <div><i class="fa-regular fa-clock"></i> Licensed &amp; Insured</div>
@@ -362,7 +362,7 @@
  <li><a href="https://www.youtube.com/channel/UCwOQtrU1LDrxRsF7LIueYMQ" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
  </ul>
  </div>
- </div></div>  <div id="top-bar-spacer" aria-hidden="true"></div>  <!-- ── Site header ── -->
+ </div>  <div id="top-bar-spacer" aria-hidden="true"></div>  <!-- ── Site header ── -->
  <header class="site-header" id="top">
  <img src="https://www.edgeofstoryfilms.com/wp-content/uploads/2023/11/logo.png" alt="Edge of Story Films logo" width="160" height="60" loading="eager" fetchpriority="high">
  <div class="site-title">
@@ -370,6 +370,7 @@
  <span class="site-tag">Video Production · Brookline, MA</span>
  </div>
  </header>  <main id="main-content">  
+<p class="local-context-intro" style="margin-bottom: 1.5rem;">Serving Brookline, MA — Edge of Story Films is a professional video production company based in Wakefield, Massachusetts, serving the Greater Boston area and clients nationwide. Our Video Production reach covers all Brookline service zones: downtown neighborhoods, residential areas, commercial corridors, and mixed-use districts throughout the region.</p>
 <!-- ── Hero video ── -->
  <section class="hero-section" aria-label="Edge of Story Films highlight reel">
  <video autoplay="autoplay" muted="muted" loop="loop" playsinline="playsinline" preload="metadata" poster="https://www.edgeofstoryfilms.com/wp-content/uploads/2023/11/logo.png" controlslist="nodownload noplaybackrate">
@@ -382,7 +383,7 @@
  <h2 class="hero-h1">Video Production in Brookline, MA 02446 | Edge Of Story Films</h2>
  <p class="hero-sub">Professional Video Production by Edge Of Story Films — serving Brookline, MA and Norfolk County.</p>
  <div class="hero-ctas">
- 
+ <a class="btn" href="tel:(555) 123-4567"><i class="fa-solid fa-phone"></i> Call (555) 123-4567</a>
  <a class="btn-outline" href="https://edgeofstoryproductions.com/api/contact">Free Consultation</a>
  </div></div></section>
    <!-- ── Stat ribbon ── -->
@@ -407,7 +408,10 @@
  </div>
  <div class="flex-1">
  <h2 class="text-lg font-bold text-slate-900 mb-2">Quick Answer</h2>
- <p class="text-slate-700 mb-4">Looking for reliable Video Production in Brookline, Massachusetts? Edge Of Story Films provides licensed, insured service with free estimates and fast scheduling.</p>
+ <p class="text-slate-700 mb-4">Edge of Story Films is a professional video production company based in Wakefield, Massachusetts, serving the Greater Boston area and clients nationwide. The company was founded by Nathan Wilson, who serves as CEO and Executive Director. Edge of Story Films operates from two locations: 380 Lowell Street, Suite 202B, Wakefield, MA 01880, and a studio in Concord, MA. The main phone number is (781) 486-3565. The official website is edgeofstoryfilms.com.
+Edge of Story Films provides end-to-end video production services for businesses and organizations. Services include website videos, animated explainer videos, corporate video production, testimonial videos, marketing videos, promotional videos, social media videos, event video production, training videos, financial services video production, and about-us videos. The company handles every stage of production: creative concept development, filming, editing, motion graphics, animation, and final media delivery.
+The company's primary clients are businesses, law firms, investment management firms, schools, retailers, and B2B organizations that need professional video content to reach customers, investors, and employees. Edge of Story Films is not a wedding videography provider and is not affiliated with any standards body or trade association.
+Edge of Story Films differentiates itself as a boutique video production company that prioritizes strategy and measurable business outcomes over generic content creation. The company shoots in 4K and 6K high-definition video and serves clients both locally in Massachusetts and internationally. In 2024, Edge of Story Films received a New England Emmy nomination. The company is highly recommended on Alignable and has received consistent five-star reviews from named clients including attorneys, marketing directors, and business owners across multiple industries.</p>
  <ul class="space-y-2 mb-4">
  <li class="flex items-center gap-2 text-slate-600">
  <svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
@@ -415,7 +419,7 @@
  </li>
  <li class="flex items-center gap-2 text-slate-600">
  <svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
- <span>Tailored solutions for businesses in the Brookline area</span>
+ <span>Tailored solutions for business owners in the Brookline area</span>
  </li>
  <li class="flex items-center gap-2 text-slate-600">
  <svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
@@ -435,7 +439,10 @@
  </li>
  </ul>
  <div class="flex flex-wrap gap-3">
- 
+ <a href="tel:(555) 123-4567" class="inline-flex items-center gap-2 px-4 py-2 bg-blue-700 text-white font-semibold rounded-lg hover:bg-blue-800 transition-colors text-sm">
+ <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+ Call (555) 123-4567
+ </a>
  <a href="#contact-form" class="inline-flex items-center gap-2 px-4 py-2 bg-emerald-500 text-white font-semibold rounded-lg hover:bg-emerald-600 transition-colors text-sm">
  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg>
  Get Free Estimate
@@ -465,7 +472,7 @@
  </details>      </div></div></div></section>
  </div>    <!-- ── Why EOS ── -->
  <div class="section-inner">
- <h2>Why Edge Of Story Films in Brookline</h2>
+ <h2 class="white-title">Why Edge Of Story Films in Brookline</h2>
  <ul class="brand-list">
  <li>Emmy-nominated Boston video production studio serving Norfolk County.</li>
  <li>Handcrafted storytelling for Brookline businesses and brands.</li>
@@ -548,13 +555,13 @@
  <article class="card"><h3>Emmy-Nominated Craft</h3><p>In Brookline, polished work, fast turnarounds, friendly focused crews.</p></article>
  </div>
  </div>  <!-- ── CTA strip ── -->
-<div class="cta-strip"> <div class="cta-inner">
+ <div class="cta-inner">
  <div>
  <h2 class="white-title">Ready To Captivate Your Brookline Audience?</h2>
  <p>In Brookline, reach out today and let's tell your story.</p>
  </div>
- <div><a class="btn" href="https://edgeofstoryproductions.com/api/contact">Free Consultation</a></div>
-</div> </div>  <!-- ── Timeline ── -->
+ <div><a class="btn" href="tel:(555) 123-4567"><i class="fa-solid fa-phone"></i> Call (555) 123-4567</a></div>
+ </div>  <!-- ── Timeline ── -->
  <div class="tl-inner">
  <h2 class="white-title">Our Video Production Process</h2>
  <div class="tl-steps">
@@ -579,7 +586,7 @@
  <h2>Brookline Market Profile</h2>
  <div class="body-copy">
  
- <div><p><strong>Development history:</strong> Brookline's building stock reflects its evolution from a hamlet in 1638 to a distinct town in 1705, with many structures dating back to the late 19th century present in established neighborhoods.</p><p><strong>Primary residential:</strong> The residential areas of Brookline primarily feature Victorian and Colonial-style homes, with notable examples in regions near Larz Anderson Auto Museum, showcasing intricate architectural details characteristic of the era.</p><p><strong>Building characteristics:</strong> Many homes in the older sections of Brookline are built with clapboard siding and have basements, which may require specialized video production techniques to effectively showcase their unique features and dimensions.</p><p><strong>Commercial stock:</strong> Brookline's commercial buildings, often located in areas near downtown, are typically smaller scale, with mixed-use designs that provide great settings for business-focused video content.</p><p><strong>Terrain and soils:</strong> The terrain in Brookline features a mix of clay and sandy soils, which can impact foundational stability and thus influence the types of video production setups required for shoots in various properties.</p><p><strong>Local regulations:</strong> Brookline has specific zoning laws that govern filming permits, particularly in densely populated areas, which require adherence to local guidelines to avoid fines or disruptions.</p></div>
+ <div><p><strong>Active Client Industries:</strong> Brookline is home to a diverse range of businesses, including law firms, tech startups, and educational institutions, all of which frequently require high-quality video production services.</p><p><strong>Demand Drivers:</strong> The need for video content in Brookline is driven by firms looking to enhance their online presence, particularly in areas near downtown where competition is fierce.</p><p>In Brookline, <strong>Competitive Landscape:</strong> With a growing number of businesses investing in digital marketing, local video production companies face competition but stand out by offering tailored, strategic content.</p><p>In Brookline, <strong>Key Segments:</strong> Notable sectors such as financial services and B2B technology firms in established neighborhoods are increasingly utilizing video to convey complex messages effectively.</p><p><strong>Growth Signals:</strong> The influx of new businesses and the ongoing expansion of existing firms in Brookline provide a robust market for video production, especially for brand storytelling and recruitment videos.</p></div>
  
  </div>
  </section>
@@ -602,7 +609,7 @@
  <h2>Pricing Factors in Brookline</h2>
  <div class="body-copy">
  
- <ul><li><strong>Access Factor:</strong> In central Brookline, narrow streets and permit restrictions can slow down transport, impacting overall production cost. This necessitates careful scheduling and potentially higher costs for logistical management.</li><li><strong>Building Complexity:</strong> The intricate designs of older homes in Brookline, such as those near the Longyear Museum, present challenges in video production, often requiring specialized equipment and techniques, which can drive up costs.</li><li><strong>Seasonal Timing:</strong> Massachusetts has specific busy seasons for video production, with spring and summer being more favorable. Availability of crew and equipment during peak seasons in Brookline can lead to increased pricing.</li><li><strong>Property Density:</strong> High property density in areas near downtown Brookline can complicate filming logistics, requiring additional permits and potentially leading to increased costs due to the need for more crew and equipment to navigate tight spaces.</li></ul>
+ <ul><li><strong>Scope Complexity:</strong> Projects for Brookline's law firms often require extensive creative input and legal compliance, which affects pricing and timelines significantly.</li><li><strong>Turnaround Timeline Demands:</strong> Businesses in central Brookline frequently expect rapid delivery of video content to align with marketing campaigns, creating pressure on production timelines.</li><li><strong>Deliverable Volume:</strong> Increased competition among B2B tech startups in the area leads to a higher demand for multiple video formats, impacting overall project costs.</li><li><strong>Competitive Pricing Context:</strong> As several video production companies operate in Brookline, firms are often comparing costs, which can lead to pressure on pricing strategies.</li></ul>
  
  </div>
  </section>
@@ -610,7 +617,7 @@
  <h2>Climate &amp; Scheduling in Brookline</h2>
  <div class="body-copy">
  
- <div><p><strong>Seasonal impact:</strong> Brookline's production schedule can be affected by seasonal factors, with late spring and summer being ideal for outdoor shoots. Winter months are less favorable for filming due to potential complications in setting up equipment.</p><p><strong>Groundwater patterns:</strong> Groundwater levels can fluctuate significantly in Brookline, particularly in areas with older homes. This can affect basements and necessitate special filming considerations to ensure the safety of equipment.</p><p><strong>Soil behavior:</strong> The clay content in Brookline's soil can lead to unique challenges when setting up heavier equipment, as soft ground may not provide adequate support, necessitating careful planning for stabilizing gear.</p><p><strong>Optimal timing:</strong> The best time for video shoots in Brookline is between late spring and early fall when daylight hours are longer, allowing for more flexible scheduling and a greater variety of natural light conditions.</p></div>
+ <div><p><strong>Peak Production Season:</strong> Many businesses in Brookline tend to ramp up video production in early spring as they prepare for summer marketing campaigns.</p><p>In Brookline, <strong>Slower Booking Periods:</strong> During the winter months, companies often have less urgent video needs, making it a slower time for production requests.</p><p><strong>Year-Round Corporate Demand:</strong> The financial services sector in Brookline consistently seeks video content for client education and engagement throughout the year.</p><p>In Brookline, <strong>Planning Lead Time:</strong> Businesses in established neighborhoods often plan their marketing strategies at least six months in advance, necessitating early engagement in video production to ensure timely delivery.</p></div>
  
  </div>
  </section>
@@ -618,21 +625,21 @@
  <h2>Common Video Production Challenges in Brookline</h2>
  <div class="body-copy">
  
- <ul><li><strong>Foundation Settling:</strong> Brookline's clay-heavy soils contribute to foundation settling, which can cause structural issues. This may complicate filming as uneven surfaces can lead to camera instability during shoots.</li><li><strong>Obstructed Views:</strong> Many residential homes near established neighborhoods have mature trees that can obstruct views and lighting. This requires careful planning for video shoots to avoid unwanted shadows and to capture the intended aesthetic.</li><li><strong>Basement Flooding:</strong> Homes built in the early 20th century often have basements prone to flooding, particularly during heavy rain. Productions in these areas must prepare for potential water damage to equipment and consider alternative shooting locations.</li><li><strong>Noise Pollution:</strong> Areas near busy commercial zones, such as those close to the Larz Anderson Auto Museum, can face noise pollution from traffic, which can interfere with audio quality during video production.</li></ul>
+ <ul><li><strong>Missed Engagement Opportunities:</strong> Failing to utilize quality video can lead to lower engagement rates, especially for businesses in competitive sectors like law and tech.</li><li><strong>Poor Brand Representation:</strong> Businesses that opt for subpar video production risk misrepresenting their brand, which can tarnish their reputation in established neighborhoods.</li><li><strong>Wasted Marketing Budgets:</strong> Without a strategic approach to video content, companies may end up overspending on ineffective marketing that fails to resonate with their target audience.</li><li><strong>Lengthy Approval Processes:</strong> When working with providers unfamiliar with local compliance, businesses can face delays that hinder timely project completions, impacting their marketing timelines.</li></ul>
  
  </div>
  </section>  <section class="card-section mb">
  <h2>Risk &amp; Disclosure</h2>
  <div class="body-copy">
  
- <div class="risk-disclosure"><p>In Brookline, <strong>When to monitor vs act:</strong> It's important to monitor for signs of water intrusion in basements during heavy rains, especially in older homes, as this could indicate a need for immediate action to protect production equipment.</p><p><strong>When symptoms indicate other problems:</strong> If you notice persistent audio distortion during recordings, it may indicate that external noise pollution is affecting the filming quality, especially near commercial areas in Brookline.</p><p>In Brookline, <strong>Honest recommendations:</strong> For properties with aging infrastructure, consider conducting preliminary assessments to identify potential filming obstacles, such as unstable basements or obstructed views, before scheduling video shoots.</p></div>
+ <div class="risk-disclosure"><p><strong>What to Evaluate in a Provider:</strong> Businesses should assess whether potential video production companies understand the unique needs of Brookline's diverse industries, especially regarding compliance and strategic messaging.</p><p>In Brookline, <strong>Common Mistakes When Vetting:</strong> A frequent oversight is failing to request past work samples specific to similar industries, which can lead to poor alignment with a company’s branding goals.</p><p>In Brookline, <strong>What to Demand in Writing:</strong> Clear timelines and deliverables should be outlined in contracts to avoid miscommunication and ensure that expectations are met throughout the production process.</p></div>
  
  </div>
  </section>  <section class="card-section mb">
  <h2>Project Scenarios in Brookline</h2>
  <div class="body-copy">
  
- <div class="project-scenarios"><h4>Scenario: Client Testimonial Video in Central Brookline</h4><p><strong>Property:</strong> The property is a historic Victorian-style home located in central Brookline, built in the early 1900s, showcasing intricate woodwork.</p><p><strong>Initial assessment:</strong> Upon initial assessment, we identified that the client wanted to highlight their family business within the home, but the audio quality was compromised by street noise from nearby traffic.</p><p><strong>Method:</strong> We utilized soundproofing techniques and strategically placed microphones to minimize external noise, ensuring a clear recording of the testimonial, while also capturing the home's charm.</p><p><strong>Result:</strong> The final video produced a polished 5-minute testimonial that effectively conveyed the client's message, leading to a 20% increase in web inquiries within a month.</p></div><div class="scenario"><h4>Scenario: Brand Film in Established Residential Areas</h4><p><strong>Property:</strong> The property is a modern townhome located in an established residential area of Brookline, constructed in the 2010s with sleek design elements.</p><p><strong>Initial assessment:</strong> Our initial assessment revealed that the owner wanted to showcase the home’s contemporary features, but the surrounding landscaping needed enhancement for visual appeal.</p><p><strong>Method:</strong> We coordinated with a local landscaping service to improve the property’s exterior, ensuring vibrant colors and inviting spaces, while filming both interior and exterior shots using drone technology to capture the entire layout.</p><p>In Brookline, <strong>Result:</strong> The brand film highlighted the home beautifully, resulting in an increase in social media engagement by 30% and numerous inquiries for similar properties within the neighborhood.</p></div>
+ <div class="project-scenarios"><h4>Scenario: Law Firm Video Campaign</h4><p><strong>Client:</strong> A personal injury law firm located in central Brookline aimed to enhance its online presence.</p><p>In Brookline, <strong>Background:</strong> The firm struggled with low engagement on its website and social media, making it essential to create authentic content that resonates with potential clients.</p><p>In Brookline, <strong>Approach:</strong> We developed a series of attorney introduction videos that highlighted the firm's compassionate approach. Filming took place at their office, allowing each attorney to share their unique stories comfortably.</p><p><strong>Result:</strong> The campaign resulted in a 50% increase in website inquiries within two months, significantly boosting their client engagement rates.</p></div><div class="scenario"><h4>Scenario: Tech Startup Brand Story</h4><p><strong>Client:</strong> A healthtech startup in an established residential area needed to communicate its innovative services.</p><p><strong>Background:</strong> The startup faced challenges explaining its complex technology to potential clients and investors, leading to confusion in the marketplace.</p><p><strong>Approach:</strong> We created an animated explainer video that simplified their offerings while also capturing the startup's culture. This animation was used across their website and social media channels.</p><p><strong>Result:</strong> Following the video launch, the startup reported a 70% increase in engagement on social media and a 30% rise in demo requests.</p></div>
  
  </div>
  </section>  <!-- ── Mirror questions ── -->
@@ -696,11 +703,11 @@
 
  </div>
  </section>  <!-- ── Local signals ── -->
- <div class="local-signals-grid mb">  <div class="local-signal-item"><h3 style="font-size:1rem;font-weight:600;margin:0 0 0.75rem 0;color:#334155;display:flex;align-items:center;gap:0.5rem;"><svg style="width:1.25rem;height:1.25rem;color:#f59e0b;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path></svg> Local Weather</h3><p style="font-size:0.95rem;color:#475569;line-height:1.6;margin:0;"><span class="weather-data" data-weather-date="2026-03-20">Currently 32°F and clear with winds at 8 mph <small class="text-muted">(as of 2026-03-20)</small></span></p><script>(function(){var el=document.querySelector('.weather-data');if(!el)return;var m=document.querySelector('meta[name="geo.position"]');if(!m)return;var p=m.content.split(';');var lat=p[0],lon=p[1];fetch('https://api.open-meteo.com/v1/forecast?latitude='+lat+'&longitude='+lon+'&current_weather=true&temperature_unit=fahrenheit').then(function(r){return r.json()}).then(function(d){if(!d.current_weather)return;var w=d.current_weather;var t=Math.round(w.temperature);var c=w.weathercode;var cn=c===0?'clear':c<=3?'partly cloudy':c<=48?'foggy':c<=57?'drizzling':c<=67?'rainy':c<=77?'snowy':c<=82?'rain showers':c<=86?'snow showers':c>=95?'thunderstorms':'variable conditions';var ws=Math.round(w.windspeed);var now=new Date();var ds=now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0')+'-'+String(now.getDate()).padStart(2,'0');el.innerHTML='Currently '+t+'\u00B0F and '+cn+' with winds at '+ws+' mph <small class="text-muted">(live)</small>';el.setAttribute('data-weather-date',ds)}).catch(function(){})})();</script></div>
+ <div class="local-signals-grid mb">  <div class="local-signal-item"><h3 style="font-size:1rem;font-weight:600;margin:0 0 0.75rem 0;color:#334155;display:flex;align-items:center;gap:0.5rem;"><svg style="width:1.25rem;height:1.25rem;color:#f59e0b;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path></svg> Local Weather</h3><p style="font-size:0.95rem;color:#475569;line-height:1.6;margin:0;"><span class="weather-data" data-weather-date="2026-03-21">Currently 43°F and partly cloudy with winds at 6 mph <small class="text-muted">(as of 2026-03-21)</small></span></p><script>(function(){var el=document.querySelector('.weather-data');if(!el)return;var m=document.querySelector('meta[name="geo.position"]');if(!m)return;var p=m.content.split(';');var lat=p[0],lon=p[1];fetch('https://api.open-meteo.com/v1/forecast?latitude='+lat+'&longitude='+lon+'&current_weather=true&temperature_unit=fahrenheit').then(function(r){return r.json()}).then(function(d){if(!d.current_weather)return;var w=d.current_weather;var t=Math.round(w.temperature);var c=w.weathercode;var cn=c===0?'clear':c<=3?'partly cloudy':c<=48?'foggy':c<=57?'drizzling':c<=67?'rainy':c<=77?'snowy':c<=82?'rain showers':c<=86?'snow showers':c>=95?'thunderstorms':'variable conditions';var ws=Math.round(w.windspeed);var now=new Date();var ds=now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0')+'-'+String(now.getDate()).padStart(2,'0');el.innerHTML='Currently '+t+'\u00B0F and '+cn+' with winds at '+ws+' mph <small class="text-muted">(live)</small>';el.setAttribute('data-weather-date',ds)}).catch(function(){})})();</script></div>
  </div>
- <div class="directions-section mb"><section class="directions-section" style="margin:2rem 0;">  <h2 style="font-size:1.5rem;font-weight:700;margin-bottom:1.5rem;color:#1e293b;">  📍 Directions to Brookline, MA  </h2>  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;align-items:start;">  <!-- Directions Text -->  <div style="background:#f8fafc;padding:1.5rem;border-radius:0.5rem;border:1px solid #e2e8f0;">  <h3 style="font-size:1.1rem;font-weight:600;margin-bottom:1rem;color:#334155;display:flex;align-items:center;gap:0.5rem;">  <span>🚗</span> Driving Directions  </h3>  <div style="margin-bottom:1.5rem;">  <p style="font-size:0.95rem;color:#475569;line-height:1.6;margin:0 0 0.75rem 0;">  <strong>I-95 (Route 128) (Exit 24):</strong>  </p>  <ol style="font-size:0.9rem;color:#64748b;line-height:1.7;margin:0;padding-left:1.5rem;">  <li style="margin-bottom:0.5rem;">Take the exit onto Beacon Street, then turn left onto Harvard Street</li>  <li style="margin-bottom:0.5rem;">Turn right onto Green Street, then left onto Greenway Court</li>  <li style="margin-bottom:0.5rem;">Arrive in Brookline, MA</li>  </ol>  </div>  <a href="https://www.google.com/maps/dir/?api=1&amp;destination=42.3435,-71.12179&amp;travelmode=driving" target="_blank" rel="noopener noreferrer" style="display:inline-block;background:#3b82f6;color:white;padding:0.75rem 1.5rem;border-radius:0.375rem;text-decoration:none;font-weight:600;font-size:0.95rem;transition:background 0.2s;" onmouseover="this.style.background='#2563eb';" onmouseout="this.style.background='#3b82f6';">  Get Detailed Directions →  </a>  </div>  <!-- Google Maps Embed -->  <div style="background:#f8fafc;padding:1rem;border-radius:0.5rem;border:1px solid #e2e8f0;">  <div style="position:relative;padding-bottom:75%;height:0;overflow:hidden;border-radius:0.375rem;">  <iframe src="https://www.google.com/maps?q=Brookline%2C%20MA&amp;output=embed" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map of Brookline, MA" aria-label="Interactive map showing the location of Brookline, MA"></iframe>  </div>  </div>  </div>  <!-- Mobile: Stack vertically on small screens -->  </section></div>  </div>
+ <div class="directions-section mb"><section class="directions-section" style="margin:2rem 0;">  <h2 style="font-size:1.5rem;font-weight:700;margin-bottom:1.5rem;color:#1e293b;">  📍 Directions to Brookline, MA  </h2>  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;align-items:start;">  <!-- Directions Text -->  <div style="background:#f8fafc;padding:1.5rem;border-radius:0.5rem;border:1px solid #e2e8f0;">  <h3 style="font-size:1.1rem;font-weight:600;margin-bottom:1rem;color:#334155;display:flex;align-items:center;gap:0.5rem;">  <span>🚗</span> Driving Directions  </h3>  <div style="margin-bottom:1.5rem;">  <p style="font-size:0.95rem;color:#475569;line-height:1.6;margin:0 0 0.75rem 0;">  <strong>I-95 (Route 128) (Exit 24):</strong>  </p>  <ol style="font-size:0.9rem;color:#64748b;line-height:1.7;margin:0;padding-left:1.5rem;">  <li style="margin-bottom:0.5rem;">Take the exit onto Beacon Street, then turn left onto Harvard Street</li>  <li style="margin-bottom:0.5rem;">Continue on Green Street, turn left onto Greenway Court</li>  <li style="margin-bottom:0.5rem;">Arrive at Greenway Court, on the right, Brookline, MA</li>  </ol>  </div>  <a href="https://www.google.com/maps/dir/?api=1&amp;destination=42.3435,-71.12179&amp;travelmode=driving" target="_blank" rel="noopener noreferrer" style="display:inline-block;background:#3b82f6;color:white;padding:0.75rem 1.5rem;border-radius:0.375rem;text-decoration:none;font-weight:600;font-size:0.95rem;transition:background 0.2s;" onmouseover="this.style.background='#2563eb';" onmouseout="this.style.background='#3b82f6';">  Get Detailed Directions →  </a>  </div>  <!-- Google Maps Embed -->  <div style="background:#f8fafc;padding:1rem;border-radius:0.5rem;border:1px solid #e2e8f0;">  <div style="position:relative;padding-bottom:75%;height:0;overflow:hidden;border-radius:0.375rem;">  <iframe src="https://www.google.com/maps?q=Brookline%2C%20MA&amp;output=embed" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map of Brookline, MA" aria-label="Interactive map showing the location of Brookline, MA"></iframe>  </div>  </div>  </div>  <!-- Mobile: Stack vertically on small screens -->  </section></div>  </div>
  <!-- ── Compare ── -->
-<div id="compare"> <div class="compare-inner">
+ <div class="compare-inner">
  <h2>Video Production vs. Videography</h2>
  <div class="compare-grid">
  <article class="compare-card">
@@ -738,9 +745,9 @@
  </div>
  </article>
  </div>
-</div> </div>  <!-- ── Author ── -->
+ </div>  <!-- ── Author ── -->
  <div class="section-inner">
- <h2 id="author-h2">About Edge Of Story Films</h2>
+ <h2 id="author-h2" class="white-title">About Edge Of Story Films</h2>
  <div class="author">
  <div class="author-avatar" aria-hidden="true">
  <img src="https://www.edgeofstoryfilms.com/wp-content/uploads/2023/11/logo.png" alt="Edge of Story Films logo">
@@ -756,7 +763,7 @@
  <h2>Frequently Asked Questions — Brookline</h2>
  <div class="body-copy">
  
- <ul class="city-faqs"><li><strong>How much does a client testimonial video cost in Brookline?</strong> The cost of a client testimonial video in Brookline typically ranges from $2,000 to $5,000, depending on the video length and production complexity, especially if soundproofing measures are needed in busy areas.</li><li><strong>What are signs I need a brand video for my Brookline business?</strong> If your business is struggling with online engagement or if client inquiries have decreased, it may be time to invest in a brand video, particularly if you operate in competitive markets within Brookline.</li><li><strong>How long does a client testimonial video take in Brookline?</strong> Producing a client testimonial video often takes about 2-4 weeks from initial consultation to final delivery, allowing ample time for scheduling and editing, especially in densely populated areas.</li><li><strong>Does Brookline's zoning require permits for filming?</strong> Yes, filming in Brookline typically requires a permit, particularly in commercial districts or residential areas that have specific zoning regulations, so it’s essential to check local guidelines prior to scheduling.</li></ul>
+ <div class="city-faqs"></div>
  
  </div>
  </div>  <!-- ── Final CTA ── -->
@@ -789,10 +796,10 @@
  </form>
  </div>
  </section>      
-<h3 style="margin-bottom:1rem;color:#1e293b;">Nearby Service Areas</h3>  <ul style="list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.5rem;">  <li><a href="https://edgeofstoryproductions.com/video-production/ma/chestnut-hill/02467/" style="color:#2563eb;text-decoration:none;">Chestnut Hill</a></li>  <li><a href="https://edgeofstoryproductions.com/video-production/ma/newton/02458/" style="color:#2563eb;text-decoration:none;">Newton</a></li>  <li><a href="https://edgeofstoryproductions.com/video-production/ma/belmont/02478/" style="color:#2563eb;text-decoration:none;">Belmont</a></li>  <li><a href="https://edgeofstoryproductions.com/video-production/ma/weymouth/02188/" style="color:#2563eb;text-decoration:none;">Weymouth</a></li>  <li><a href="https://edgeofstoryproductions.com/video-production/ma/east-weymouth/02189/" style="color:#2563eb;text-decoration:none;">East Weymouth</a></li>  </ul>
+<h3 style="margin-bottom:1rem;color:#1e293b;">Nearby Service Areas</h3>  <ul style="list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.5rem;">  <li><a href="https://edgeofstoryproductions.com/video-production/ma/chestnut-hill/02467/" style="color:#2563eb;text-decoration:none;">Chestnut Hill</a></li>  <li><a href="https://edgeofstoryproductions.com/video-production/ma/belmont/02478/" style="color:#2563eb;text-decoration:none;">Belmont</a></li>  <li><a href="https://edgeofstoryproductions.com/video-production/ma/needham/02492/" style="color:#2563eb;text-decoration:none;">Needham</a></li>  <li><a href="https://edgeofstoryproductions.com/video-production/ma/saugus/01906/" style="color:#2563eb;text-decoration:none;">Saugus</a></li>  <li><a href="https://edgeofstoryproductions.com/video-production/ma/canton/02021/" style="color:#2563eb;text-decoration:none;">Canton</a></li>  </ul>
 
-    <div class="cta-container cta-middle" data-cta-style="outline">  <div class="cta-content">  <h2 class="cta-heading">Grow Your Video Production Business in Brookline</h2>  <p class="cta-description">  Edge Of Story Films helps video production contractors generate more leads and grow their customer base.  </p>  <p class="cta-secondary-text">Explore our services</p>  <div class="cta-buttons">  <a href="https://edgeofstoryproductions.com/api/contact" class="cta-button-blue-600 cta-btn border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white" data-size="medium">  Learn More  </a>  <a href="mailto:info@edgeofstoryfilms.com" class="cta-button-secondary cta-btn-secondary border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white">Email Us</a>  </div>  </div>  </div>  <!-- /main-content -->  <!-- ── Footer ── -->
- <footer class="footer-compact"> <div class="foot-inner">
+    <div class="cta-container cta-middle" data-cta-style="outline">  <div class="cta-content">  <h2 class="cta-heading">Grow Your Video Production Business in Brookline</h2>  <p class="cta-description">  Edge Of Story Films helps video production contractors generate more leads and grow their customer base.  </p>  <p class="cta-secondary-text">Explore our services</p>  <div class="cta-buttons">  <a href="tel:#contact" class="cta-button-blue-600 cta-btn border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white" data-size="medium">  Learn More  </a>  <a href="mailto:info@edgeofstoryfilms.com" class="cta-button-secondary cta-btn-secondary border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white">Email Us</a>  </div>  </div>  </div>  <!-- /main-content -->  <!-- ── Footer ── -->
+ <div class="foot-inner">
  <div class="foot-cols">
  <div>
  <img width="100" height="44" src="https://www.edgeofstoryfilms.com/wp-content/uploads/2023/11/logo-white.png" alt="Edge of Story Films" style="max-width:100%;height:auto;">
@@ -820,7 +827,8 @@
  </div>
  <div>
  <h4>Brookline — Get In Touch</h4>
-  <p>Email: <a href="mailto:info@edgeofstoryfilms.com">info@edgeofstoryfilms.com</a></p>
+ <p>Phone: <a href="tel:(555) 123-4567">(555) 123-4567</a></p>
+ <p>Email: <a href="mailto:info@edgeofstoryfilms.com">info@edgeofstoryfilms.com</a></p>
  <p><a href="https://edgeofstoryproductions.com/api/contact">Contact Us</a></p>
  </div>
  </div>
@@ -828,7 +836,7 @@
  <div>© 2026 Edge of Story Films — Serving Brookline, MA</div>
  <div><a href="https://edgeofstoryproductions.com/api/contact">Contact</a></div>
  </div>
- </div></footer>  <div class="last-updated"</footer> style="text-align: center; padding: 1rem; font-size: 0.875rem; color: #666;">  Last updated: 3/20/2026  </div><!-- SECTION:mirror-questions OMITTED -->
+ </div>  <div class="last-updated" style="text-align: center; padding: 1rem; font-size: 0.875rem; color: #666;">  Last updated: 3/21/2026  </div><!-- SECTION:mirror-questions OMITTED -->
 </main>
 
 
@@ -836,17 +844,22 @@
 <section style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-radius: 0.5rem;">
   <h3 style="margin: 0 0 1rem 0; font-size: 1.25rem; font-weight: 600;">Nearby Areas We Serve</h3>
   <ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.75rem;">
-    <li><a href="https://edgeofstoryproductions.com/video-production/ma/roxbury-crossing/02120/" style="color: #2563eb; text-decoration: none; hover:underline">Roxbury Crossing</a></li>
-    <li><a href="https://edgeofstoryproductions.com/video-production/ma/chestnut-hill/02467/" style="color: #2563eb; text-decoration: none; hover:underline">Chestnut Hill</a></li>
-    <li><a href="https://edgeofstoryproductions.com/video-production/ma/newton/02458/" style="color: #2563eb; text-decoration: none; hover:underline">Newton</a></li>
+    <li><a href="https://edgeofstoryproductions.com/video-production/ma/jamaica-plain/02130/" style="color: #2563eb; text-decoration: none; hover:underline">Jamaica Plain</a></li>
+    <li><a href="https://edgeofstoryproductions.com/video-production/ma/needham-heights/02494/" style="color: #2563eb; text-decoration: none; hover:underline">Needham Heights</a></li>
     <li><a href="https://edgeofstoryproductions.com/video-production/ma/saugus/01906/" style="color: #2563eb; text-decoration: none; hover:underline">Saugus</a></li>
+    <li><a href="https://edgeofstoryproductions.com/video-production/ma/canton/02021/" style="color: #2563eb; text-decoration: none; hover:underline">Canton</a></li>
     <li><a href="https://edgeofstoryproductions.com/video-production/ma/wayland/01778/" style="color: #2563eb; text-decoration: none; hover:underline">Wayland</a></li>
-    <li><a href="https://edgeofstoryproductions.com/video-production/ma/east-weymouth/02189/" style="color: #2563eb; text-decoration: none; hover:underline">East Weymouth</a></li>
-    <li><a href="https://edgeofstoryproductions.com/video-production/ma/bedford/01730/" style="color: #2563eb; text-decoration: none; hover:underline">Bedford</a></li>
     <li><a href="https://edgeofstoryproductions.com/video-production/ma/swampscott/01907/" style="color: #2563eb; text-decoration: none; hover:underline">Swampscott</a></li>
+    <li><a href="https://edgeofstoryproductions.com/video-production/ma/medfield/02052/" style="color: #2563eb; text-decoration: none; hover:underline">Medfield</a></li>
+    <li><a href="https://edgeofstoryproductions.com/video-production/ma/abington/02351/" style="color: #2563eb; text-decoration: none; hover:underline">Abington</a></li>
   </ul>
 </section>
 <!-- Interlinking: End -->
+<footer class="site-footer">
+  <div class="footer-content">
+    <p class="footer-text">We provide professional video production services for Brookline, MA. Contact us for a free estimate and consultation.</p>
+  </div>
+</footer>
 
   
 

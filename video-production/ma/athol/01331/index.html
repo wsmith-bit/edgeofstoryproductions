@@ -20,7 +20,7 @@
 <meta name="theme-color" content="#a84000">
 
 <meta name="dateModified" content="2026-03-19">
-<meta name="dateModified" content="2026-03-20T05:25:13.621Z">
+<meta name="dateModified" content="2026-03-21T01:52:18.230Z">
 <link rel="canonical" href="https://edgeofstoryproductions.com/ma/athol/01331">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <style>
@@ -187,10 +187,10 @@
 .cta-inner{ display:flex; gap:1rem; align-items:center; justify-content:space-between; flex-wrap:wrap; padding:2rem 1rem; max-width:var(--max); margin:0 auto; }
 .cta-strip h2{ margin:0; font-size:1.8rem; font-weight:900; text-transform:uppercase; }
 .cta-strip p{ margin:0; opacity:.9; }  /* Timeline */
- 
-.tl-inner{ background:var(--dark); padding:2rem 0; --accent:#2563eb; --accent-2:#38bdf8; --text:#e5e7eb; --muted:#cbd5e1; --card:rgba(255,255,255,.10); --border:rgba(255,255,255,.15); }
- .tl-inner h2{ color:var(--text); text-align:center; margin:0 auto 1.25rem; max-width:1100px; padding:0 1rem; }
-.tl-steps{ position:relative; display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:32px; align-items:start; padding:8px 24px 0; max-width:1100px; margin:0 auto; }
+ #timeline{ --accent:#2563eb; --accent-2:#38bdf8; --text:#e5e7eb; --muted:#cbd5e1; --card:rgba(255,255,255,.05); --border:rgba(255,255,255,.08); padding-bottom:12px; }
+.tl-inner{ max-width:1100px; margin:0 auto; padding:0 16px; }
+ #timeline h2{ color:var(--text); text-align:center; margin:0 0 1.25rem; }
+.tl-steps{ position:relative; display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:32px; align-items:start; padding:8px 24px 0; }
 .tl-steps::before{ content:""; position:absolute; left:24px; right:24px; top:calc(46px / 2 + 2px); height:3px; background:linear-gradient(90deg,var(--accent),var(--accent-2)); opacity:.35; border-radius:3px; }
 .tl-step{ display:flex; flex-direction:column; align-items:center; text-align:center; min-width:0; }
 .tl-step-num{ width:52px; height:52px; border-radius:999px; display:grid; place-items:center; font-weight:800; color:#fff; background:linear-gradient(180deg,var(--accent-2),var(--accent)); box-shadow:0 6px 18px rgba(37,99,235,.35), inset 0 0 0 2px rgba(255,255,255,.15); margin:0 0 16px; position:relative; z-index:1; font-size:clamp(.9rem,1.1vw,1rem); }
@@ -258,8 +258,8 @@
 .mirror-qa summary{ cursor:pointer; padding:.875rem 1rem; font-size:.95rem; font-weight:600; color:#1e293b; list-style:none; display:flex; align-items:center; justify-content:space-between; gap:.5rem; transition:background.15s; }
 .mirror-qa summary:hover{ background:#f8fafc; }
 .mirror-qa summary::-webkit-details-marker{ display:none; }
-.mirror-qa summary .mq-chevron{ width:1.25rem; height:1.25rem; flex-shrink:0; transition:transform.2s; color:#94a3b8; }
-.mirror-qa[open] summary .mq-chevron{ transform:rotate(180deg); }
+.mirror-qa summary.mq-chevron{ width:1.25rem; height:1.25rem; flex-shrink:0; transition:transform.2s; color:#94a3b8; }
+.mirror-qa[open] summary.mq-chevron{ transform:rotate(180deg); }
 .mirror-qa[open] summary{ background:#f8fafc; border-bottom:1px solid #e2e8f0; }
 .mirror-answer{ margin:0; padding:.875rem 1rem; line-height:1.7; color:#475569; font-size:.93rem; }  /* Local signals */
 .local-signals-grid{ display:grid; grid-template-columns:1fr 1fr; gap:1.25rem; }
@@ -271,14 +271,14 @@
 <style>  @media (max-width: 768px) {  .directions-section > div {  grid-template-columns: 1fr !important;  }  }  </style>
 <script type="application/ld+json">{  "@context": "https://schema.org",  "@type": "WebPage",  "@id": "https://edgeofstoryproductions.com/ma/athol/01331#webpage",  "url": "https://edgeofstoryproductions.com/ma/athol/01331",  "name": "Video Production in Athol, Massachusetts",  "description": "Results-driven Video Production delivering value to Athol clients",  "isPartOf": {  "@id": "https://edgeofstoryproductions.com#website"  },  "about": {  "@id": "https://edgeofstoryproductions.com/ma/athol/01331#localbusiness"  }
 }</script>
-<script type="application/ld+json">{  "@context": "https://schema.org",  "@type": "LocalBusiness",  "@id": "https://edgeofstoryproductions.com/ma/athol/01331#localbusiness",  "name": "Edge Of Story Films",  "description": "Athol's results-focused Video Production with verified success",  "url": "https://edgeofstoryproductions.com/ma/athol/01331",  "telephone": null,  "email": "info@edgeofstoryfilms.com",  "address": {  "@type": "PostalAddress",  "addressLocality": "Athol",  "addressRegion": "Massachusetts",  "postalCode": "01331",  "addressCountry": "US"  },  "sameAs": "https://edgeofstoryproductions.com#organization",  "geo": {  "@type": "GeoCoordinates",  "latitude": "42.56793",  "longitude": "-72.18324"  },  "areaServed": [  {  "@type": "City",  "name": "Athol"  },  {  "@type": "City",  "name": "Ludlow",  "url": "https://edgeofstoryproductions.com/video-production/ma/ludlow/01056/"  },  {  "@type": "City",  "name": "Auburn",  "url": "https://edgeofstoryproductions.com/video-production/ma/auburn/01501/"  },  {  "@type": "City",  "name": "Charlton",  "url": "https://edgeofstoryproductions.com/video-production/ma/charlton/01507/"  },  {  "@type": "City",  "name": "Littleton",  "url": "https://edgeofstoryproductions.com/video-production/ma/littleton/01460/"  },  {  "@type": "City",  "name": "Dudley",  "url": "https://edgeofstoryproductions.com/video-production/ma/dudley/01571/"  },  {  "@type": "AdministrativeArea",  "name": "Worcester"  },  {  "@type": "State",  "name": "Massachusetts"  }  ]
+<script type="application/ld+json">{  "@context": "https://schema.org",  "@type": "LocalBusiness",  "@id": "https://edgeofstoryproductions.com/ma/athol/01331#localbusiness",  "name": "Edge Of Story Films",  "description": "Athol's results-focused Video Production with verified success",  "url": "https://edgeofstoryproductions.com/ma/athol/01331",  "telephone": null,  "email": "info@edgeofstoryfilms.com",  "address": {  "@type": "PostalAddress",  "addressLocality": "Athol",  "addressRegion": "Massachusetts",  "postalCode": "01331",  "addressCountry": "US"  },  "sameAs": "https://edgeofstoryproductions.com#organization",  "geo": {  "@type": "GeoCoordinates",  "latitude": "42.56793",  "longitude": "-72.18324"  },  "areaServed": [  {  "@type": "City",  "name": "Athol"  },  {  "@type": "City",  "name": "Ludlow",  "url": "https://edgeofstoryproductions.com/video-production/ma/ludlow/01056/"  },  {  "@type": "City",  "name": "Auburn",  "url": "https://edgeofstoryproductions.com/video-production/ma/auburn/01501/"  },  {  "@type": "City",  "name": "Littleton",  "url": "https://edgeofstoryproductions.com/video-production/ma/littleton/01460/"  },  {  "@type": "City",  "name": "Whitinsville",  "url": "https://edgeofstoryproductions.com/video-production/ma/whitinsville/01588/"  },  {  "@type": "City",  "name": "Needham",  "url": "https://edgeofstoryproductions.com/video-production/ma/needham/02492/"  },  {  "@type": "AdministrativeArea",  "name": "Worcester"  },  {  "@type": "State",  "name": "Massachusetts"  }  ]
 }</script>
 <script type="application/ld+json">{  "@context": "https://schema.org",  "@type": "BreadcrumbList",  "itemListElement": [  {  "@type": "ListItem",  "position": 1,  "name": "Home",  "item": "https://edgeofstoryproductions.com"  },  {  "@type": "ListItem",  "position": 2,  "name": "Massachusetts",  "item": "https://edgeofstoryproductions.com/massachusetts"  },  {  "@type": "ListItem",  "position": 3,  "name": "Athol",  "item": "https://edgeofstoryproductions.com/ma/athol/01331"  }  ]
 }</script>
-<script type="application/ld+json">{  "@context": "https://schema.org",  "@type": "Dataset",  "@id": "https://edgeofstoryproductions.com/ma/athol/01331#dataset",  "name": "Local Signals for Athol, Massachusetts",  "description": "Comprehensive local data including weather, images, directions, and nearby locations for Athol, Massachusetts",  "url": "https://edgeofstoryproductions.com/ma/athol/01331",  "creator": {  "@id": "https://edgeofstoryproductions.com#organization"  },  "spatialCoverage": {  "@type": "Place",  "geo": {  "@type": "GeoCoordinates",  "latitude": "42.56793",  "longitude": "-72.18324"  },  "address": {  "@type": "PostalAddress",  "addressLocality": "Athol",  "addressRegion": "Massachusetts",  "postalCode": "01331",  "addressCountry": "US"  }  },  "distribution": [  {  "@type": "DataDownload",  "encodingFormat": "text/html",  "contentUrl": "https://edgeofstoryproductions.com/ma/athol/01331",  "description": "Current weather conditions for Athol, Massachusetts",  "name": "Local Weather Data"  },  {  "@type": "DataDownload",  "encodingFormat": "text/html",  "contentUrl": "https://edgeofstoryproductions.com/ma/athol/01331",  "description": "Interactive directions to Athol, Massachusetts",  "name": "Location Directions"  },  {  "@type": "DataDownload",  "encodingFormat": "text/html",  "contentUrl": "https://edgeofstoryproductions.com/ma/athol/01331",  "description": "Nearby cities and locations around Athol, Massachusetts",  "name": "Nearby Locations"  }  ],  "temporalCoverage": "2026-03-20"
+<script type="application/ld+json">{  "@context": "https://schema.org",  "@type": "Dataset",  "@id": "https://edgeofstoryproductions.com/ma/athol/01331#dataset",  "name": "Local Signals for Athol, Massachusetts",  "description": "Comprehensive local data including weather, images, directions, and nearby locations for Athol, Massachusetts",  "url": "https://edgeofstoryproductions.com/ma/athol/01331",  "creator": {  "@id": "https://edgeofstoryproductions.com#organization"  },  "spatialCoverage": {  "@type": "Place",  "geo": {  "@type": "GeoCoordinates",  "latitude": "42.56793",  "longitude": "-72.18324"  },  "address": {  "@type": "PostalAddress",  "addressLocality": "Athol",  "addressRegion": "Massachusetts",  "postalCode": "01331",  "addressCountry": "US"  }  },  "distribution": [  {  "@type": "DataDownload",  "encodingFormat": "text/html",  "contentUrl": "https://edgeofstoryproductions.com/ma/athol/01331",  "description": "Current weather conditions for Athol, Massachusetts",  "name": "Local Weather Data"  },  {  "@type": "DataDownload",  "encodingFormat": "text/html",  "contentUrl": "https://edgeofstoryproductions.com/ma/athol/01331",  "description": "Interactive directions to Athol, Massachusetts",  "name": "Location Directions"  },  {  "@type": "DataDownload",  "encodingFormat": "text/html",  "contentUrl": "https://edgeofstoryproductions.com/ma/athol/01331",  "description": "Nearby cities and locations around Athol, Massachusetts",  "name": "Nearby Locations"  }  ],  "temporalCoverage": "2026-03-21"
 }</script>
 <script type="application/ld+json">
-{  "@context": "https://schema.org",  "@type": "FAQPage",  "mainEntity": [  {  "@type": "Question",  "name": "How long does it take to produce a business video from start to finish in Athol?",  "acceptedAnswer": {  "@type": "Answer",  "text": "Producing a business video in Athol usually takes about 4 to 8 weeks from concept to delivery. The timeline can vary based on factors like scheduling interviews with local clients or securing filming locations."  }  },  {  "@type": "Question",  "name": "How involved do I have to be in the video production process?",  "acceptedAnswer": {  "@type": "Answer",  "text": "Your level of involvement in the video production process can vary based on your preferences and availability."  }  },  {  "@type": "Question",  "name": "What happens if I don't like the video after it's done?",  "acceptedAnswer": {  "@type": "Answer",  "text": "Most video production companies have a revision policy that allows for a set number of revisions after the first draft is presented. This process helps ensure the final product aligns with your vision and requirements."  }  },  {  "@type": "Question",  "name": "How much does professional video production cost for a small business in Athol?",  "acceptedAnswer": {  "@type": "Answer",  "text": "In Athol, the cost of professional video production for a small business typically ranges from $2,500 to $10,000 depending on the project's complexity and length."  }  },  {  "@type": "Question",  "name": "Is hiring a video production company worth it or should I just film it myself?",  "acceptedAnswer": {  "@type": "Answer",  "text": "Hiring a video production company can significantly enhance the quality of your final product, leading to better engagement and conversion rates."  }  },  {  "@type": "Question",  "name": "What do you actually get when you hire a video production company for a corporate video?",  "acceptedAnswer": {  "@type": "Answer",  "text": "When you hire a video production company, you typically receive a comprehensive service that includes concept development, scripting, filming, editing, and final delivery."  }  },  {  "@type": "Question",  "name": "What should I look for when hiring a video production company in Athol?",  "acceptedAnswer": {  "@type": "Answer",  "text": "When selecting a video production company, consider their portfolio, client testimonials, and their understanding of your industry."  }  },  {  "@type": "Question",  "name": "What questions should I ask a video production company before signing a contract?",  "acceptedAnswer": {  "@type": "Answer",  "text": "Before signing a contract, ask about the ownership of the footage, the number of revision rounds included, and how changes to the project scope will be handled. It's also important to clarify the payment structure and any timelines for delivery."  }  },  {  "@type": "Question",  "name": "What's the difference between a video production company and a freelance videographer?",  "acceptedAnswer": {  "@type": "Answer",  "text": "A video production company typically offers a broader range of services and resources compared to a freelance videographer, including a dedicated production team and access to higher-end equipment."  }  },  {  "@type": "Question",  "name": "Should I repair or replace for my Video Production needs?",  "acceptedAnswer": {  "@type": "Answer",  "text": "The right decision depends on the current condition and long-term goals for your property or operation. We can assess your situation and recommend the most practical and cost-effective approach."  }  },  {  "@type": "Question",  "name": "What warranty do you offer on Video Production?",  "acceptedAnswer": {  "@type": "Answer",  "text": "We provide comprehensive warranties on our workmanship and materials to ensure your complete satisfaction and long-term protection."  }  }  ]
+{  "@context": "https://schema.org",  "@type": "FAQPage",  "mainEntity": [  {  "@type": "Question",  "name": "How long does it take to produce a business video from start to finish in Athol?",  "acceptedAnswer": {  "@type": "Answer",  "text": "Producing a business video typically takes 4 to 8 weeks, depending on the project's complexity and client's availability for feedback. The process usually involves stages such as pre-production planning, filming, editing, and final approvals."  }  },  {  "@type": "Question",  "name": "How involved do I have to be in the video production process?",  "acceptedAnswer": {  "@type": "Answer",  "text": "As a business owner or marketing director, your involvement in the video production process can vary. Initial stages like concept development and script approval require your input, while the production team manages the filming and editing."  }  },  {  "@type": "Question",  "name": "What happens if I don't like the video after it's done?",  "acceptedAnswer": {  "@type": "Answer",  "text": "If you are not satisfied with the final video, most professional video production companies, including Edge of Story Films, offer a clear revision policy."  }  },  {  "@type": "Question",  "name": "How much does professional video production cost for a small business in Athol?",  "acceptedAnswer": {  "@type": "Answer",  "text": "The cost of professional video production for small businesses in Athol typically ranges from $1,500 to $10,000, depending on the complexity and length of the project."  }  },  {  "@type": "Question",  "name": "Is hiring a video production company worth it or should I just film it myself?",  "acceptedAnswer": {  "@type": "Answer",  "text": "Hiring a video production company in Athol can significantly enhance your brand's credibility and engagement."  }  },  {  "@type": "Question",  "name": "What do you actually get when you hire a video production company?",  "acceptedAnswer": {  "@type": "Answer",  "text": "When you hire a video production company like Edge of Story Films, you receive a comprehensive service that includes concept development, scripting, filming, editing, and final delivery of the video."  }  },  {  "@type": "Question",  "name": "What should I look for when hiring a video production company in Athol?",  "acceptedAnswer": {  "@type": "Answer",  "text": "When hiring a video production company, consider their portfolio depth, client testimonials, and the defined processes they follow. Look for experience in your specific industry to ensure they understand your target audience and market nuances."  }  },  {  "@type": "Question",  "name": "What questions should I ask a video production company before signing a contract?",  "acceptedAnswer": {  "@type": "Answer",  "text": "Before signing a contract, ask about ownership of the footage, the number of revision rounds included, and the payment structure. Understanding the timeline guarantees and how changes in project scope are managed is crucial."  }  },  {  "@type": "Question",  "name": "What's the difference between a video production company and a freelance videographer?",  "acceptedAnswer": {  "@type": "Answer",  "text": "A video production company typically offers a broader range of services and resources compared to a freelance videographer."  }  },  {  "@type": "Question",  "name": "Should I repair or replace for my Video Production needs?",  "acceptedAnswer": {  "@type": "Answer",  "text": "The right decision depends on the current condition and long-term goals for your property or operation. We can assess your situation and recommend the most practical and cost-effective approach."  }  },  {  "@type": "Question",  "name": "What warranty do you offer on Video Production?",  "acceptedAnswer": {  "@type": "Answer",  "text": "We provide comprehensive warranties on our workmanship and materials to ensure your complete satisfaction and long-term protection."  }  }  ]
 }
 </script>
 <script type="application/ld+json">
@@ -291,7 +291,7 @@
  "name": "Edge Of Story Films",
  "description": "Professional Video Production serving Athol, MA",
  "url": "https://edgeofstoryproductions.com/ma/athol/01331/",
- "telephone": null,
+ "telephone": "(555) 123-4567",
  "address": {
  "@type": "PostalAddress",
  "addressLocality": "Athol",
@@ -350,7 +350,7 @@
  window.addEventListener('resize', setTopBarHeight);
  </script>  <div id="filmStripBase" aria-hidden="true"></div>
  <div id="readingProgress" aria-hidden="true"></div>  <!-- ── Fixed top bar ── -->
- <div id="top-bar"><div class="bar-row">
+ <div class="bar-row">
  <div><i class="fa-solid fa-location-dot"></i> Athol, MA 01331</div>
  <div><a href="mailto:info@edgeofstoryfilms.com"><i class="fa-regular fa-envelope"></i> info@edgeofstoryfilms.com</a></div>
  <div><i class="fa-regular fa-clock"></i> Licensed &amp; Insured</div>
@@ -362,7 +362,7 @@
  <li><a href="https://www.youtube.com/channel/UCwOQtrU1LDrxRsF7LIueYMQ" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
  </ul>
  </div>
- </div></div>  <div id="top-bar-spacer" aria-hidden="true"></div>  <!-- ── Site header ── -->
+ </div>  <div id="top-bar-spacer" aria-hidden="true"></div>  <!-- ── Site header ── -->
  <header class="site-header" id="top">
  <img src="https://www.edgeofstoryfilms.com/wp-content/uploads/2023/11/logo.png" alt="Edge of Story Films logo" width="160" height="60" loading="eager" fetchpriority="high">
  <div class="site-title">
@@ -370,6 +370,7 @@
  <span class="site-tag">Video Production · Athol, MA</span>
  </div>
  </header>  <main id="main-content">  
+<p class="local-context-intro" style="margin-bottom: 1.5rem;">Serving Athol, MA — Edge of Story Films is a professional video production company based in Wakefield, Massachusetts, serving the Greater Boston area and clients nationwide. Our Video Production reach covers all Athol service zones: downtown neighborhoods, residential areas, commercial corridors, and mixed-use districts throughout the region.</p>
 <!-- ── Hero video ── -->
  <section class="hero-section" aria-label="Edge of Story Films highlight reel">
  <video autoplay="autoplay" muted="muted" loop="loop" playsinline="playsinline" preload="metadata" poster="https://www.edgeofstoryfilms.com/wp-content/uploads/2023/11/logo.png" controlslist="nodownload noplaybackrate">
@@ -382,7 +383,7 @@
  <h2 class="hero-h1">Video Production in Athol, MA 01331 | Edge Of Story Films</h2>
  <p class="hero-sub">Professional Video Production by Edge Of Story Films — serving Athol, MA and Worcester County.</p>
  <div class="hero-ctas">
- 
+ <a class="btn" href="tel:(555) 123-4567"><i class="fa-solid fa-phone"></i> Call (555) 123-4567</a>
  <a class="btn-outline" href="https://edgeofstoryproductions.com/api/contact">Free Consultation</a>
  </div></div></section>
    <!-- ── Stat ribbon ── -->
@@ -407,7 +408,10 @@
  </div>
  <div class="flex-1">
  <h2 class="text-lg font-bold text-slate-900 mb-2">Quick Answer</h2>
- <p class="text-slate-700 mb-4">Looking for reliable Video Production in Athol, Massachusetts? Edge Of Story Films provides licensed, insured service with free estimates and fast scheduling.</p>
+ <p class="text-slate-700 mb-4">Edge of Story Films is a professional video production company based in Wakefield, Massachusetts, serving the Greater Boston area and clients nationwide. The company was founded by Nathan Wilson, who serves as CEO and Executive Director. Edge of Story Films operates from two locations: 380 Lowell Street, Suite 202B, Wakefield, MA 01880, and a studio in Concord, MA. The main phone number is (781) 486-3565. The official website is edgeofstoryfilms.com.
+Edge of Story Films provides end-to-end video production services for businesses and organizations. Services include website videos, animated explainer videos, corporate video production, testimonial videos, marketing videos, promotional videos, social media videos, event video production, training videos, financial services video production, and about-us videos. The company handles every stage of production: creative concept development, filming, editing, motion graphics, animation, and final media delivery.
+The company's primary clients are businesses, law firms, investment management firms, schools, retailers, and B2B organizations that need professional video content to reach customers, investors, and employees. Edge of Story Films is not a wedding videography provider and is not affiliated with any standards body or trade association.
+Edge of Story Films differentiates itself as a boutique video production company that prioritizes strategy and measurable business outcomes over generic content creation. The company shoots in 4K and 6K high-definition video and serves clients both locally in Massachusetts and internationally. In 2024, Edge of Story Films received a New England Emmy nomination. The company is highly recommended on Alignable and has received consistent five-star reviews from named clients including attorneys, marketing directors, and business owners across multiple industries.</p>
  <ul class="space-y-2 mb-4">
  <li class="flex items-center gap-2 text-slate-600">
  <svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
@@ -415,7 +419,7 @@
  </li>
  <li class="flex items-center gap-2 text-slate-600">
  <svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
- <span>Tailored solutions for businesses in the Athol area</span>
+ <span>Tailored solutions for business owners in the Athol area</span>
  </li>
  <li class="flex items-center gap-2 text-slate-600">
  <svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
@@ -435,7 +439,10 @@
  </li>
  </ul>
  <div class="flex flex-wrap gap-3">
- 
+ <a href="tel:(555) 123-4567" class="inline-flex items-center gap-2 px-4 py-2 bg-blue-700 text-white font-semibold rounded-lg hover:bg-blue-800 transition-colors text-sm">
+ <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+ Call (555) 123-4567
+ </a>
  <a href="#contact-form" class="inline-flex items-center gap-2 px-4 py-2 bg-emerald-500 text-white font-semibold rounded-lg hover:bg-emerald-600 transition-colors text-sm">
  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg>
  Get Free Estimate
@@ -465,7 +472,7 @@
  </details>      </div></div></div></section>
  </div>    <!-- ── Why EOS ── -->
  <div class="section-inner">
- <h2>Why Edge Of Story Films in Athol</h2>
+ <h2 class="white-title">Why Edge Of Story Films in Athol</h2>
  <ul class="brand-list">
  <li>Emmy-nominated Boston video production studio serving Worcester County.</li>
  <li>Handcrafted storytelling for Athol businesses and brands.</li>
@@ -548,13 +555,13 @@
  <article class="card"><h3>Emmy-Nominated Craft</h3><p>In Athol, polished work, fast turnarounds, friendly focused crews.</p></article>
  </div>
  </div>  <!-- ── CTA strip ── -->
-<div class="cta-strip"> <div class="cta-inner">
+ <div class="cta-inner">
  <div>
  <h2 class="white-title">Ready To Captivate Your Athol Audience?</h2>
  <p>In Athol, reach out today and let's tell your story.</p>
  </div>
- <div><a class="btn" href="https://edgeofstoryproductions.com/api/contact">Free Consultation</a></div>
-</div> </div>  <!-- ── Timeline ── -->
+ <div><a class="btn" href="tel:(555) 123-4567"><i class="fa-solid fa-phone"></i> Call (555) 123-4567</a></div>
+ </div>  <!-- ── Timeline ── -->
  <div class="tl-inner">
  <h2 class="white-title">Our Video Production Process</h2>
  <div class="tl-steps">
@@ -579,16 +586,22 @@
  <h2>Athol Market Profile</h2>
  <div class="body-copy">
  
- <div><p><strong>Development history:</strong> Athol features a mix of architectural styles, ranging from colonial homes in established neighborhoods to mid-century ranches in newer developments. This diverse building stock reflects the town's growth and adaptation over the years.</p><p><strong>Primary residential:</strong> The primary residential areas in Athol include a variety of single-family homes and multi-family units, with properties often built between the 1940s and 1970s, making video production techniques essential for showcasing their unique features.</p><p><strong>Building characteristics:</strong> Many homes in central Athol have solid wood framing and brick exteriors, which can create interesting visual elements for video production, while older sections of Athol may present unique challenges due to aging infrastructure.</p><p><strong>Commercial stock:</strong> Commercial properties near downtown Athol often feature storefronts from the early 20th century, which can benefit from high-quality video production to attract customers and highlight their historical significance.</p><p><strong>Terrain and soils:</strong> Athol's terrain includes both flat areas and slight hills, with clay-rich soils in certain parts, affecting foundation stability and the choice of video production locations.</p><p><strong>Local regulations:</strong> Filming in Athol may require permits, especially in established residential areas or near landmarks like Silver Lake Park, to ensure compliance with local regulations and community standards.</p></div>
+ <div><p><strong>Active Client Industries:</strong> Athol hosts a variety of businesses, including law firms, healthcare providers, and educational institutions that seek video production services to enhance their online presence.</p><p>In Athol, <strong>Demand Drivers:</strong> The need for engaging video content is driven by businesses looking to differentiate themselves in a competitive market, particularly in established neighborhoods where firms are vying for local clientele.</p><p><strong>Competitive Landscape:</strong> With a mix of local startups and established firms in Athol, competition for high-quality video production is increasing, emphasizing the importance of strategic content to attract clients.</p><p><strong>Key Segments:</strong> Law firms, healthcare organizations, and tech startups are prominent client segments in Athol, often requiring tailored video solutions to convey their unique value propositions.</p><p>In Athol, <strong>Growth Signals:</strong> Recent investments in local businesses and the presence of community events signal an increasing appetite for video content that showcases services and builds brand awareness.</p></div>
  
  </div>
  </section>
  <section id="neighborhoods" class="card-section" style="margin-bottom:0;">
  <h2>Neighborhood Considerations</h2>
- <div class="body-copy">
- 
- <ul><li><strong>Central Athol:</strong> Access can be limited due to narrow streets and historical buildings, making it necessary to plan for equipment transport. Parking is often restricted, particularly during events at nearby landmarks, and properties are generally older, requiring careful consideration of their character during video shoots.</li><li><strong>Established residential areas:</strong> In these neighborhoods, parking can be tight as homes are closely spaced, necessitating advance planning for crew and equipment. Many homes are built on older foundations that may not accommodate heavy production gear without risk of damage, requiring cautious setup.</li><li><strong>Newer developments:</strong> These areas typically provide better access and parking options, but some properties may have stricter homeowner association rules regarding filming. The designs are often modern, which can present unique visual opportunities for video production, but the uniformity may require creative angles to avoid redundancy.</li></ul>
- 
+ <div class="body-copy">  
+<div>
+<h3>Local Access and Scheduling in Athol</h3>
+<p>Different neighborhoods throughout Athol, Massachusetts present varying conditions for video production projects. Residential streets in older Athol neighborhoods may have limited parking and staging options that require advanced planning.</p>
+<p>Downtown Athol properties typically have restricted access and may require coordination with local schedules and regulations. Properties in established Athol neighborhoods often need additional care during service visits.</p>
+<p>Single-family homes in Athol, Worcester County generally offer straightforward access, though multi-unit buildings and hillside properties may need additional planning. Edge Of Story Films accounts for these differences when scheduling work.</p>
+<p>Multi-unit and commercial clients require coordination with property managers and tenant schedules. Edge Of Story Films develops specific plans for each Athol property to address access, scheduling, and site-specific constraints.</p>
+<p>Our experience serving Athol clients means we understand the access conditions and scheduling norms common throughout MA.</p>
+</div>
+  
  </div>
  </section>
  </div>  <div class="two-col mb">
@@ -596,7 +609,7 @@
  <h2>Pricing Factors in Athol</h2>
  <div class="body-copy">
  
- <ul><li><strong>Access Factor:</strong> Filming in central Athol can incur additional costs due to narrow streets, which may limit vehicle access for equipment transport, requiring more time and resources to set up.</li><li><strong>Building Complexity:</strong> Properties built in the 1940s often feature intricate architectural details that require specialized video techniques to capture effectively, potentially increasing production time and costs.</li><li><strong>Seasonal Timing:</strong> Filming during spring and summer months is often ideal for outdoor shoots, but scheduling can be competitive in Athol, leading to higher prices during peak production seasons.</li><li><strong>Property Density:</strong> In established residential areas, the close proximity of homes can complicate filming logistics, often necessitating additional permits and insurance, which can elevate overall production costs.</li></ul>
+ <ul><li><strong>Scope Complexity:</strong> Projects that require extensive custom animations or multiple filming locations in Athol can increase costs significantly, as seen with businesses needing high-quality explainer videos.</li><li><strong>Turnaround Timeline Demands:</strong> Businesses with tight deadlines, such as those preparing for local events at Silver Lake Park, may incur additional costs for expedited video production services.</li><li><strong>Deliverable Volume:</strong> Companies looking to produce a series of videos for marketing campaigns must budget accordingly, as larger volumes can lead to discounts but require upfront planning.</li><li><strong>Competitive Pricing Context:</strong> In a market with various video production options, businesses must evaluate the pricing of local providers against the quality and service they offer to ensure they receive value.</li></ul>
  
  </div>
  </section>
@@ -604,7 +617,7 @@
  <h2>Climate &amp; Scheduling in Athol</h2>
  <div class="body-copy">
  
- <div><p><strong>Seasonal impact:</strong> The best time for outdoor video production in Athol is during late spring and summer when natural light is optimal, enhancing the visual quality of shoots.</p><p>In Athol, <strong>Groundwater patterns:</strong> In areas near Silver Lake, groundwater levels can fluctuate, potentially affecting the stability of filming locations and necessitating precautionary measures.</p><p><strong>Soil behavior:</strong> Clay-rich soils in older sections of Athol can shift during wet periods, which may impact the stability of equipment and require careful site assessments before filming.</p><p>In Athol, <strong>Optimal timing:</strong> Scheduling shoots for early mornings or late afternoons can provide the best lighting conditions, particularly in residential areas where shadows from trees or buildings may affect visibility.</p></div>
+ <div><p><strong>Peak Production Season:</strong> Many businesses in Athol plan video projects around local events and festivals, leading to increased demand for video production services during these times.</p><p>In Athol, <strong>Slower Booking Periods:</strong> The months following major local events often see a lull in video production requests, allowing businesses to focus on post-event marketing strategies.</p><p>In Athol, <strong>Year-Round Corporate Demand:</strong> Many firms, especially in the financial and legal sectors, require ongoing video content for training and client engagement, making demand steady throughout the year.</p><p>In Athol, <strong>Planning Lead Time:</strong> Companies typically begin planning for video projects several months in advance, especially if they aim to align content with specific campaign launches or community initiatives.</p></div>
  
  </div>
  </section>
@@ -612,21 +625,21 @@
  <h2>Common Video Production Challenges in Athol</h2>
  <div class="body-copy">
  
- <ul><li><strong>Foundation Settling:</strong> Older homes in established neighborhoods often experience foundation settling due to clay-rich soils, which can lead to visible cracks and structural concerns, affecting the aesthetics of video productions.</li><li><strong>Electrical Upgrades:</strong> Many properties in central Athol have outdated electrical systems that may not support modern video equipment, leading to potential disruptions during shoots.</li><li><strong>Poor Insulation:</strong> Homes built in the mid-20th century may have inadequate insulation, causing challenges for sound quality during video recordings, especially in residential settings.</li><li><strong>Water Damage:</strong> Properties near Silver Lake Park may be prone to water intrusion, leading to damage that can detract from video quality and necessitate careful planning around affected areas.</li></ul>
+ <ul><li><strong>Stale Content:</strong> Businesses that fail to invest in fresh video content may struggle to engage their audience, leading to decreased website traffic and missed opportunities for client acquisition.</li><li><strong>Poor Quality Production:</strong> Choosing the wrong provider can result in low-quality videos that fail to resonate with clients, wasting marketing budgets and damaging brand reputation in Athol's competitive landscape.</li><li><strong>Missed Deadlines:</strong> Delays in video production can hinder marketing campaigns, particularly for businesses aiming to launch new services or promotions aligned with local events.</li><li><strong>Generic Messaging:</strong> Companies that opt for generic content risk blending in with competitors, losing the chance to convey their unique value in a market where differentiation is crucial.</li></ul>
  
  </div>
  </section>  <section class="card-section mb">
  <h2>Risk &amp; Disclosure</h2>
  <div class="body-copy">
  
- <div class="risk-disclosure"><p>In Athol, <strong>When to monitor vs act:</strong> In established neighborhoods, monitor for signs of foundation settling, such as cracks in walls or uneven floors. If these symptoms appear, it's advisable to take action to prevent further damage.</p><p>In Athol, <strong>When symptoms indicate other problems:</strong> If you notice water stains in homes near Silver Lake, this could indicate underlying plumbing issues that require immediate attention, beyond just video production concerns.</p><p>In Athol, <strong>Honest recommendations:</strong> For homes built in the 1940s, consider scheduling an infrastructure assessment before filming, as outdated wiring or plumbing may pose safety risks during production.</p></div>
+ <div class="risk-disclosure"><p><strong>What to Evaluate in a Provider:</strong> Businesses in Athol should look for video production companies with a proven track record of delivering tailored content that aligns with their specific industry needs.</p><p>In Athol, <strong>Common Mistakes When Vetting:</strong> Many businesses overlook the importance of reviewing a provider's portfolio and client testimonials, which can lead to poor choices and unsatisfactory outcomes.</p><p>In Athol, <strong>What to Demand in Writing:</strong> It is essential for businesses to establish clear expectations regarding timelines, deliverables, and costs in any agreement to avoid misunderstandings during the production process.</p></div>
  
  </div>
  </section>  <section class="card-section mb">
  <h2>Project Scenarios in Athol</h2>
  <div class="body-copy">
  
- <div class="project-scenarios"><h4>Scenario: Client Testimonial Video in Central Athol</h4><p><strong>Property:</strong> This project took place in a charming colonial home built in the 1950s, located in central Athol.</p><p>In Athol, <strong>Initial assessment:</strong> The home's layout was assessed for optimal lighting and sound quality, with particular attention to the living room, where natural light flooded through large windows.</p><p>In Athol, <strong>Method:</strong> A multi-camera setup was used to capture authentic testimonials from the homeowners, focusing on their experiences and the unique features of their property.</p><p>In Athol, <strong>Result:</strong> The final cut showcased the homeowners' stories and the property's charm, resulting in a 40% increase in inquiries for similar homes in the area.</p></div><div class="scenario"><h4>Scenario: Animated Explainer in Established Residential Areas</h4><p><strong>Property:</strong> This project focused on a mid-century ranch home in an established residential area of Athol.</p><p><strong>Initial assessment:</strong> The property was evaluated to identify key selling points that could be highlighted through animation, emphasizing its spacious layout and modern updates.</p><p><strong>Method:</strong> An animated explainer video was created to illustrate the features of the home, using graphics to enhance the storytelling process.</p><p><strong>Result:</strong> The project increased online engagement by 60%, leading to a significant uptick in property viewings and interest in the local market.</p></div>
+ <div class="project-scenarios"><h4>Scenario: Law Firm Client Introduction</h4><p><strong>Client:</strong> A personal injury law firm located in central Athol sought to create an introductory video to build rapport with potential clients.</p><p><strong>Background:</strong> The firm faced challenges in presenting a personable image, as attorneys were hesitant to appear on camera. They needed a solution that would humanize their team and build trust.</p><p><strong>Approach:</strong> Edge of Story Films developed a series of attorney introduction videos that featured interviews and behind-the-scenes footage, capturing the firm’s culture and commitment to client service.</p><p><strong>Result:</strong> The videos increased website engagement by 40%, leading to a significant uptick in qualified leads within three months.</p></div><div class="scenario"><h4>Scenario: Tech Startup Brand Film</h4><p><strong>Client:</strong> A recently funded tech startup in established residential areas of Athol needed a brand film to attract enterprise clients.</p><p><strong>Background:</strong> The startup struggled to articulate its complex software solutions to potential buyers and required a compelling narrative to convey its value proposition.</p><p><strong>Approach:</strong> We produced an animated explainer video that simplified their offerings while maintaining brand integrity, showcasing real-world applications of their technology.</p><p>In Athol, <strong>Result:</strong> The video achieved over 10,000 views on social media platforms and generated 200+ inquiries from potential clients in the first month.</p></div>
  
  </div>
  </section>  <!-- ── Mirror questions ── -->
@@ -690,11 +703,11 @@
 
  </div>
  </section>  <!-- ── Local signals ── -->
- <div class="local-signals-grid mb">  <div class="local-signal-item"><h3 style="font-size:1rem;font-weight:600;margin:0 0 0.75rem 0;color:#334155;display:flex;align-items:center;gap:0.5rem;"><svg style="width:1.25rem;height:1.25rem;color:#f59e0b;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path></svg> Local Weather</h3><p style="font-size:0.95rem;color:#475569;line-height:1.6;margin:0;"><span class="weather-data" data-weather-date="2026-03-20">Currently 31°F and partly cloudy with winds at 15 mph <small class="text-muted">(as of 2026-03-20)</small></span></p><script>(function(){var el=document.querySelector('.weather-data');if(!el)return;var m=document.querySelector('meta[name="geo.position"]');if(!m)return;var p=m.content.split(';');var lat=p[0],lon=p[1];fetch('https://api.open-meteo.com/v1/forecast?latitude='+lat+'&longitude='+lon+'&current_weather=true&temperature_unit=fahrenheit').then(function(r){return r.json()}).then(function(d){if(!d.current_weather)return;var w=d.current_weather;var t=Math.round(w.temperature);var c=w.weathercode;var cn=c===0?'clear':c<=3?'partly cloudy':c<=48?'foggy':c<=57?'drizzling':c<=67?'rainy':c<=77?'snowy':c<=82?'rain showers':c<=86?'snow showers':c>=95?'thunderstorms':'variable conditions';var ws=Math.round(w.windspeed);var now=new Date();var ds=now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0')+'-'+String(now.getDate()).padStart(2,'0');el.innerHTML='Currently '+t+'\u00B0F and '+cn+' with winds at '+ws+' mph <small class="text-muted">(live)</small>';el.setAttribute('data-weather-date',ds)}).catch(function(){})})();</script></div>
+ <div class="local-signals-grid mb">  <div class="local-signal-item"><h3 style="font-size:1rem;font-weight:600;margin:0 0 0.75rem 0;color:#334155;display:flex;align-items:center;gap:0.5rem;"><svg style="width:1.25rem;height:1.25rem;color:#f59e0b;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path></svg> Local Weather</h3><p style="font-size:0.95rem;color:#475569;line-height:1.6;margin:0;"><span class="weather-data" data-weather-date="2026-03-21">Currently 39°F and partly cloudy with winds at 16 mph <small class="text-muted">(as of 2026-03-21)</small></span></p><script>(function(){var el=document.querySelector('.weather-data');if(!el)return;var m=document.querySelector('meta[name="geo.position"]');if(!m)return;var p=m.content.split(';');var lat=p[0],lon=p[1];fetch('https://api.open-meteo.com/v1/forecast?latitude='+lat+'&longitude='+lon+'&current_weather=true&temperature_unit=fahrenheit').then(function(r){return r.json()}).then(function(d){if(!d.current_weather)return;var w=d.current_weather;var t=Math.round(w.temperature);var c=w.weathercode;var cn=c===0?'clear':c<=3?'partly cloudy':c<=48?'foggy':c<=57?'drizzling':c<=67?'rainy':c<=77?'snowy':c<=82?'rain showers':c<=86?'snow showers':c>=95?'thunderstorms':'variable conditions';var ws=Math.round(w.windspeed);var now=new Date();var ds=now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0')+'-'+String(now.getDate()).padStart(2,'0');el.innerHTML='Currently '+t+'\u00B0F and '+cn+' with winds at '+ws+' mph <small class="text-muted">(live)</small>';el.setAttribute('data-weather-date',ds)}).catch(function(){})})();</script></div>
  </div>
- <div class="directions-section mb"><section class="directions-section" style="margin:2rem 0;">  <h2 style="font-size:1.5rem;font-weight:700;margin-bottom:1.5rem;color:#1e293b;">  📍 Directions to Athol, MA  </h2>  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;align-items:start;">  <!-- Directions Text -->  <div style="background:#f8fafc;padding:1.5rem;border-radius:0.5rem;border:1px solid #e2e8f0;">  <h3 style="font-size:1.1rem;font-weight:600;margin-bottom:1rem;color:#334155;display:flex;align-items:center;gap:0.5rem;">  <span>🚗</span> Driving Directions  </h3>  <div style="margin-bottom:1.5rem;">  <p style="font-size:0.95rem;color:#475569;line-height:1.6;margin:0 0 0.75rem 0;">  <strong>Route 2:</strong>  </p>  <ol style="font-size:0.9rem;color:#64748b;line-height:1.7;margin:0;padding-left:1.5rem;">  <li style="margin-bottom:0.5rem;">Take State Road, US 202, MA 2A and turn left onto Ward Hill Road</li>  <li style="margin-bottom:0.5rem;">Continue on Ward Hill Road, then turn right onto Secret Lake Road</li>  <li style="margin-bottom:0.5rem;">Turn left and arrive at your destination on the right. Arrive in Athol, MA</li>  </ol>  </div>  <a href="https://www.google.com/maps/dir/?api=1&amp;destination=42.56793,-72.18324&amp;travelmode=driving" target="_blank" rel="noopener noreferrer" style="display:inline-block;background:#3b82f6;color:white;padding:0.75rem 1.5rem;border-radius:0.375rem;text-decoration:none;font-weight:600;font-size:0.95rem;transition:background 0.2s;" onmouseover="this.style.background='#2563eb';" onmouseout="this.style.background='#3b82f6';">  Get Detailed Directions →  </a>  </div>  <!-- Google Maps Embed -->  <div style="background:#f8fafc;padding:1rem;border-radius:0.5rem;border:1px solid #e2e8f0;">  <div style="position:relative;padding-bottom:75%;height:0;overflow:hidden;border-radius:0.375rem;">  <iframe src="https://www.google.com/maps?q=Athol%2C%20MA&amp;output=embed" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map of Athol, MA" aria-label="Interactive map showing the location of Athol, MA"></iframe>  </div>  </div>  </div>  <!-- Mobile: Stack vertically on small screens -->  </section></div>  </div>
+ <div class="directions-section mb"><section class="directions-section" style="margin:2rem 0;">  <h2 style="font-size:1.5rem;font-weight:700;margin-bottom:1.5rem;color:#1e293b;">  📍 Directions to Athol, MA  </h2>  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;align-items:start;">  <!-- Directions Text -->  <div style="background:#f8fafc;padding:1.5rem;border-radius:0.5rem;border:1px solid #e2e8f0;">  <h3 style="font-size:1.1rem;font-weight:600;margin-bottom:1rem;color:#334155;display:flex;align-items:center;gap:0.5rem;">  <span>🚗</span> Driving Directions  </h3>  <div style="margin-bottom:1.5rem;">  <p style="font-size:0.95rem;color:#475569;line-height:1.6;margin:0 0 0.75rem 0;">  <strong>Route 2:</strong>  </p>  <ol style="font-size:0.9rem;color:#64748b;line-height:1.7;margin:0;padding-left:1.5rem;">  <li style="margin-bottom:0.5rem;">Take State Road, US 202, MA 2A and turn left onto Ward Hill Road</li>  <li style="margin-bottom:0.5rem;">Continue on Ward Hill Road, then turn left onto Secret Lake Road</li>  <li style="margin-bottom:0.5rem;">Make a final left turn and arrive at your destination on the right in Athol, MA</li>  </ol>  </div>  <a href="https://www.google.com/maps/dir/?api=1&amp;destination=42.56793,-72.18324&amp;travelmode=driving" target="_blank" rel="noopener noreferrer" style="display:inline-block;background:#3b82f6;color:white;padding:0.75rem 1.5rem;border-radius:0.375rem;text-decoration:none;font-weight:600;font-size:0.95rem;transition:background 0.2s;" onmouseover="this.style.background='#2563eb';" onmouseout="this.style.background='#3b82f6';">  Get Detailed Directions →  </a>  </div>  <!-- Google Maps Embed -->  <div style="background:#f8fafc;padding:1rem;border-radius:0.5rem;border:1px solid #e2e8f0;">  <div style="position:relative;padding-bottom:75%;height:0;overflow:hidden;border-radius:0.375rem;">  <iframe src="https://www.google.com/maps?q=Athol%2C%20MA&amp;output=embed" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map of Athol, MA" aria-label="Interactive map showing the location of Athol, MA"></iframe>  </div>  </div>  </div>  <!-- Mobile: Stack vertically on small screens -->  </section></div>  </div>
  <!-- ── Compare ── -->
-<div id="compare"> <div class="compare-inner">
+ <div class="compare-inner">
  <h2>Video Production vs. Videography</h2>
  <div class="compare-grid">
  <article class="compare-card">
@@ -732,9 +745,9 @@
  </div>
  </article>
  </div>
-</div> </div>  <!-- ── Author ── -->
+ </div>  <!-- ── Author ── -->
  <div class="section-inner">
- <h2 id="author-h2">About Edge Of Story Films</h2>
+ <h2 id="author-h2" class="white-title">About Edge Of Story Films</h2>
  <div class="author">
  <div class="author-avatar" aria-hidden="true">
  <img src="https://www.edgeofstoryfilms.com/wp-content/uploads/2023/11/logo.png" alt="Edge of Story Films logo">
@@ -750,7 +763,7 @@
  <h2>Frequently Asked Questions — Athol</h2>
  <div class="body-copy">
  
- <ul class="city-faqs"><li><strong>How much does a client testimonial video cost in Athol?</strong> The cost of a client testimonial video can vary based on factors like location and complexity, but in Athol, expect prices to range from $1,500 to $3,500, depending on the length and production quality required.</li><li><strong>What are signs I need an animated explainer video?</strong> If your product or service is complex and requires clear visualization for potential clients, it may be time to invest in an animated explainer video to simplify your message and enhance understanding.</li><li><strong>How long does a client testimonial video take to produce?</strong> Typically, a client testimonial video can take anywhere from two to four weeks from pre-production to final edit in Athol, factoring in scheduling with clients and any necessary revisions.</li><li><strong>Should I repair or replace my video equipment?</strong> If your equipment is outdated and frequently malfunctions, it may be worth considering replacement to ensure high-quality production standards, especially in competitive markets like Athol.</li><li><strong>Does Athol's infrastructure affect video production?</strong> Yes, older infrastructure in areas like central Athol can present challenges during filming, such as limited access for equipment transport and parking constraints, impacting production timelines.</li></ul>
+ <div class="city-faqs"></div>
  
  </div>
  </div>  <!-- ── Final CTA ── -->
@@ -783,10 +796,10 @@
  </form>
  </div>
  </section>      
-<h3 style="margin-bottom:1rem;color:#1e293b;">Nearby Service Areas</h3>  <ul style="list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.5rem;">  <li><a href="https://edgeofstoryproductions.com/video-production/ma/ludlow/01056/" style="color:#2563eb;text-decoration:none;">Ludlow</a></li>  <li><a href="https://edgeofstoryproductions.com/video-production/ma/auburn/01501/" style="color:#2563eb;text-decoration:none;">Auburn</a></li>  <li><a href="https://edgeofstoryproductions.com/video-production/ma/charlton/01507/" style="color:#2563eb;text-decoration:none;">Charlton</a></li>  <li><a href="https://edgeofstoryproductions.com/video-production/ma/littleton/01460/" style="color:#2563eb;text-decoration:none;">Littleton</a></li>  <li><a href="https://edgeofstoryproductions.com/video-production/ma/dudley/01571/" style="color:#2563eb;text-decoration:none;">Dudley</a></li>  </ul>
+<h3 style="margin-bottom:1rem;color:#1e293b;">Nearby Service Areas</h3>  <ul style="list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.5rem;">  <li><a href="https://edgeofstoryproductions.com/video-production/ma/ludlow/01056/" style="color:#2563eb;text-decoration:none;">Ludlow</a></li>  <li><a href="https://edgeofstoryproductions.com/video-production/ma/auburn/01501/" style="color:#2563eb;text-decoration:none;">Auburn</a></li>  <li><a href="https://edgeofstoryproductions.com/video-production/ma/littleton/01460/" style="color:#2563eb;text-decoration:none;">Littleton</a></li>  <li><a href="https://edgeofstoryproductions.com/video-production/ma/whitinsville/01588/" style="color:#2563eb;text-decoration:none;">Whitinsville</a></li>  <li><a href="https://edgeofstoryproductions.com/video-production/ma/needham/02492/" style="color:#2563eb;text-decoration:none;">Needham</a></li>  </ul>
 
-    <div class="cta-container cta-top" data-cta-style="bold">  <div class="cta-content">  <h2 class="cta-heading">Grow Your Video Production Business in Athol</h2>  <p class="cta-description">  Edge Of Story Films helps video production contractors generate more leads and grow their customer base.  </p>  <div class="cta-buttons">  <a href="https://edgeofstoryproductions.com/api/contact" class="cta-button-blue-600 cta-btn bg-emerald-600 text-white font-bold hover:bg-emerald-600-dark shadow-lg" data-size="large">  Get Started  </a>  </div>  </div>  </div>  <!-- /main-content -->  <!-- ── Footer ── -->
- <footer class="footer-compact"> <div class="foot-inner">
+    <div class="cta-container cta-top" data-cta-style="bold">  <div class="cta-content">  <h2 class="cta-heading">Grow Your Video Production Business in Athol</h2>  <p class="cta-description">  Edge Of Story Films helps video production contractors generate more leads and grow their customer base.  </p>  <div class="cta-buttons">  <a href="tel:#contact" class="cta-button-blue-600 cta-btn bg-emerald-600 text-white font-bold hover:bg-emerald-600-dark shadow-lg" data-size="large">  Get Started  </a>  </div>  </div>  </div>  <!-- /main-content -->  <!-- ── Footer ── -->
+ <div class="foot-inner">
  <div class="foot-cols">
  <div>
  <img width="100" height="44" src="https://www.edgeofstoryfilms.com/wp-content/uploads/2023/11/logo-white.png" alt="Edge of Story Films" style="max-width:100%;height:auto;">
@@ -814,7 +827,8 @@
  </div>
  <div>
  <h4>Athol — Get In Touch</h4>
-  <p>Email: <a href="mailto:info@edgeofstoryfilms.com">info@edgeofstoryfilms.com</a></p>
+ <p>Phone: <a href="tel:(555) 123-4567">(555) 123-4567</a></p>
+ <p>Email: <a href="mailto:info@edgeofstoryfilms.com">info@edgeofstoryfilms.com</a></p>
  <p><a href="https://edgeofstoryproductions.com/api/contact">Contact Us</a></p>
  </div>
  </div>
@@ -822,7 +836,7 @@
  <div>© 2026 Edge of Story Films — Serving Athol, MA</div>
  <div><a href="https://edgeofstoryproductions.com/api/contact">Contact</a></div>
  </div>
- </div></footer>  <div class="last-updated"</footer> style="text-align: center; padding: 1rem; font-size: 0.875rem; color: #666;">  Last updated: 3/20/2026  </div><!-- SECTION:mirror-questions OMITTED -->
+ </div>  <div class="last-updated" style="text-align: center; padding: 1rem; font-size: 0.875rem; color: #666;">  Last updated: 3/21/2026  </div><!-- SECTION:mirror-questions OMITTED -->
 </main>
 
 
@@ -830,17 +844,22 @@
 <section style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-radius: 0.5rem;">
   <h3 style="margin: 0 0 1rem 0; font-size: 1.25rem; font-weight: 600;">Nearby Areas We Serve</h3>
   <ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.75rem;">
+    <li><a href="https://edgeofstoryproductions.com/video-production/ma/amherst/01002/" style="color: #2563eb; text-decoration: none; hover:underline">Amherst</a></li>
     <li><a href="https://edgeofstoryproductions.com/video-production/ma/lunenburg/01462/" style="color: #2563eb; text-decoration: none; hover:underline">Lunenburg</a></li>
+    <li><a href="https://edgeofstoryproductions.com/video-production/ma/ludlow/01056/" style="color: #2563eb; text-decoration: none; hover:underline">Ludlow</a></li>
     <li><a href="https://edgeofstoryproductions.com/video-production/ma/worcester/01604/" style="color: #2563eb; text-decoration: none; hover:underline">Worcester</a></li>
-    <li><a href="https://edgeofstoryproductions.com/video-production/ma/auburn/01501/" style="color: #2563eb; text-decoration: none; hover:underline">Auburn</a></li>
-    <li><a href="https://edgeofstoryproductions.com/video-production/ma/charlton/01507/" style="color: #2563eb; text-decoration: none; hover:underline">Charlton</a></li>
-    <li><a href="https://edgeofstoryproductions.com/video-production/ma/dudley/01571/" style="color: #2563eb; text-decoration: none; hover:underline">Dudley</a></li>
-    <li><a href="https://edgeofstoryproductions.com/video-production/ma/tyngsboro/01879/" style="color: #2563eb; text-decoration: none; hover:underline">Tyngsboro</a></li>
-    <li><a href="https://edgeofstoryproductions.com/video-production/ma/whitinsville/01588/" style="color: #2563eb; text-decoration: none; hover:underline">Whitinsville</a></li>
+    <li><a href="https://edgeofstoryproductions.com/video-production/ma/groton/01450/" style="color: #2563eb; text-decoration: none; hover:underline">Groton</a></li>
+    <li><a href="https://edgeofstoryproductions.com/video-production/ma/agawam/01001/" style="color: #2563eb; text-decoration: none; hover:underline">Agawam</a></li>
     <li><a href="https://edgeofstoryproductions.com/video-production/ma/wayland/01778/" style="color: #2563eb; text-decoration: none; hover:underline">Wayland</a></li>
+    <li><a href="https://edgeofstoryproductions.com/video-production/ma/needham-heights/02494/" style="color: #2563eb; text-decoration: none; hover:underline">Needham Heights</a></li>
   </ul>
 </section>
 <!-- Interlinking: End -->
+<footer class="site-footer">
+  <div class="footer-content">
+    <p class="footer-text">We provide professional video production services for Athol, MA. Contact us for a free estimate and consultation.</p>
+  </div>
+</footer>
 
   
 
