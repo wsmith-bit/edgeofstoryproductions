@@ -326,6 +326,63 @@
  }
  </script>
   <script src="https://cdn.tailwindcss.com"></script>
+<style>
+/* === Tailwind shim: quick-answer body === */
+.quick-answer-body .flex,.mirror-questions .flex{display:flex}
+.quick-answer-body .inline-flex{display:inline-flex}
+.quick-answer-body .items-start{align-items:flex-start}
+.quick-answer-body .items-center,.mirror-questions .items-center{align-items:center}
+.quick-answer-body .justify-center{justify-content:center}
+.quick-answer-body .flex-1{flex:1 1 0%}
+.quick-answer-body .flex-shrink-0{flex-shrink:0}
+.quick-answer-body .flex-wrap{flex-wrap:wrap}
+.quick-answer-body .gap-4{gap:1rem}
+.quick-answer-body .gap-3{gap:.75rem}
+.quick-answer-body .gap-2{gap:.5rem}
+.quick-answer-body .w-12{width:3rem}
+.quick-answer-body .h-12{height:3rem}
+.quick-answer-body .w-6{width:1.5rem}
+.quick-answer-body .h-6{height:1.5rem}
+.quick-answer-body .w-5{width:1.25rem}
+.quick-answer-body .h-5{height:1.25rem}
+.quick-answer-body .w-4{width:1rem}
+.quick-answer-body .h-4{height:1rem}
+.quick-answer-body .bg-blue-100{background:#dbeafe}
+.quick-answer-body .bg-blue-700{background:#1d4ed8}
+.quick-answer-body .bg-emerald-500{background:#10b981}
+.quick-answer-body .rounded-full{border-radius:9999px}
+.quick-answer-body .rounded-xl{border-radius:.75rem}
+.quick-answer-body .rounded-lg{border-radius:.5rem}
+.quick-answer-body .p-6{padding:1.5rem}
+.quick-answer-body .px-4{padding-left:1rem;padding-right:1rem}
+.quick-answer-body .py-2{padding-top:.5rem;padding-bottom:.5rem}
+.quick-answer-body .border{border-width:1px;border-style:solid}
+.quick-answer-body .border-blue-100{border-color:#dbeafe}
+.quick-answer-body .text-blue-700{color:#1d4ed8}
+.quick-answer-body .text-slate-900{color:#0f172a}
+.quick-answer-body .text-slate-700{color:#334155}
+.quick-answer-body .text-slate-600{color:#475569}
+.quick-answer-body .text-emerald-500{color:#10b981}
+.quick-answer-body .text-white{color:#fff}
+.quick-answer-body .font-bold,.quick-answer-body .font-semibold{font-weight:700}
+.quick-answer-body .text-lg{font-size:1.125rem;line-height:1.75rem}
+.quick-answer-body .text-sm{font-size:.875rem;line-height:1.25rem}
+.quick-answer-body .mb-2{margin-bottom:.5rem}
+.quick-answer-body .mb-4{margin-bottom:1rem}
+.quick-answer-body .mb-6{margin-bottom:1.5rem}
+.quick-answer-body .space-y-2>*+*{margin-top:.5rem}
+.quick-answer-body .bg-gradient-to-r.from-blue-50.to-emerald-50{background:linear-gradient(to right,#eff6ff,#ecfdf5)}
+.quick-answer-body .transition-colors{transition:color .15s,background-color .15s,border-color .15s}
+/* === Tailwind shim: mirror-questions section === */
+section.mirror-questions.py-12{padding-top:3rem;padding-bottom:3rem}
+section.mirror-questions.px-4{padding-left:1rem;padding-right:1rem}
+section.mirror-questions.bg-gray-50{background:#f9fafb}
+section.mirror-questions .max-w-6xl{max-width:72rem}
+section.mirror-questions .mx-auto{margin-left:auto;margin-right:auto}
+section.mirror-questions h2.text-2xl{font-size:1.5rem;line-height:2rem}
+section.mirror-questions h2.font-bold{font-weight:700}
+section.mirror-questions h2.mb-6{margin-bottom:1.5rem}
+</style>
 </head><body>    
  <!-- ENHANCED_FIELDS: META_TITLE, META_DESCRIPTION, OG_TITLE, CANONICAL_URL, H1_TITLE, QUICK_ANSWER, MIRROR_QUESTIONS, CITY_BUILDING_STOCK_PROFILE, NEIGHBORHOOD_CONSTRAINT_MAP, CITY_SPECIFIC_FAILURE_PATTERNS, LOCAL_PRICING_PRESSURE_FACTORS, LOCAL_CLIMATE_IMPACT_PROFILE, LOCAL_RISK_DISCLOSURE, PROJECT_SCENARIOS, CITY_SPECIFIC_FAQS -->
  <!-- SERVICE_LIST fallback: Brand Videos, Corporate Videos, Testimonial Videos, Animated Explainers, Social Media Content, Event Coverage, Training Videos, Website Videos -->  <script>
@@ -350,7 +407,8 @@
  window.addEventListener('resize', setTopBarHeight);
  </script>  <div id="filmStripBase" aria-hidden="true"></div>
  <div id="readingProgress" aria-hidden="true"></div>  <!-- ── Fixed top bar ── -->
- <div class="bar-row">
+<div id="top-bar">
+<div class="bar-row">
  <div><i class="fa-solid fa-location-dot"></i> South Easton, MA 02375</div>
  <div><a href="mailto:info@edgeofstoryfilms.com"><i class="fa-regular fa-envelope"></i> info@edgeofstoryfilms.com</a></div>
  <div><i class="fa-regular fa-clock"></i> Licensed &amp; Insured</div>
@@ -362,7 +420,7 @@
  <li><a href="https://www.youtube.com/channel/UCwOQtrU1LDrxRsF7LIueYMQ" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
  </ul>
  </div>
- </div>  <div id="top-bar-spacer" aria-hidden="true"></div>  <!-- ── Site header ── -->
+ </div></div>  <div id="top-bar-spacer" aria-hidden="true"></div>  <!-- ── Site header ── -->
  <header class="site-header" id="top">
  <img src="https://www.edgeofstoryfilms.com/wp-content/uploads/2023/11/logo.png" alt="Edge of Story Films logo" width="160" height="60" loading="eager" fetchpriority="high">
  <div class="site-title">
@@ -552,13 +610,14 @@
  <article class="card"><h3>Emmy-Nominated Craft</h3><p>Polished work, fast turnarounds, friendly focused crews.</p></article>
  </div>
  </div>  <!-- ── CTA strip ── -->
- <div class="cta-inner">
+<div class="cta-strip">
+<div class="cta-inner">
  <div>
  <h2 class="white-title">Ready To Captivate Your South Easton Audience?</h2>
  <p>Reach out today and let's tell your story.</p>
  </div>
  <div><a class="btn" href="tel:(555) 123-4567"><i class="fa-solid fa-phone"></i> Call (555) 123-4567</a></div>
- </div>  <!-- ── Timeline ── -->
+ </div></div>  <!-- ── Timeline ── -->
  <div class="tl-inner">
  <h2 class="white-title">Our Video Production Process</h2>
  <div class="tl-steps">
@@ -750,7 +809,8 @@
  </div>
  <div class="directions-section mb"><section class="directions-section" style="margin:2rem 0;">  <h2 style="font-size:1.5rem;font-weight:700;margin-bottom:1.5rem;color:#1e293b;">  📍 Directions to South Easton, MA  </h2>  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;align-items:start;">  <!-- Directions Text -->  <div style="background:#f8fafc;padding:1.5rem;border-radius:0.5rem;border:1px solid #e2e8f0;">  <h3 style="font-size:1.1rem;font-weight:600;margin-bottom:1rem;color:#334155;display:flex;align-items:center;gap:0.5rem;">  <span>🚗</span> Driving Directions  </h3>  <div style="margin-bottom:1.5rem;">  <p style="font-size:0.95rem;color:#475569;line-height:1.6;margin:0 0 0.75rem 0;">  <strong>I-95 (Route 128) (Exit 4):</strong>  </p>  <ol style="font-size:0.9rem;color:#64748b;line-height:1.7;margin:0;padding-left:1.5rem;">  <li style="margin-bottom:0.5rem;">Take the exit onto Depot Street, MA 123</li>  <li style="margin-bottom:0.5rem;">Turn left onto Foundry Street, MA 106</li>  <li style="margin-bottom:0.5rem;">Arrive in South Easton, MA</li>  </ol>  </div>  <a href="https://www.google.com/maps/dir/?api=1&amp;destination=42.01954,-71.10381&amp;travelmode=driving" target="_blank" rel="noopener noreferrer" style="display:inline-block;background:#3b82f6;color:white;padding:0.75rem 1.5rem;border-radius:0.375rem;text-decoration:none;font-weight:600;font-size:0.95rem;transition:background 0.2s;" onmouseover="this.style.background='#2563eb';" onmouseout="this.style.background='#3b82f6';">  Get Detailed Directions →  </a>  </div>  <!-- Google Maps Embed -->  <div style="background:#f8fafc;padding:1rem;border-radius:0.5rem;border:1px solid #e2e8f0;">  <div style="position:relative;padding-bottom:75%;height:0;overflow:hidden;border-radius:0.375rem;">  <iframe src="https://www.google.com/maps?q=South%20Easton%2C%20MA&amp;output=embed" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map of South Easton, MA" aria-label="Interactive map showing the location of South Easton, MA"></iframe>  </div>  </div>  </div>  <!-- Mobile: Stack vertically on small screens -->  </section></div>  </div>
  <!-- ── Compare ── -->
- <div class="compare-inner">
+<div id="compare">
+<div class="compare-inner">
  <h2>Video Production vs. Videography</h2>
  <div class="compare-grid">
  <article class="compare-card">
@@ -788,7 +848,7 @@
  </div>
  </article>
  </div>
- </div>  <!-- ── Author ── -->
+ </div></div>  <!-- ── Author ── -->
  <div class="section-inner">
  <h2 id="author-h2" class="white-title">About Edge Of Story Films</h2>
  <div class="author">
@@ -859,7 +919,8 @@
 <h3 style="margin-bottom:1rem;color:#1e293b;">Nearby Service Areas</h3>  <ul style="list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.5rem;">  <li><a href="https://edgeofstoryproductions.com/video-production/ma/raynham/02767/" style="color:#2563eb;text-decoration:none;">Raynham</a></li>  <li><a href="https://edgeofstoryproductions.com/video-production/ma/weymouth/02188/" style="color:#2563eb;text-decoration:none;">Weymouth</a></li>  <li><a href="https://edgeofstoryproductions.com/video-production/ma/lakeville/02347/" style="color:#2563eb;text-decoration:none;">Lakeville</a></li>  <li><a href="https://edgeofstoryproductions.com/video-production/ma/east-weymouth/02189/" style="color:#2563eb;text-decoration:none;">East Weymouth</a></li>  <li><a href="https://edgeofstoryproductions.com/video-production/ma/fall-river/02720/" style="color:#2563eb;text-decoration:none;">Fall River</a></li>  </ul>
 
     <div class="cta-container cta-top" data-cta-style="bold">  <div class="cta-content">  <h2 class="cta-heading">Grow Your Video Production Business in South Easton</h2>  <p class="cta-description">  Edge Of Story Films helps video production contractors generate more leads and grow their customer base.  </p>  <p class="cta-secondary-text">Response within 24 hours</p>  <div class="cta-buttons">  <a href="tel:#contact" class="cta-button-blue-600 cta-btn bg-emerald-600 text-white font-bold hover:bg-emerald-600-dark shadow-lg" data-size="medium">  Get Free Estimate  </a>  <a href="mailto:info@edgeofstoryfilms.com" class="cta-button-secondary cta-btn-secondary border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white">Email Us</a>  </div>  </div>  </div>  <!-- /main-content -->  <!-- ── Footer ── -->
- <div class="foot-inner">
+<footer class="footer-compact">
+<div class="foot-inner">
  <div class="foot-cols">
  <div>
  <img width="100" height="44" src="https://www.edgeofstoryfilms.com/wp-content/uploads/2023/11/logo-white.png" alt="Edge of Story Films" style="max-width:100%;height:auto;">
@@ -896,7 +957,8 @@
  <div>© 2026 Edge of Story Films — Serving South Easton, MA</div>
  <div><a href="https://edgeofstoryproductions.com/api/contact">Contact</a></div>
  </div>
- </div>  <div class="last-updated" style="text-align: center; padding: 1rem; font-size: 0.875rem; color: #666;">  Last updated: 3/20/2026  </div><!-- SECTION:mirror-questions OMITTED -->
+ </div>
+</footer>  <div class="last-updated" style="text-align: center; padding: 1rem; font-size: 0.875rem; color: #666;">  Last updated: 3/20/2026  </div><!-- SECTION:mirror-questions OMITTED -->
 </main>
 
 
