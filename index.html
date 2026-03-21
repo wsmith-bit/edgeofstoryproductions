@@ -3,815 +3,651 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Edge Of Story Films - City Question Pages</title>
-  <meta name="description" content="Professional City Question Pages services. Find local service providers in your area.">
-  
-  <!-- Organization Schema -->
+  <title>Edge Of Story Films — Video Production in Massachusetts</title>
+  <meta name="description" content="Edge Of Story Films — professional video production serving 204 cities across Massachusetts. Corporate video, brand films, documentaries, and more.">
+
   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "@id": "https://edgeofstoryproductions.com#organization",
-  "name": "Edge Of Story Films",
-  "url": "https://edgeofstoryproductions.com",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "contactType": "customer service",
-    "areaServed": "US"
-  }
-}
+  {"@context":"https://schema.org","@type":"Organization","@id":"https://edgeofstoryproductions.com#organization","name":"Edge Of Story Films","url":"https://edgeofstoryproductions.com","contactPoint":{"@type":"ContactPoint","contactType":"customer service","areaServed":"US"}}
   </script>
-  
-  <!-- Website Schema -->
   <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "@id": "https://edgeofstoryproductions.com#website",
-  "url": "https://edgeofstoryproductions.com",
-  "name": "Edge Of Story Films",
-  "publisher": {
-    "@id": "https://edgeofstoryproductions.com#organization"
-  }
-}
+  {"@context":"https://schema.org","@type":"WebSite","@id":"https://edgeofstoryproductions.com#website","url":"https://edgeofstoryproductions.com","name":"Edge Of Story Films","publisher":{"@id":"https://edgeofstoryproductions.com#organization"}}
   </script>
-  
+
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; line-height: 1.6; color: #1e293b; }
-    .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
-    .header { background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%); color: white; padding: 1.5rem 0; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-    .header-content { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
-    .logo { font-size: 1.5rem; font-weight: 700; }
-    .header-phone { font-size: 1.125rem; font-weight: 600; }
-    .hero { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: white; padding: 6rem 2rem; text-align: center; }
-    .hero h1 { font-size: 3rem; font-weight: 800; margin-bottom: 1rem; line-height: 1.2; }
-    .hero-subtitle { font-size: 1.25rem; margin-bottom: 2rem; opacity: 0.9; }
-    .cta-button { display: inline-block; background: #10b981; color: white; padding: 1rem 2.5rem; border-radius: 0.5rem; text-decoration: none; font-weight: 600; font-size: 1.125rem; transition: all 0.2s; box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3); }
-    .cta-button:hover { background: #059669; transform: translateY(-2px); box-shadow: 0 8px 20px rgba(16, 185, 129, 0.4); }
-    .section { padding: 4rem 2rem; }
-    .section-title { font-size: 2rem; font-weight: 700; text-align: center; margin-bottom: 2rem; color: #1e293b; }
-    .footer { background: #0f172a; color: white; padding: 3rem 2rem; text-align: center; }
-    @media (max-width: 768px) {
-      .hero h1 { font-size: 2rem; }
-      .section-title { font-size: 1.5rem; }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --black: #080b10;
+      --dark: #0d1117;
+      --dark2: #141a24;
+      --dark3: #1c2333;
+      --gold: #c9a84c;
+      --gold2: #e8c96a;
+      --white: #f0f2f5;
+      --muted: #8b95a8;
+      --red: #e63946;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: var(--black); color: var(--white); line-height: 1.6; }
+
+    /* NAV */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 2rem; height: 64px;
+      background: rgba(8,11,16,0.85); backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(201,168,76,0.15);
+    }
+    .nav-logo { font-size: 1.1rem; font-weight: 700; letter-spacing: 0.04em; color: var(--white); text-decoration: none; }
+    .nav-logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { color: var(--muted); text-decoration: none; font-size: 0.875rem; letter-spacing: 0.06em; text-transform: uppercase; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold); color: var(--black); padding: 0.5rem 1.25rem; border-radius: 4px; font-size: 0.8rem; font-weight: 700; text-decoration: none; letter-spacing: 0.06em; text-transform: uppercase; transition: background 0.2s; }
+    .nav-cta:hover { background: var(--gold2); }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center;
+      text-align: center; padding: 6rem 2rem 4rem;
+      background: radial-gradient(ellipse 80% 60% at 50% 40%, rgba(201,168,76,0.08) 0%, transparent 70%),
+                  linear-gradient(180deg, var(--black) 0%, var(--dark) 100%);
+      position: relative; overflow: hidden;
+    }
+    .hero::before {
+      content: ''; position: absolute; inset: 0;
+      background: repeating-linear-gradient(0deg, transparent, transparent 59px, rgba(255,255,255,0.015) 60px),
+                  repeating-linear-gradient(90deg, transparent, transparent 59px, rgba(255,255,255,0.015) 60px);
+    }
+    .hero-eyebrow { font-size: 0.75rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--gold); margin-bottom: 1.5rem; }
+    .hero h1 {
+      font-size: clamp(2.5rem, 7vw, 5.5rem); font-weight: 800; line-height: 1.05;
+      letter-spacing: -0.02em; margin-bottom: 1.5rem; position: relative;
+    }
+    .hero h1 em { font-style: normal; color: var(--gold); }
+    .hero-sub { font-size: clamp(1rem, 2vw, 1.2rem); color: var(--muted); max-width: 600px; margin: 0 auto 2.5rem; }
+    .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
+    .btn-primary { background: var(--gold); color: var(--black); padding: 0.875rem 2rem; border-radius: 4px; font-weight: 700; text-decoration: none; font-size: 0.9rem; letter-spacing: 0.04em; transition: all 0.2s; }
+    .btn-primary:hover { background: var(--gold2); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(201,168,76,0.3); }
+    .btn-ghost { border: 1px solid rgba(201,168,76,0.4); color: var(--gold); padding: 0.875rem 2rem; border-radius: 4px; font-weight: 600; text-decoration: none; font-size: 0.9rem; letter-spacing: 0.04em; transition: all 0.2s; }
+    .btn-ghost:hover { background: rgba(201,168,76,0.1); border-color: var(--gold); }
+    .hero-stats { display: flex; gap: 3rem; margin-top: 4rem; flex-wrap: wrap; justify-content: center; }
+    .stat { text-align: center; }
+    .stat-num { font-size: 2rem; font-weight: 800; color: var(--gold); display: block; }
+    .stat-label { font-size: 0.75rem; color: var(--muted); letter-spacing: 0.1em; text-transform: uppercase; }
+
+    /* SERVICES */
+    .section { padding: 6rem 2rem; }
+    .section-inner { max-width: 1200px; margin: 0 auto; }
+    .section-eyebrow { font-size: 0.75rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; text-align: center; }
+    .section-title { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; text-align: center; margin-bottom: 1rem; letter-spacing: -0.02em; }
+    .section-sub { color: var(--muted); text-align: center; max-width: 600px; margin: 0 auto 3.5rem; font-size: 1rem; }
+    .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; }
+    .service-card {
+      background: var(--dark2); border: 1px solid rgba(255,255,255,0.06); border-radius: 8px;
+      padding: 2rem; transition: all 0.3s; position: relative; overflow: hidden;
+    }
+    .service-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--gold), var(--gold2)); transform: scaleX(0); transform-origin: left; transition: transform 0.3s; }
+    .service-card:hover { border-color: rgba(201,168,76,0.3); transform: translateY(-4px); box-shadow: 0 16px 40px rgba(0,0,0,0.4); }
+    .service-card:hover::before { transform: scaleX(1); }
+    .service-icon { font-size: 2rem; margin-bottom: 1rem; display: block; }
+    .service-card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem; }
+    .service-card p { font-size: 0.875rem; color: var(--muted); line-height: 1.6; }
+
+    /* MAP */
+    #map { background: var(--dark); }
+    .map-wrap { background: var(--dark2); border: 1px solid rgba(255,255,255,0.06); border-radius: 12px; overflow: hidden; position: relative; }
+    .map-search-bar { padding: 1.25rem 1.5rem; background: var(--dark3); border-bottom: 1px solid rgba(255,255,255,0.06); display: flex; align-items: center; gap: 0.75rem; }
+    .map-search-bar input {
+      flex: 1; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 6px; padding: 0.6rem 1rem; color: var(--white); font-size: 0.9rem;
+      outline: none; transition: border-color 0.2s;
+    }
+    .map-search-bar input::placeholder { color: var(--muted); }
+    .map-search-bar input:focus { border-color: var(--gold); }
+    .map-search-bar span { font-size: 0.8rem; color: var(--muted); white-space: nowrap; }
+    .map-body { display: grid; grid-template-columns: 1fr 340px; }
+    .map-svg-wrap { padding: 1.5rem; position: relative; }
+    .map-svg-wrap svg { width: 100%; height: auto; display: block; }
+    .city-dot { cursor: pointer; transition: all 0.2s; }
+    .city-dot circle { fill: var(--gold); opacity: 0.7; transition: all 0.2s; }
+    .city-dot:hover circle, .city-dot.active circle { fill: var(--gold2); opacity: 1; r: 6; }
+    .map-tooltip {
+      position: absolute; background: var(--dark3); border: 1px solid rgba(201,168,76,0.4);
+      border-radius: 6px; padding: 0.5rem 0.875rem; font-size: 0.8rem; pointer-events: none;
+      white-space: nowrap; opacity: 0; transition: opacity 0.15s; z-index: 10;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.5);
+    }
+    .map-tooltip.visible { opacity: 1; }
+    .map-tooltip strong { color: var(--gold); display: block; }
+    .map-list { border-left: 1px solid rgba(255,255,255,0.06); overflow-y: auto; max-height: 480px; }
+    .map-list-item {
+      display: block; padding: 0.7rem 1.25rem; text-decoration: none; color: var(--white);
+      border-bottom: 1px solid rgba(255,255,255,0.04); font-size: 0.85rem; transition: all 0.15s;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .map-list-item:hover, .map-list-item.active { background: rgba(201,168,76,0.1); color: var(--gold); }
+    .map-list-item .zip { font-size: 0.75rem; color: var(--muted); }
+    .map-list-item:hover .zip, .map-list-item.active .zip { color: rgba(201,168,76,0.6); }
+    .map-no-results { padding: 2rem; text-align: center; color: var(--muted); font-size: 0.875rem; display: none; }
+
+    /* WHY */
+    #why { background: var(--dark); }
+    .why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; }
+    .why-item { text-align: center; }
+    .why-num { font-size: 3rem; font-weight: 800; color: var(--gold); line-height: 1; margin-bottom: 0.5rem; }
+    .why-item h3 { font-size: 1rem; font-weight: 700; margin-bottom: 0.5rem; }
+    .why-item p { font-size: 0.875rem; color: var(--muted); }
+
+    /* CONTACT */
+    #contact { background: var(--black); }
+    .contact-box {
+      max-width: 680px; margin: 0 auto; background: var(--dark2);
+      border: 1px solid rgba(201,168,76,0.2); border-radius: 12px; padding: 3rem;
+      text-align: center;
+    }
+    .contact-box h2 { font-size: 2rem; font-weight: 800; margin-bottom: 1rem; }
+    .contact-box p { color: var(--muted); margin-bottom: 2rem; }
+    .contact-details { display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem; }
+    .contact-item { font-size: 1rem; color: var(--white); }
+    .contact-item span { color: var(--gold); font-weight: 700; }
+
+    /* FOOTER */
+    footer { background: var(--dark); border-top: 1px solid rgba(255,255,255,0.06); padding: 2rem; text-align: center; }
+    footer p { color: var(--muted); font-size: 0.8rem; }
+    footer a { color: var(--muted); text-decoration: none; }
+    footer a:hover { color: var(--gold); }
+    .footer-links { display: flex; gap: 1.5rem; justify-content: center; margin-bottom: 1rem; }
+
+    /* MOBILE */
+    @media (max-width: 900px) {
+      .map-body { grid-template-columns: 1fr; }
+      .map-list { border-left: none; border-top: 1px solid rgba(255,255,255,0.06); max-height: 300px; }
+      .nav-links { display: none; }
+    }
+    @media (max-width: 600px) {
+      nav { padding: 0 1rem; }
+      .section { padding: 4rem 1rem; }
+      .hero { padding: 5rem 1rem 3rem; }
+      .contact-box { padding: 2rem 1.25rem; }
     }
   </style>
 </head>
 <body>
-  <header class="header">
-    <div class="header-content">
-      <div class="logo">Edge Of Story Films</div>
-      <div class="header-phone">📞 (555) 123-4567</div>
-    </div>
-  </header>
 
-  <section class="hero">
-    <h1>Edge Of Story Films</h1>
-    <p class="hero-subtitle">Professional City Question Pages Services</p>
-    <a href="#areas" class="cta-button">Find Service in Your Area</a>
-  </section>
+<nav>
+  <a href="/" class="nav-logo">Edge Of <span>Story</span> Films</a>
+  <ul class="nav-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#map">Service Areas</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">Get a Quote</a>
+</nav>
 
-  <main class="section">
-    <div class="container">
-      <h2 class="section-title">Welcome</h2>
-      <p style="font-size: 1.125rem; text-align: center; max-width: 800px; margin: 0 auto 2rem; color: #475569;">
-        We provide professional City Question Pages services across multiple locations. 
-        Select your city below to find local contact information and service details.
-      </p>
-    </div>
-  </main>
+<section class="hero">
+  <p class="hero-eyebrow">Massachusetts Video Production</p>
+  <h1>Your Story.<br><em>Told Boldly.</em></h1>
+  <p class="hero-sub">Professional video production for brands, businesses, and organizations across all of Massachusetts.</p>
+  <div class="hero-actions">
+    <a href="#contact" class="btn-primary">Start Your Project</a>
+    <a href="#map" class="btn-ghost">Find Your City</a>
+  </div>
+  <div class="hero-stats">
+    <div class="stat"><span class="stat-num">204</span><span class="stat-label">Cities Served</span></div>
+    <div class="stat"><span class="stat-num">10+</span><span class="stat-label">Years Experience</span></div>
+    <div class="stat"><span class="stat-num">500+</span><span class="stat-label">Projects Completed</span></div>
+    <div class="stat"><span class="stat-num">MA</span><span class="stat-label">Statewide Coverage</span></div>
+  </div>
+</section>
 
-  
-      <section class="service-areas" style="padding: 4rem 2rem; background: #f8fafc;">
-        <div class="container" style="max-width: 1200px; margin: 0 auto;">
-          <h2 style="font-size: 2rem; font-weight: 700; text-align: center; margin-bottom: 2rem; color: #1e293b;">Service Areas</h2>
-          <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1.5rem;">
-            
-              <a href="video-production/ma/abington/02351/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Abington</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/acton/01720/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Acton</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/acushnet/02743/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Acushnet</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/agawam/01001/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Agawam</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/allston/02134/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Allston</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/amesbury/01913/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Amesbury</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/amherst/01002/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Amherst</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/andover/01810/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Andover</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/arlington/02474/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Arlington</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/ashland/01721/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Ashland</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/athol/01331/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Athol</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/attleboro/02703/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Attleboro</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/auburn/01501/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Auburn</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/bedford/01730/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Bedford</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/belchertown/01007/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Belchertown</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/bellingham/02019/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Bellingham</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/belmont/02478/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Belmont</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/beverly/01915/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Beverly</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/billerica/01821/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Billerica</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/boston/02115/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Boston</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/braintree/02184/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Braintree</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/brewster/02631/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Brewster</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/bridgewater/02324/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Bridgewater</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/brighton/02135/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Brighton</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/brockton/02301/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Brockton</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/brookline/02446/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Brookline</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/burlington/01803/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Burlington</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/buzzards-bay/02532/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Buzzards Bay</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/cambridge/02139/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Cambridge</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/canton/02021/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Canton</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/carver/02330/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Carver</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/centerville/02632/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Centerville</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/charlestown/02129/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Charlestown</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/charlton/01507/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Charlton</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/chelmsford/01824/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Chelmsford</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/chelsea/02150/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Chelsea</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/chestnut-hill/02467/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Chestnut Hill</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/chicopee/01020/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Chicopee</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/clinton/01510/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Clinton</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/concord/01742/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Concord</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/danvers/01923/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Danvers</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/dedham/02026/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Dedham</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/dorchester/02125/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Dorchester</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/dorchester-center/02124/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Dorchester Center</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/dracut/01826/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Dracut</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/dudley/01571/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Dudley</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/duxbury/02332/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Duxbury</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/east-boston/02128/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">East Boston</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/east-bridgewater/02333/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">East Bridgewater</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/east-falmouth/02536/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">East Falmouth</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/east-longmeadow/01028/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">East Longmeadow</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/east-weymouth/02189/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">East Weymouth</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/easthampton/01027/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Easthampton</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/everett/02149/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Everett</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/fairhaven/02719/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Fairhaven</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/fall-river/02720/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Fall River</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/feeding-hills/01030/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Feeding Hills</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/fitchburg/01420/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Fitchburg</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/foxboro/02035/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Foxboro</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/framingham/01702/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Framingham</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/franklin/02038/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Franklin</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/gardner/01440/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Gardner</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/gloucester/01930/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Gloucester</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/greenfield/01301/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Greenfield</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/groton/01450/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Groton</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/hanover/02339/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Hanover</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/hanson/02341/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Hanson</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/harwich/02645/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Harwich</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/haverhill/01830/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Haverhill</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/hingham/02043/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Hingham</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/holbrook/02343/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Holbrook</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/holden/01520/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Holden</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/holliston/01746/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Holliston</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/holyoke/01040/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Holyoke</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/hopkinton/01748/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Hopkinton</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/hudson/01749/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Hudson</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/hull/02045/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Hull</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/hyannis/02601/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Hyannis</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/hyde-park/02136/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Hyde Park</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/ipswich/01938/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Ipswich</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/jamaica-plain/02130/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Jamaica Plain</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/kingston/02364/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Kingston</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/lakeville/02347/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Lakeville</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/lawrence/01841/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Lawrence</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/leominster/01453/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Leominster</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/lexington/02421/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Lexington</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/littleton/01460/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Littleton</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/longmeadow/01106/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Longmeadow</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/lowell/01852/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Lowell</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/ludlow/01056/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Ludlow</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/lunenburg/01462/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Lunenburg</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/lynn/01902/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Lynn</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/lynnfield/01940/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Lynnfield</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/malden/02148/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Malden</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/mansfield/02048/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Mansfield</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/marblehead/01945/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Marblehead</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/marlborough/01752/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Marlborough</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/marshfield/02050/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Marshfield</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/mashpee/02649/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Mashpee</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-              <a href="video-production/ma/mattapan/02126/" style="background: white; padding: 1.5rem; border-radius: 0.5rem; text-decoration: none; border: 1px solid #e2e8f0; transition: all 0.2s; display: block;"
-                 onmouseover="this.style.borderColor='#3b82f6'; this.style.boxShadow='0 4px 12px rgba(59, 130, 246, 0.15)';"
-                 onmouseout="this.style.borderColor='#e2e8f0'; this.style.boxShadow='none';">
-                <h3 style="font-size: 1.125rem; font-weight: 600; color: #1e293b; margin-bottom: 0.5rem;">Mattapan</h3>
-                <p style="font-size: 0.875rem; color: #64748b; margin: 0;">Massachusetts</p>
-              </a>
-            
-          </div>
-        </div>
-      </section>
-    
-
-  <section id="contact" class="section" style="background: #f8fafc;">
-    <div class="container">
-      <h2 class="section-title">Contact Us</h2>
-      <div style="max-width: 600px; margin: 0 auto; text-align: center;">
-        <p style="font-size: 1.125rem; margin-bottom: 1.5rem; color: #475569;">
-          Ready to get started? Contact us today for professional City Question Pages.
-        </p>
-        <div style="background: white; padding: 2rem; border-radius: 0.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
-          <p style="font-size: 1.25rem; font-weight: 600; margin-bottom: 0.5rem; color: #1e293b;">📞 (555) 123-4567</p>
-          <p style="font-size: 1rem; color: #64748b; margin-bottom: 1rem;">✉️ contact@example.com</p>
-          <a href="#areas" class="cta-button" style="display: inline-block; margin-top: 1rem;">View Service Areas</a>
-        </div>
+<section class="section" id="services">
+  <div class="section-inner">
+    <p class="section-eyebrow">What We Do</p>
+    <h2 class="section-title">Full-Service Production</h2>
+    <p class="section-sub">From concept to final cut, we deliver cinematic quality video for every type of project.</p>
+    <div class="services-grid">
+      <div class="service-card">
+        <span class="service-icon">🎬</span>
+        <h3>Corporate Video</h3>
+        <p>Company overviews, training videos, internal communications, and executive profiles that represent your brand at its best.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-icon">📣</span>
+        <h3>Brand Films</h3>
+        <p>Emotionally driven brand stories and commercials that connect with your audience and drive real business results.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-icon">🎤</span>
+        <h3>Event Coverage</h3>
+        <p>Conferences, product launches, galas, and live events captured with multi-camera professionalism.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-icon">📱</span>
+        <h3>Social &amp; Digital</h3>
+        <p>Short-form content optimized for Instagram, LinkedIn, YouTube, and every platform your audience lives on.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-icon">🏠</span>
+        <h3>Real Estate Video</h3>
+        <p>Property walkthroughs, aerial drone footage, and neighborhood tours that sell homes faster.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-icon">🎓</span>
+        <h3>Documentary &amp; Non-Profit</h3>
+        <p>Mission-driven storytelling for non-profits, educational institutions, and community organizations.</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <footer class="footer">
-    <p>&copy; 2026 Edge Of Story Films. All rights reserved.</p>
-    <p style="margin-top: 0.5rem; opacity: 0.8;">Professional City Question Pages Services</p>
-  </footer>
+<section class="section" id="map">
+  <div class="section-inner">
+    <p class="section-eyebrow">Service Areas</p>
+    <h2 class="section-title">We Come to You — Anywhere in MA</h2>
+    <p class="section-sub">Click a city on the map or search the list to find your local production page.</p>
+    <div class="map-wrap">
+      <div class="map-search-bar">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:#8b95a8;flex-shrink:0"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <input type="text" id="citySearch" placeholder="Search city or zip code..." autocomplete="off">
+        <span id="cityCount">204 cities</span>
+      </div>
+      <div class="map-body">
+        <div class="map-svg-wrap" id="mapSvgWrap">
+          <div class="map-tooltip" id="mapTooltip"></div>
+          <svg id="maSvg" viewBox="0 0 820 440" xmlns="http://www.w3.org/2000/svg">
+            <!-- MA state outline (simplified) -->
+            <path d="M66,80 L97,45 L155,38 L220,35 L290,32 L370,30 L440,28 L510,28 L570,25 L620,22 L665,20 L700,22 L730,28 L755,38 L770,52 L778,68 L775,82 L765,92 L752,100 L742,112 L738,128 L745,140 L758,148 L770,155 L775,168 L770,182 L760,192 L748,202 L738,215 L730,228 L722,240 L715,252 L710,265 L705,278 L700,288 L696,298 L692,308 L688,316 L682,322 L674,326 L666,328 L656,326 L646,320 L638,312 L628,308 L618,306 L608,304 L598,304 L588,306 L578,310 L568,316 L558,322 L548,326 L536,328 L522,328 L510,326 L498,322 L488,316 L478,310 L468,308 L456,308 L446,310 L436,314 L428,318 L418,320 L408,318 L398,314 L388,308 L378,302 L368,298 L356,296 L344,296 L332,298 L320,302 L308,306 L296,308 L284,308 L272,306 L260,302 L248,296 L236,290 L224,284 L212,278 L200,272 L188,266 L176,260 L164,254 L152,248 L140,242 L128,236 L116,228 L106,220 L98,210 L92,198 L88,186 L84,172 L80,158 L76,144 L72,130 L68,114 L66,100 Z" fill="rgba(255,255,255,0.03)" stroke="rgba(201,168,76,0.25)" stroke-width="1.5"/>
+            <!-- Cape Cod peninsula -->
+            <path d="M640,310 L655,308 L670,308 L685,310 L700,314 L715,318 L730,322 L745,324 L758,322 L768,316 L772,306 L770,296 L764,288 L756,282 L748,278 L740,280 L732,284 L724,290 L716,296 L708,300 L698,302 L686,302 L674,300 L664,298 L656,298 L648,300 L642,306 Z" fill="rgba(255,255,255,0.03)" stroke="rgba(201,168,76,0.2)" stroke-width="1.5"/>
+            <!-- Nantucket -->
+            <ellipse cx="765" cy="396" rx="18" ry="10" fill="rgba(255,255,255,0.03)" stroke="rgba(201,168,76,0.2)" stroke-width="1.5"/>
+            <!-- City dots will be injected by JS -->
+            <g id="cityDots"></g>
+          </svg>
+        </div>
+        <div class="map-list" id="mapList">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+      <div class="map-no-results" id="noResults">No cities match your search.</div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="why" style="background:var(--dark);">
+  <div class="section-inner">
+    <p class="section-eyebrow">Why Choose Us</p>
+    <h2 class="section-title">Built for Massachusetts</h2>
+    <p class="section-sub">We know every corner of this state — from the Berkshires to the Cape — and we bring that local knowledge to every shoot.</p>
+    <div class="why-grid">
+      <div class="why-item">
+        <div class="why-num">4K</div>
+        <h3>Cinema Quality</h3>
+        <p>Professional cinema cameras, lenses, and lighting for every production size.</p>
+      </div>
+      <div class="why-item">
+        <div class="why-num">48h</div>
+        <h3>Fast Turnaround</h3>
+        <p>Rush delivery available. We meet your deadlines without sacrificing quality.</p>
+      </div>
+      <div class="why-item">
+        <div class="why-num">100%</div>
+        <h3>Satisfaction</h3>
+        <p>We don't stop until you're proud to share it. Revisions included.</p>
+      </div>
+      <div class="why-item">
+        <div class="why-num">MA</div>
+        <h3>Local Crew</h3>
+        <p>No travel fees. We're based here and know your locations inside out.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="section-inner">
+    <div class="contact-box">
+      <h2>Ready to Tell Your Story?</h2>
+      <p>Tell us about your project and we'll get back to you within one business day.</p>
+      <div class="contact-details">
+        <div class="contact-item"><span>📞</span> (617) 555-0192</div>
+        <div class="contact-item"><span>✉️</span> hello@edgeofstoryfilms.com</div>
+      </div>
+      <a href="mailto:hello@edgeofstoryfilms.com" class="btn-primary">Send Us a Message</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-links">
+    <a href="/about">About</a>
+    <a href="/video-production">Services</a>
+    <a href="#map">Service Areas</a>
+    <a href="/contact">Contact</a>
+    <a href="/privacy-policy">Privacy Policy</a>
+    <a href="/terms-of-service">Terms</a>
+  </div>
+  <p>&copy; 2026 Edge Of Story Films. Professional video production across Massachusetts.</p>
+</footer>
+
+<script>
+const CITIES = [
+  {name:"Abington",slug:"abington",zip:"02351",x:578.4,y:196.9},
+  {name:"Acton",slug:"acton",zip:"01720",x:469.8,y:109.2},
+  {name:"Acushnet",slug:"acushnet",zip:"02743",x:585.1,y:303.7},
+  {name:"Agawam",slug:"agawam",zip:"01001",x:206.1,y:208.8},
+  {name:"Allston",slug:"allston",zip:"02134",x:536.3,y:142.4},
+  {name:"Amesbury",slug:"amesbury",zip:"01913",x:580.6,y:23.7},
+  {name:"Amherst",slug:"amherst",zip:"01002",x:228.3,y:137.6},
+  {name:"Andover",slug:"andover",zip:"01810",x:534.1,y:68.8},
+  {name:"Arlington",slug:"arlington",zip:"02474",x:529.7,y:125.8},
+  {name:"Ashland",slug:"ashland",zip:"01721",x:463.2,y:163.7},
+  {name:"Athol",slug:"athol",zip:"01331",x:292.5,y:83.1},
+  {name:"Attleboro",slug:"attleboro",zip:"02703",x:500.9,y:237.3},
+  {name:"Auburn",slug:"auburn",zip:"01501",x:381.2,y:178.0},
+  {name:"Bedford",slug:"bedford",zip:"01730",x:503.1,y:109.2},
+  {name:"Belchertown",slug:"belchertown",zip:"01007",x:252.6,y:159.0},
+  {name:"Bellingham",slug:"bellingham",zip:"02019",x:458.8,y:206.4},
+  {name:"Belmont",slug:"belmont",zip:"02478",x:525.2,y:130.5},
+  {name:"Beverly",slug:"beverly",zip:"01915",x:591.7,y:94.9},
+  {name:"Billerica",slug:"billerica",zip:"01821",x:505.3,y:92.5},
+  {name:"Boston",slug:"boston",zip:"02115",x:551.8,y:140.0},
+  {name:"Braintree",slug:"braintree",zip:"02184",x:565.1,y:175.6},
+  {name:"Brewster",slug:"brewster",zip:"02631",x:769.0,y:282.4},
+  {name:"Bridgewater",slug:"bridgewater",zip:"02324",x:571.8,y:227.8},
+  {name:"Brighton",slug:"brighton",zip:"02135",x:531.9,y:142.4},
+  {name:"Brockton",slug:"brockton",zip:"02301",x:560.7,y:206.4},
+  {name:"Brookline",slug:"brookline",zip:"02446",x:538.5,y:147.1},
+  {name:"Burlington",slug:"burlington",zip:"01803",x:520.8,y:106.8},
+  {name:"Buzzards Bay",slug:"buzzards-bay",zip:"02532",x:649.4,y:284.7},
+  {name:"Cambridge",slug:"cambridge",zip:"02139",x:540.8,y:137.6},
+  {name:"Canton",slug:"canton",zip:"02021",x:531.9,y:187.5},
+  {name:"Carver",slug:"carver",zip:"02330",x:616.1,y:251.5},
+  {name:"Centerville",slug:"centerville",zip:"02632",x:707.0,y:308.5},
+  {name:"Charlestown",slug:"charlestown",zip:"02129",x:551.8,y:135.3},
+  {name:"Charlton",slug:"charlton",zip:"01507",x:350.2,y:194.6},
+  {name:"Chelmsford",slug:"chelmsford",zip:"01824",x:483.1,y:83.1},
+  {name:"Chelsea",slug:"chelsea",zip:"02150",x:558.5,y:132.9},
+  {name:"Chestnut Hill",slug:"chestnut-hill",zip:"02467",x:527.5,y:149.5},
+  {name:"Chicopee",slug:"chicopee",zip:"01020",x:208.3,y:189.8},
+  {name:"Clinton",slug:"clinton",zip:"01510",x:414.4,y:125.8},
+  {name:"Concord",slug:"concord",zip:"01742",x:487.6,y:116.3},
+  {name:"Danvers",slug:"danvers",zip:"01923",x:580.6,y:90.2},
+  {name:"Dedham",slug:"dedham",zip:"02026",x:527.5,y:168.5},
+  {name:"Dorchester Center",slug:"dorchester-center",zip:"02124",x:549.6,y:154.2},
+  {name:"Dorchester",slug:"dorchester",zip:"02125",x:549.6,y:154.2},
+  {name:"Dracut",slug:"dracut",zip:"01826",x:498.6,y:64.1},
+  {name:"Dudley",slug:"dudley",zip:"01571",x:359.0,y:211.2},
+  {name:"Duxbury",slug:"duxbury",zip:"02332",x:638.3,y:215.9},
+  {name:"East Boston",slug:"east-boston",zip:"02128",x:560.7,y:137.6},
+  {name:"East Bridgewater",slug:"east-bridgewater",zip:"02333",x:582.9,y:220.7},
+  {name:"East Falmouth",slug:"east-falmouth",zip:"02536",x:660.4,y:327.5},
+  {name:"East Longmeadow",slug:"east-longmeadow",zip:"01028",x:228.3,y:208.8},
+  {name:"East Weymouth",slug:"east-weymouth",zip:"02189",x:578.4,y:173.2},
+  {name:"Easthampton",slug:"easthampton",zip:"01027",x:195.0,y:161.4},
+  {name:"Everett",slug:"everett",zip:"02149",x:554.1,y:130.5},
+  {name:"Fairhaven",slug:"fairhaven",zip:"02719",x:587.3,y:310.8},
+  {name:"Fall River",slug:"fall-river",zip:"02720",x:529.7,y:296.6},
+  {name:"Feeding Hills",slug:"feeding-hills",zip:"01030",x:197.2,y:208.8},
+  {name:"Fitchburg",slug:"fitchburg",zip:"01420",x:387.8,y:87.8},
+  {name:"Foxboro",slug:"foxboro",zip:"02035",x:509.7,y:211.2},
+  {name:"Framingham",slug:"framingham",zip:"01702",x:472.1,y:159.0},
+  {name:"Franklin",slug:"franklin",zip:"02038",x:476.5,y:206.4},
+  {name:"Gardner",slug:"gardner",zip:"01440",x:345.7,y:90.2},
+  {name:"Gloucester",slug:"gloucester",zip:"01930",x:640.5,y:80.7},
+  {name:"Greenfield",slug:"greenfield",zip:"01301",x:210.5,y:85.4},
+  {name:"Groton",slug:"groton",zip:"01450",x:438.8,y:78.3},
+  {name:"Hanover",slug:"hanover",zip:"02339",x:607.2,y:199.3},
+  {name:"Hanson",slug:"hanson",zip:"02341",x:591.7,y:213.6},
+  {name:"Harwich",slug:"harwich",zip:"02645",x:771.2,y:299.0},
+  {name:"Haverhill",slug:"haverhill",zip:"01830",x:547.4,y:40.3},
+  {name:"Hingham",slug:"hingham",zip:"02043",x:589.5,y:168.5},
+  {name:"Holbrook",slug:"holbrook",zip:"02343",x:562.9,y:199.3},
+  {name:"Holden",slug:"holden",zip:"01520",x:374.5,y:142.4},
+  {name:"Holliston",slug:"holliston",zip:"01746",x:469.8,y:178.0},
+  {name:"Holyoke",slug:"holyoke",zip:"01040",x:206.1,y:178.0},
+  {name:"Hopkinton",slug:"hopkinton",zip:"01748",x:449.9,y:170.8},
+  {name:"Hudson",slug:"hudson",zip:"01749",x:438.8,y:132.9},
+  {name:"Hull",slug:"hull",zip:"02045",x:582.9,y:154.2},
+  {name:"Hyannis",slug:"hyannis",zip:"02601",x:724.7,y:308.5},
+  {name:"Hyde Park",slug:"hyde-park",zip:"02136",x:538.5,y:163.7},
+  {name:"Ipswich",slug:"ipswich",zip:"01938",x:600.6,y:64.1},
+  {name:"Jamaica Plain",slug:"jamaica-plain",zip:"02130",x:540.8,y:151.9},
+  {name:"Kingston",slug:"kingston",zip:"02364",x:627.2,y:230.2},
+  {name:"Lakeville",slug:"lakeville",zip:"02347",x:576.2,y:265.8},
+  {name:"Lawrence",slug:"lawrence",zip:"01841",x:529.7,y:56.9},
+  {name:"Leominster",slug:"leominster",zip:"01453",x:396.7,y:99.7},
+  {name:"Lexington",slug:"lexington",zip:"02421",x:514.2,y:118.6},
+  {name:"Littleton",slug:"littleton",zip:"01460",x:456.5,y:97.3},
+  {name:"Longmeadow",slug:"longmeadow",zip:"01106",x:215.0,y:213.6},
+  {name:"Lowell",slug:"lowell",zip:"01852",x:494.2,y:75.9},
+  {name:"Ludlow",slug:"ludlow",zip:"01056",x:237.1,y:187.5},
+  {name:"Lunenburg",slug:"lunenburg",zip:"01462",x:405.6,y:85.4},
+  {name:"Lynn",slug:"lynn",zip:"01902",x:576.2,y:113.9},
+  {name:"Lynnfield",slug:"lynnfield",zip:"01940",x:558.5,y:97.3},
+  {name:"Malden",slug:"malden",zip:"02148",x:549.6,y:123.4},
+  {name:"Mansfield",slug:"mansfield",zip:"02048",x:516.4,y:218.3},
+  {name:"Marblehead",slug:"marblehead",zip:"01945",x:596.2,y:106.8},
+  {name:"Marlborough",slug:"marlborough",zip:"01752",x:443.2,y:142.4},
+  {name:"Marshfield",slug:"marshfield",zip:"02050",x:629.4,y:204.1},
+  {name:"Mashpee",slug:"mashpee",zip:"02649",x:680.4,y:308.5},
+  {name:"Mattapan",slug:"mattapan",zip:"02126",x:545.2,y:161.4},
+  {name:"Maynard",slug:"maynard",zip:"01754",x:465.4,y:123.4},
+  {name:"Medfield",slug:"medfield",zip:"02052",x:496.4,y:180.3},
+  {name:"Medford",slug:"medford",zip:"02155",x:540.8,y:125.8},
+  {name:"Medway",slug:"medway",zip:"02053",x:476.5,y:189.8},
+  {name:"Melrose",slug:"melrose",zip:"02176",x:551.8,y:116.3},
+  {name:"Methuen",slug:"methuen",zip:"01844",x:523.0,y:52.2},
+  {name:"Middleboro",slug:"middleboro",zip:"02346",x:582.9,y:251.5},
+  {name:"Milford",slug:"milford",zip:"01757",x:449.9,y:192.2},
+  {name:"Millbury",slug:"millbury",zip:"01527",x:394.5,y:180.3},
+  {name:"Milton",slug:"milton",zip:"02186",x:549.6,y:166.1},
+  {name:"Nantucket",slug:"nantucket",zip:"02554",x:764.6,y:396.3},
+  {name:"Natick",slug:"natick",zip:"01760",x:487.6,y:159.0},
+  {name:"Needham",slug:"needham",zip:"02492",x:514.2,y:159.0},
+  {name:"Needham Heights",slug:"needham-heights",zip:"02494",x:514.2,y:156.6},
+  {name:"New Bedford",slug:"new-bedford",zip:"02740",x:580.6,y:313.2},
+  {name:"Newburyport",slug:"newburyport",zip:"01950",x:591.7,y:33.2},
+  {name:"Newton",slug:"newton",zip:"02458",x:518.6,y:144.7},
+  {name:"Newton Center",slug:"newton-center",zip:"02459",x:520.8,y:147.1},
+  {name:"Newtonville",slug:"newtonville",zip:"02460",x:518.6,y:142.4},
+  {name:"Norfolk",slug:"norfolk",zip:"02056",x:492.0,y:196.9},
+  {name:"North Adams",slug:"north-adams",zip:"01247",x:97.5,y:59.3},
+  {name:"North Andover",slug:"north-andover",zip:"01845",x:536.3,y:59.3},
+  {name:"North Attleboro",slug:"north-attleboro",zip:"02760",x:492.0,y:230.2},
+  {name:"North Billerica",slug:"north-billerica",zip:"01862",x:505.3,y:83.1},
+  {name:"North Dartmouth",slug:"north-dartmouth",zip:"02747",x:571.8,y:308.5},
+  {name:"North Easton",slug:"north-easton",zip:"02356",x:540.8,y:211.2},
+  {name:"North Reading",slug:"north-reading",zip:"01864",x:547.4,y:87.8},
+  {name:"Northampton",slug:"northampton",zip:"01060",x:203.9,y:147.1},
+  {name:"Northborough",slug:"northborough",zip:"01532",x:421.1,y:149.5},
+  {name:"Norton",slug:"norton",zip:"02766",x:523.0,y:232.5},
+  {name:"Norwell",slug:"norwell",zip:"02061",x:611.7,y:187.5},
+  {name:"Norwood",slug:"norwood",zip:"02062",x:523.0,y:180.3},
+  {name:"Oxford",slug:"oxford",zip:"01540",x:374.5,y:196.9},
+  {name:"Peabody",slug:"peabody",zip:"01960",x:571.8,y:99.7},
+  {name:"Pembroke",slug:"pembroke",zip:"02359",x:609.5,y:208.8},
+  {name:"Pepperell",slug:"pepperell",zip:"01463",x:434.4,y:66.4},
+  {name:"Pittsfield",slug:"pittsfield",zip:"01201",x:66.5,y:118.6},
+  {name:"Plymouth",slug:"plymouth",zip:"02360",x:638.3,y:234.9},
+  {name:"Quincy",slug:"quincy",zip:"02169",x:565.1,y:166.1},
+  {name:"Randolph",slug:"randolph",zip:"02368",x:554.1,y:187.5},
+  {name:"Raynham",slug:"raynham",zip:"02767",x:554.1,y:239.7},
+  {name:"Reading",slug:"reading",zip:"01867",x:543.0,y:102.0},
+  {name:"Rehoboth",slug:"rehoboth",zip:"02769",x:487.6,y:261.0},
+  {name:"Revere",slug:"revere",zip:"02151",x:562.9,y:128.1},
+  {name:"Rockland",slug:"rockland",zip:"02370",x:587.3,y:194.6},
+  {name:"Roslindale",slug:"roslindale",zip:"02131",x:536.3,y:159.0},
+  {name:"Roxbury",slug:"roxbury",zip:"02119",x:545.2,y:149.5},
+  {name:"Roxbury Crossing",slug:"roxbury-crossing",zip:"02120",x:543.0,y:147.1},
+  {name:"Salem",slug:"salem",zip:"01970",x:587.3,y:102.0},
+  {name:"Sandwich",slug:"sandwich",zip:"02563",x:678.2,y:282.4},
+  {name:"Saugus",slug:"saugus",zip:"01906",x:562.9,y:113.9},
+  {name:"Scituate",slug:"scituate",zip:"02066",x:625.0,y:178.0},
+  {name:"Seekonk",slug:"seekonk",zip:"02771",x:494.2,y:263.4},
+  {name:"Sharon",slug:"sharon",zip:"02067",x:525.2,y:196.9},
+  {name:"Shrewsbury",slug:"shrewsbury",zip:"01545",x:405.6,y:154.2},
+  {name:"Somerset",slug:"somerset",zip:"02726",x:531.9,y:287.1},
+  {name:"Somerville",slug:"somerville",zip:"02145",x:543.0,y:132.9},
+  {name:"South Boston",slug:"south-boston",zip:"02127",x:554.1,y:144.7},
+  {name:"South Dartmouth",slug:"south-dartmouth",zip:"02748",x:574.0,y:329.8},
+  {name:"South Easton",slug:"south-easton",zip:"02375",x:543.0,y:218.3},
+  {name:"South Hadley",slug:"south-hadley",zip:"01075",x:215.0,y:163.7},
+  {name:"South Weymouth",slug:"south-weymouth",zip:"02190",x:574.0,y:180.3},
+  {name:"Southbridge",slug:"southbridge",zip:"01550",x:336.9,y:208.8},
+  {name:"Spencer",slug:"spencer",zip:"01562",x:345.7,y:168.5},
+  {name:"Springfield",slug:"springfield",zip:"01109",x:212.8,y:201.7},
+  {name:"Stoneham",slug:"stoneham",zip:"02180",x:543.0,y:111.5},
+  {name:"Stoughton",slug:"stoughton",zip:"02072",x:543.0,y:196.9},
+  {name:"Sudbury",slug:"sudbury",zip:"01776",x:472.1,y:135.3},
+  {name:"Swampscott",slug:"swampscott",zip:"01907",x:582.9,y:113.9},
+  {name:"Swansea",slug:"swansea",zip:"02777",x:518.6,y:282.4},
+  {name:"Taunton",slug:"taunton",zip:"02780",x:545.2,y:249.2},
+  {name:"Tewksbury",slug:"tewksbury",zip:"01876",x:514.2,y:80.7},
+  {name:"Tyngsboro",slug:"tyngsboro",zip:"01879",x:472.1,y:66.4},
+  {name:"Uxbridge",slug:"uxbridge",zip:"01569",x:427.7,y:206.4},
+  {name:"Wakefield",slug:"wakefield",zip:"01880",x:549.6,y:104.4},
+  {name:"Walpole",slug:"walpole",zip:"02081",x:509.7,y:189.8},
+  {name:"Waltham",slug:"waltham",zip:"02453",x:511.9,y:137.6},
+  {name:"Ware",slug:"ware",zip:"01082",x:290.3,y:163.7},
+  {name:"Wareham",slug:"wareham",zip:"02571",x:627.2,y:282.4},
+  {name:"Watertown",slug:"watertown",zip:"02472",x:525.2,y:137.6},
+  {name:"Wayland",slug:"wayland",zip:"01778",x:485.4,y:140.0},
+  {name:"Webster",slug:"webster",zip:"01570",x:370.1,y:213.6},
+  {name:"Wellesley",slug:"wellesley",zip:"02482",x:503.1,y:154.2},
+  {name:"Wellesley Hills",slug:"wellesley-hills",zip:"02481",x:505.3,y:151.9},
+  {name:"West Newton",slug:"west-newton",zip:"02465",x:514.2,y:142.4},
+  {name:"West Roxbury",slug:"west-roxbury",zip:"02132",x:529.7,y:159.0},
+  {name:"West Springfield",slug:"west-springfield",zip:"01089",x:201.7,y:201.7},
+  {name:"Westborough",slug:"westborough",zip:"01581",x:427.7,y:161.4},
+  {name:"Westfield",slug:"westfield",zip:"01085",x:177.3,y:196.9},
+  {name:"Westford",slug:"westford",zip:"01886",x:467.6,y:87.8},
+  {name:"Weston",slug:"weston",zip:"02493",x:498.6,y:137.6},
+  {name:"Westport",slug:"westport",zip:"02790",x:547.4,y:327.5},
+  {name:"Westwood",slug:"westwood",zip:"02090",x:516.4,y:173.2},
+  {name:"Weymouth",slug:"weymouth",zip:"02188",x:578.4,y:175.6},
+  {name:"Whitinsville",slug:"whitinsville",zip:"01588",x:416.6,y:196.9},
+  {name:"Whitman",slug:"whitman",zip:"02382",x:580.6,y:206.4},
+  {name:"Wilbraham",slug:"wilbraham",zip:"01095",x:246.0,y:196.9},
+  {name:"Wilmington",slug:"wilmington",zip:"01887",x:527.5,y:94.9},
+  {name:"Winchendon",slug:"winchendon",zip:"01475",x:334.6,y:64.1},
+  {name:"Winchester",slug:"winchester",zip:"01890",x:534.1,y:118.6},
+  {name:"Winthrop",slug:"winthrop",zip:"02152",x:569.6,y:137.6},
+  {name:"Woburn",slug:"woburn",zip:"01801",x:531.9,y:111.5},
+  {name:"Worcester",slug:"worcester",zip:"01604",x:387.8,y:161.4},
+  {name:"Wrentham",slug:"wrentham",zip:"02093",x:487.6,y:211.2},
+];
+// total: 204
+
+function init() {
+  const dotsGroup = document.getElementById('cityDots');
+  const mapList = document.getElementById('mapList');
+  const searchInput = document.getElementById('citySearch');
+  const countEl = document.getElementById('cityCount');
+  const tooltip = document.getElementById('mapTooltip');
+  const svgWrap = document.getElementById('mapSvgWrap');
+  const noResults = document.getElementById('noResults');
+
+  let activeCity = null;
+
+  // Build dot map
+  CITIES.forEach(city => {
+    const g = document.createElementNS('http://www.w3.org/2000/svg','g');
+    g.classList.add('city-dot');
+    g.dataset.slug = city.slug;
+    const c = document.createElementNS('http://www.w3.org/2000/svg','circle');
+    c.setAttribute('cx', city.x);
+    c.setAttribute('cy', city.y);
+    c.setAttribute('r', '4');
+    g.appendChild(c);
+    g.addEventListener('mouseenter', e => showTooltip(city, g, e));
+    g.addEventListener('mouseleave', hideTooltip);
+    g.addEventListener('click', () => goCity(city));
+    dotsGroup.appendChild(g);
+  });
+
+  // Build list
+  function buildList(cities) {
+    mapList.innerHTML = '';
+    if (cities.length === 0) {
+      noResults.style.display = 'block';
+      mapList.style.display = 'none';
+      return;
+    }
+    noResults.style.display = 'none';
+    mapList.style.display = 'block';
+    cities.forEach(city => {
+      const a = document.createElement('a');
+      a.href = `video-production/ma/${city.slug}/${city.zip}/`;
+      a.className = 'map-list-item';
+      a.dataset.slug = city.slug;
+      a.innerHTML = `<span>${city.name}</span><span class="zip">${city.zip}</span>`;
+      a.addEventListener('mouseenter', () => highlightDot(city.slug));
+      a.addEventListener('mouseleave', () => unhighlightDot(city.slug));
+      mapList.appendChild(a);
+    });
+    countEl.textContent = cities.length + (cities.length === 204 ? ' cities' : ' results');
+  }
+
+  buildList(CITIES);
+
+  // Search
+  searchInput.addEventListener('input', () => {
+    const q = searchInput.value.trim().toLowerCase();
+    if (!q) { buildList(CITIES); return; }
+    const filtered = CITIES.filter(c => c.name.toLowerCase().includes(q) || c.zip.includes(q) || c.slug.includes(q));
+    buildList(filtered);
+  });
+
+  function showTooltip(city, el, e) {
+    tooltip.innerHTML = `<strong>${city.name}</strong>${city.zip}`;
+    tooltip.classList.add('visible');
+    // position relative to svgWrap
+    const svgRect = svgWrap.getBoundingClientRect();
+    const svg = document.getElementById('maSvg');
+    const svgW = svg.getBoundingClientRect().width;
+    const scale = svgW / 820;
+    let tx = city.x * scale - tooltip.offsetWidth / 2;
+    let ty = city.y * scale - 52;
+    if (ty < 0) ty = city.y * scale + 12;
+    tooltip.style.left = Math.max(0, tx) + 'px';
+    tooltip.style.top = ty + 'px';
+    highlightDot(city.slug);
+  }
+
+  function hideTooltip() {
+    tooltip.classList.remove('visible');
+    if (activeCity) highlightDot(activeCity); else unhighlightAllDots();
+  }
+
+  function highlightDot(slug) {
+    document.querySelectorAll('.city-dot').forEach(d => d.classList.toggle('active', d.dataset.slug === slug));
+    document.querySelectorAll('.map-list-item').forEach(i => i.classList.toggle('active', i.dataset.slug === slug));
+    const el = mapList.querySelector(`[data-slug="${slug}"]`);
+    if (el) el.scrollIntoView({ block: 'nearest' });
+  }
+
+  function unhighlightDot(slug) {
+    document.querySelectorAll('.city-dot').forEach(d => d.classList.remove('active'));
+    document.querySelectorAll('.map-list-item').forEach(i => i.classList.remove('active'));
+  }
+
+  function unhighlightAllDots() {
+    document.querySelectorAll('.city-dot').forEach(d => d.classList.remove('active'));
+    document.querySelectorAll('.map-list-item').forEach(i => i.classList.remove('active'));
+  }
+
+  function goCity(city) {
+    window.location.href = `video-production/ma/${city.slug}/${city.zip}/`;
+  }
+
+  // Nav scroll effect
+  window.addEventListener('scroll', () => {
+    document.querySelector('nav').style.borderBottomColor = window.scrollY > 20 ? 'rgba(201,168,76,0.25)' : 'rgba(201,168,76,0.15)';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', init);
+</script>
 </body>
 </html>
