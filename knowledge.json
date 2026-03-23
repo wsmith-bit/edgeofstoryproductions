@@ -4,123 +4,32 @@
   "name": "Local Business Page Generator",
   "description": "AI-optimized local business pages with unique content and complete SEO",
   "url": "https://edgeofstoryproductions.com",
-  "dateModified": "2026-03-20T17:16:03.881Z",
+  "dateModified": "2026-03-21T22:15:23.351Z",
   "inLanguage": "en-US",
   "pages": [
     {
-      "url": "https://edgeofstoryproductions.com/video-production/whitinsville-ma-01588",
-      "name": "Whitinsville, Massachusetts",
+      "url": "https://edgeofstoryproductions.com/video-production/ludlow-ma-01056",
+      "name": "Ludlow, Massachusetts",
       "location": {
-        "city": "Whitinsville",
+        "city": "Ludlow",
         "state": "Massachusetts",
-        "zip": "01588",
+        "zip": "01056",
         "coordinates": {
-          "lat": 42.11837,
-          "lon": -71.66836
+          "lat": 42.19211,
+          "lon": -72.45805
         }
       }
     },
     {
-      "url": "https://edgeofstoryproductions.com/video-production/auburn-ma-01501",
-      "name": "Auburn, Massachusetts",
+      "url": "https://edgeofstoryproductions.com/video-production/canton-ma-02021",
+      "name": "Canton, Massachusetts",
       "location": {
-        "city": "Auburn",
+        "city": "Canton",
         "state": "Massachusetts",
-        "zip": "01501",
+        "zip": "02021",
         "coordinates": {
-          "lat": 42.19689,
-          "lon": -71.84549
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/chestnut-hill-ma-02467",
-      "name": "Chestnut Hill, Massachusetts",
-      "location": {
-        "city": "Chestnut Hill",
-        "state": "Massachusetts",
-        "zip": "02467",
-        "coordinates": {
-          "lat": 42.31725,
-          "lon": -71.16096
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/raynham-ma-02767",
-      "name": "Raynham, Massachusetts",
-      "location": {
-        "city": "Raynham",
-        "state": "Massachusetts",
-        "zip": "02767",
-        "coordinates": {
-          "lat": 41.93939,
-          "lon": -71.05191
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/swampscott-ma-01907",
-      "name": "Swampscott, Massachusetts",
-      "location": {
-        "city": "Swampscott",
-        "state": "Massachusetts",
-        "zip": "01907",
-        "coordinates": {
-          "lat": 42.47572,
-          "lon": -70.90684
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/charlton-ma-01507",
-      "name": "Charlton, Massachusetts",
-      "location": {
-        "city": "Charlton",
-        "state": "Massachusetts",
-        "zip": "01507",
-        "coordinates": {
-          "lat": 42.13509,
-          "lon": -71.96803
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/dudley-ma-01571",
-      "name": "Dudley, Massachusetts",
-      "location": {
-        "city": "Dudley",
-        "state": "Massachusetts",
-        "zip": "01571",
-        "coordinates": {
-          "lat": 42.05501,
-          "lon": -71.93519
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/newton-ma-02458",
-      "name": "Newton, Massachusetts",
-      "location": {
-        "city": "Newton",
-        "state": "Massachusetts",
-        "zip": "02458",
-        "coordinates": {
-          "lat": 42.35294,
-          "lon": -71.18763
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/east-weymouth-ma-02189",
-      "name": "East Weymouth, Massachusetts",
-      "location": {
-        "city": "East Weymouth",
-        "state": "Massachusetts",
-        "zip": "02189",
-        "coordinates": {
-          "lat": 42.2111,
-          "lon": -70.93135
+          "lat": 42.17504,
+          "lon": -71.12645
         }
       }
     },
@@ -138,15 +47,15 @@
       }
     },
     {
-      "url": "https://edgeofstoryproductions.com/video-production/north-billerica-ma-01862",
-      "name": "North Billerica, Massachusetts",
+      "url": "https://edgeofstoryproductions.com/video-production/needham-heights-ma-02494",
+      "name": "Needham Heights, Massachusetts",
       "location": {
-        "city": "North Billerica",
+        "city": "Needham Heights",
         "state": "Massachusetts",
-        "zip": "01862",
+        "zip": "02494",
         "coordinates": {
-          "lat": 42.57427,
-          "lon": -71.29437
+          "lat": 42.29959,
+          "lon": -71.2317
         }
       }
     },
@@ -164,19 +73,6 @@
       }
     },
     {
-      "url": "https://edgeofstoryproductions.com/video-production/bedford-ma-01730",
-      "name": "Bedford, Massachusetts",
-      "location": {
-        "city": "Bedford",
-        "state": "Massachusetts",
-        "zip": "01730",
-        "coordinates": {
-          "lat": 42.4995,
-          "lon": -71.27799
-        }
-      }
-    },
-    {
       "url": "https://edgeofstoryproductions.com/video-production/lunenburg-ma-01462",
       "name": "Lunenburg, Massachusetts",
       "location": {
@@ -190,41 +86,15 @@
       }
     },
     {
-      "url": "https://edgeofstoryproductions.com/video-production/somerset-ma-02726",
-      "name": "Somerset, Massachusetts",
+      "url": "https://edgeofstoryproductions.com/video-production/swampscott-ma-01907",
+      "name": "Swampscott, Massachusetts",
       "location": {
-        "city": "Somerset",
+        "city": "Swampscott",
         "state": "Massachusetts",
-        "zip": "02726",
+        "zip": "01907",
         "coordinates": {
-          "lat": 41.76073,
-          "lon": -71.14444
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/roxbury-crossing-ma-02120",
-      "name": "Roxbury Crossing, Massachusetts",
-      "location": {
-        "city": "Roxbury Crossing",
-        "state": "Massachusetts",
-        "zip": "02120",
-        "coordinates": {
-          "lat": 42.33212,
-          "lon": -71.09654
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/uxbridge-ma-01569",
-      "name": "Uxbridge, Massachusetts",
-      "location": {
-        "city": "Uxbridge",
-        "state": "Massachusetts",
-        "zip": "01569",
-        "coordinates": {
-          "lat": 42.05895,
-          "lon": -71.63741
+          "lat": 42.47572,
+          "lon": -70.90684
         }
       }
     },
@@ -255,6 +125,19 @@
       }
     },
     {
+      "url": "https://edgeofstoryproductions.com/video-production/lakeville-ma-02347",
+      "name": "Lakeville, Massachusetts",
+      "location": {
+        "city": "Lakeville",
+        "state": "Massachusetts",
+        "zip": "02347",
+        "coordinates": {
+          "lat": 41.83101,
+          "lon": -70.9594
+        }
+      }
+    },
+    {
       "url": "https://edgeofstoryproductions.com/video-production/abington-ma-02351",
       "name": "Abington, Massachusetts",
       "location": {
@@ -264,84 +147,6 @@
         "coordinates": {
           "lat": 42.11805,
           "lon": -70.95905
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/marshfield-ma-02050",
-      "name": "Marshfield, Massachusetts",
-      "location": {
-        "city": "Marshfield",
-        "state": "Massachusetts",
-        "zip": "02050",
-        "coordinates": {
-          "lat": 42.11443,
-          "lon": -70.71487
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/middleboro-ma-02346",
-      "name": "Middleboro, Massachusetts",
-      "location": {
-        "city": "Middleboro",
-        "state": "Massachusetts",
-        "zip": "02346",
-        "coordinates": {
-          "lat": 41.88034,
-          "lon": -70.87446
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/tewksbury-ma-01876",
-      "name": "Tewksbury, Massachusetts",
-      "location": {
-        "city": "Tewksbury",
-        "state": "Massachusetts",
-        "zip": "01876",
-        "coordinates": {
-          "lat": 42.61206,
-          "lon": -71.22733
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/tyngsboro-ma-01879",
-      "name": "Tyngsboro, Massachusetts",
-      "location": {
-        "city": "Tyngsboro",
-        "state": "Massachusetts",
-        "zip": "01879",
-        "coordinates": {
-          "lat": 42.66626,
-          "lon": -71.42911
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/scituate-ma-02066",
-      "name": "Scituate, Massachusetts",
-      "location": {
-        "city": "Scituate",
-        "state": "Massachusetts",
-        "zip": "02066",
-        "coordinates": {
-          "lat": 42.20129,
-          "lon": -70.76155
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/acton-ma-01720",
-      "name": "Acton, Massachusetts",
-      "location": {
-        "city": "Acton",
-        "state": "Massachusetts",
-        "zip": "01720",
-        "coordinates": {
-          "lat": 42.48397,
-          "lon": -71.43809
         }
       }
     },
@@ -359,15 +164,28 @@
       }
     },
     {
-      "url": "https://edgeofstoryproductions.com/video-production/spencer-ma-01562",
-      "name": "Spencer, Massachusetts",
+      "url": "https://edgeofstoryproductions.com/video-production/scituate-ma-02066",
+      "name": "Scituate, Massachusetts",
       "location": {
-        "city": "Spencer",
+        "city": "Scituate",
         "state": "Massachusetts",
-        "zip": "01562",
+        "zip": "02066",
         "coordinates": {
-          "lat": 42.24715,
-          "lon": -71.99189
+          "lat": 42.20129,
+          "lon": -70.76155
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/amherst-ma-01002",
+      "name": "Amherst, Massachusetts",
+      "location": {
+        "city": "Amherst",
+        "state": "Massachusetts",
+        "zip": "01002",
+        "coordinates": {
+          "lat": 42.37633,
+          "lon": -72.46462
         }
       }
     },
@@ -385,45 +203,6 @@
       }
     },
     {
-      "url": "https://edgeofstoryproductions.com/video-production/melrose-ma-02176",
-      "name": "Melrose, Massachusetts",
-      "location": {
-        "city": "Melrose",
-        "state": "Massachusetts",
-        "zip": "02176",
-        "coordinates": {
-          "lat": 42.45561,
-          "lon": -71.05901
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/westfield-ma-01085",
-      "name": "Westfield, Massachusetts",
-      "location": {
-        "city": "Westfield",
-        "state": "Massachusetts",
-        "zip": "01085",
-        "coordinates": {
-          "lat": 42.15375,
-          "lon": -72.76961
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/medford-ma-02155",
-      "name": "Medford, Massachusetts",
-      "location": {
-        "city": "Medford",
-        "state": "Massachusetts",
-        "zip": "02155",
-        "coordinates": {
-          "lat": 42.42324,
-          "lon": -71.10878
-        }
-      }
-    },
-    {
       "url": "https://edgeofstoryproductions.com/video-production/bridgewater-ma-02324",
       "name": "Bridgewater, Massachusetts",
       "location": {
@@ -437,41 +216,15 @@
       }
     },
     {
-      "url": "https://edgeofstoryproductions.com/video-production/south-hadley-ma-01075",
-      "name": "South Hadley, Massachusetts",
+      "url": "https://edgeofstoryproductions.com/video-production/hyannis-ma-02601",
+      "name": "Hyannis, Massachusetts",
       "location": {
-        "city": "South Hadley",
+        "city": "Hyannis",
         "state": "Massachusetts",
-        "zip": "01075",
+        "zip": "02601",
         "coordinates": {
-          "lat": 42.25672,
-          "lon": -72.57928
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/fitchburg-ma-01420",
-      "name": "Fitchburg, Massachusetts",
-      "location": {
-        "city": "Fitchburg",
-        "state": "Massachusetts",
-        "zip": "01420",
-        "coordinates": {
-          "lat": 42.58559,
-          "lon": -71.81693
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/longmeadow-ma-01106",
-      "name": "Longmeadow, Massachusetts",
-      "location": {
-        "city": "Longmeadow",
-        "state": "Massachusetts",
-        "zip": "01106",
-        "coordinates": {
-          "lat": 42.04877,
-          "lon": -72.57163
+          "lat": 41.66,
+          "lon": -70.29327
         }
       }
     },
@@ -489,292 +242,6 @@
       }
     },
     {
-      "url": "https://edgeofstoryproductions.com/video-production/everett-ma-02149",
-      "name": "Everett, Massachusetts",
-      "location": {
-        "city": "Everett",
-        "state": "Massachusetts",
-        "zip": "02149",
-        "coordinates": {
-          "lat": 42.40643,
-          "lon": -71.05446
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/south-boston-ma-02127",
-      "name": "South Boston, Massachusetts",
-      "location": {
-        "city": "South Boston",
-        "state": "Massachusetts",
-        "zip": "02127",
-        "coordinates": {
-          "lat": 42.33455,
-          "lon": -71.03875
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/east-boston-ma-02128",
-      "name": "East Boston, Massachusetts",
-      "location": {
-        "city": "East Boston",
-        "state": "Massachusetts",
-        "zip": "02128",
-        "coordinates": {
-          "lat": 42.37324,
-          "lon": -71.01616
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/arlington-ma-02474",
-      "name": "Arlington, Massachusetts",
-      "location": {
-        "city": "Arlington",
-        "state": "Massachusetts",
-        "zip": "02474",
-        "coordinates": {
-          "lat": 42.42053,
-          "lon": -71.15666
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/watertown-ma-02472",
-      "name": "Watertown, Massachusetts",
-      "location": {
-        "city": "Watertown",
-        "state": "Massachusetts",
-        "zip": "02472",
-        "coordinates": {
-          "lat": 42.37,
-          "lon": -71.17713
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/north-andover-ma-01845",
-      "name": "North Andover, Massachusetts",
-      "location": {
-        "city": "North Andover",
-        "state": "Massachusetts",
-        "zip": "01845",
-        "coordinates": {
-          "lat": 42.67132,
-          "lon": -71.08669
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/attleboro-ma-02703",
-      "name": "Attleboro, Massachusetts",
-      "location": {
-        "city": "Attleboro",
-        "state": "Massachusetts",
-        "zip": "02703",
-        "coordinates": {
-          "lat": 41.93108,
-          "lon": -71.29499
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/weston-ma-02493",
-      "name": "Weston, Massachusetts",
-      "location": {
-        "city": "Weston",
-        "state": "Massachusetts",
-        "zip": "02493",
-        "coordinates": {
-          "lat": 42.35893,
-          "lon": -71.30009
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/gardner-ma-01440",
-      "name": "Gardner, Massachusetts",
-      "location": {
-        "city": "Gardner",
-        "state": "Massachusetts",
-        "zip": "01440",
-        "coordinates": {
-          "lat": 42.58797,
-          "lon": -71.98649
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/holyoke-ma-01040",
-      "name": "Holyoke, Massachusetts",
-      "location": {
-        "city": "Holyoke",
-        "state": "Massachusetts",
-        "zip": "01040",
-        "coordinates": {
-          "lat": 42.21251,
-          "lon": -72.64109
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/norwood-ma-02062",
-      "name": "Norwood, Massachusetts",
-      "location": {
-        "city": "Norwood",
-        "state": "Massachusetts",
-        "zip": "02062",
-        "coordinates": {
-          "lat": 42.18563,
-          "lon": -71.19464
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/wellesley-hills-ma-02481",
-      "name": "Wellesley Hills, Massachusetts",
-      "location": {
-        "city": "Wellesley Hills",
-        "state": "Massachusetts",
-        "zip": "02481",
-        "coordinates": {
-          "lat": 42.31064,
-          "lon": -71.27779
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/seekonk-ma-02771",
-      "name": "Seekonk, Massachusetts",
-      "location": {
-        "city": "Seekonk",
-        "state": "Massachusetts",
-        "zip": "02771",
-        "coordinates": {
-          "lat": 41.83787,
-          "lon": -71.31736
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/sharon-ma-02067",
-      "name": "Sharon, Massachusetts",
-      "location": {
-        "city": "Sharon",
-        "state": "Massachusetts",
-        "zip": "02067",
-        "coordinates": {
-          "lat": 42.10778,
-          "lon": -71.18183
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/wareham-ma-02571",
-      "name": "Wareham, Massachusetts",
-      "location": {
-        "city": "Wareham",
-        "state": "Massachusetts",
-        "zip": "02571",
-        "coordinates": {
-          "lat": 41.76184,
-          "lon": -70.70138
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/stoughton-ma-02072",
-      "name": "Stoughton, Massachusetts",
-      "location": {
-        "city": "Stoughton",
-        "state": "Massachusetts",
-        "zip": "02072",
-        "coordinates": {
-          "lat": 42.1192,
-          "lon": -71.10189
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/norfolk-ma-02056",
-      "name": "Norfolk, Massachusetts",
-      "location": {
-        "city": "Norfolk",
-        "state": "Massachusetts",
-        "zip": "02056",
-        "coordinates": {
-          "lat": 42.11632,
-          "lon": -71.32952
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/whitman-ma-02382",
-      "name": "Whitman, Massachusetts",
-      "location": {
-        "city": "Whitman",
-        "state": "Massachusetts",
-        "zip": "02382",
-        "coordinates": {
-          "lat": 42.08,
-          "lon": -70.93993
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/rockland-ma-02370",
-      "name": "Rockland, Massachusetts",
-      "location": {
-        "city": "Rockland",
-        "state": "Massachusetts",
-        "zip": "02370",
-        "coordinates": {
-          "lat": 42.1295,
-          "lon": -70.91002
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/north-easton-ma-02356",
-      "name": "North Easton, Massachusetts",
-      "location": {
-        "city": "North Easton",
-        "state": "Massachusetts",
-        "zip": "02356",
-        "coordinates": {
-          "lat": 42.05519,
-          "lon": -71.12071
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/feeding-hills-ma-01030",
-      "name": "Feeding Hills, Massachusetts",
-      "location": {
-        "city": "Feeding Hills",
-        "state": "Massachusetts",
-        "zip": "01030",
-        "coordinates": {
-          "lat": 42.06869,
-          "lon": -72.67967
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/winchendon-ma-01475",
-      "name": "Winchendon, Massachusetts",
-      "location": {
-        "city": "Winchendon",
-        "state": "Massachusetts",
-        "zip": "01475",
-        "coordinates": {
-          "lat": 42.66675,
-          "lon": -72.04902
-        }
-      }
-    },
-    {
       "url": "https://edgeofstoryproductions.com/video-production/groton-ma-01450",
       "name": "Groton, Massachusetts",
       "location": {
@@ -784,58 +251,6 @@
         "coordinates": {
           "lat": 42.61368,
           "lon": -71.56139
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/west-springfield-ma-01089",
-      "name": "West Springfield, Massachusetts",
-      "location": {
-        "city": "West Springfield",
-        "state": "Massachusetts",
-        "zip": "01089",
-        "coordinates": {
-          "lat": 42.12532,
-          "lon": -72.65025
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/billerica-ma-01821",
-      "name": "Billerica, Massachusetts",
-      "location": {
-        "city": "Billerica",
-        "state": "Massachusetts",
-        "zip": "01821",
-        "coordinates": {
-          "lat": 42.54999,
-          "lon": -71.25206
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/south-dartmouth-ma-02748",
-      "name": "South Dartmouth, Massachusetts",
-      "location": {
-        "city": "South Dartmouth",
-        "state": "Massachusetts",
-        "zip": "02748",
-        "coordinates": {
-          "lat": 41.56096,
-          "lon": -70.97963
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/northborough-ma-01532",
-      "name": "Northborough, Massachusetts",
-      "location": {
-        "city": "Northborough",
-        "state": "Massachusetts",
-        "zip": "01532",
-        "coordinates": {
-          "lat": 42.32314,
-          "lon": -71.64621
         }
       }
     },
@@ -853,28 +268,15 @@
       }
     },
     {
-      "url": "https://edgeofstoryproductions.com/video-production/bellingham-ma-02019",
-      "name": "Bellingham, Massachusetts",
+      "url": "https://edgeofstoryproductions.com/video-production/north-easton-ma-02356",
+      "name": "North Easton, Massachusetts",
       "location": {
-        "city": "Bellingham",
+        "city": "North Easton",
         "state": "Massachusetts",
-        "zip": "02019",
+        "zip": "02356",
         "coordinates": {
-          "lat": 42.0777,
-          "lon": -71.47407
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/wellesley-ma-02482",
-      "name": "Wellesley, Massachusetts",
-      "location": {
-        "city": "Wellesley",
-        "state": "Massachusetts",
-        "zip": "02482",
-        "coordinates": {
-          "lat": 42.29455,
-          "lon": -71.29859
+          "lat": 42.05519,
+          "lon": -71.12071
         }
       }
     },
@@ -892,32 +294,6 @@
       }
     },
     {
-      "url": "https://edgeofstoryproductions.com/video-production/oxford-ma-01540",
-      "name": "Oxford, Massachusetts",
-      "location": {
-        "city": "Oxford",
-        "state": "Massachusetts",
-        "zip": "01540",
-        "coordinates": {
-          "lat": 42.11649,
-          "lon": -71.85819
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/marblehead-ma-01945",
-      "name": "Marblehead, Massachusetts",
-      "location": {
-        "city": "Marblehead",
-        "state": "Massachusetts",
-        "zip": "01945",
-        "coordinates": {
-          "lat": 42.49924,
-          "lon": -70.86348
-        }
-      }
-    },
-    {
       "url": "https://edgeofstoryproductions.com/video-production/brewster-ma-02631",
       "name": "Brewster, Massachusetts",
       "location": {
@@ -931,15 +307,28 @@
       }
     },
     {
-      "url": "https://edgeofstoryproductions.com/video-production/foxboro-ma-02035",
-      "name": "Foxboro, Massachusetts",
+      "url": "https://edgeofstoryproductions.com/video-production/north-attleboro-ma-02760",
+      "name": "North Attleboro, Massachusetts",
       "location": {
-        "city": "Foxboro",
+        "city": "North Attleboro",
         "state": "Massachusetts",
-        "zip": "02035",
+        "zip": "02760",
         "coordinates": {
-          "lat": 42.06266,
-          "lon": -71.24613
+          "lat": 41.97004,
+          "lon": -71.33586
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/milford-ma-01757",
+      "name": "Milford, Massachusetts",
+      "location": {
+        "city": "Milford",
+        "state": "Massachusetts",
+        "zip": "01757",
+        "coordinates": {
+          "lat": 42.15723,
+          "lon": -71.51978
         }
       }
     },
@@ -970,6 +359,19 @@
       }
     },
     {
+      "url": "https://edgeofstoryproductions.com/video-production/east-longmeadow-ma-01028",
+      "name": "East Longmeadow, Massachusetts",
+      "location": {
+        "city": "East Longmeadow",
+        "state": "Massachusetts",
+        "zip": "01028",
+        "coordinates": {
+          "lat": 42.05967,
+          "lon": -72.49899
+        }
+      }
+    },
+    {
       "url": "https://edgeofstoryproductions.com/video-production/holbrook-ma-02343",
       "name": "Holbrook, Massachusetts",
       "location": {
@@ -983,19 +385,6 @@
       }
     },
     {
-      "url": "https://edgeofstoryproductions.com/video-production/wilmington-ma-01887",
-      "name": "Wilmington, Massachusetts",
-      "location": {
-        "city": "Wilmington",
-        "state": "Massachusetts",
-        "zip": "01887",
-        "coordinates": {
-          "lat": 42.56091,
-          "lon": -71.16541
-        }
-      }
-    },
-    {
       "url": "https://edgeofstoryproductions.com/video-production/west-roxbury-ma-02132",
       "name": "West Roxbury, Massachusetts",
       "location": {
@@ -1005,6 +394,19 @@
         "coordinates": {
           "lat": 42.27931,
           "lon": -71.16072
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/wilmington-ma-01887",
+      "name": "Wilmington, Massachusetts",
+      "location": {
+        "city": "Wilmington",
+        "state": "Massachusetts",
+        "zip": "01887",
+        "coordinates": {
+          "lat": 42.56091,
+          "lon": -71.16541
         }
       }
     },
@@ -1035,6 +437,58 @@
       }
     },
     {
+      "url": "https://edgeofstoryproductions.com/video-production/acushnet-ma-02743",
+      "name": "Acushnet, Massachusetts",
+      "location": {
+        "city": "Acushnet",
+        "state": "Massachusetts",
+        "zip": "02743",
+        "coordinates": {
+          "lat": 41.71323,
+          "lon": -70.90054
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/attleboro-ma-02703",
+      "name": "Attleboro, Massachusetts",
+      "location": {
+        "city": "Attleboro",
+        "state": "Massachusetts",
+        "zip": "02703",
+        "coordinates": {
+          "lat": 41.93108,
+          "lon": -71.29499
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/west-newton-ma-02465",
+      "name": "West Newton, Massachusetts",
+      "location": {
+        "city": "West Newton",
+        "state": "Massachusetts",
+        "zip": "02465",
+        "coordinates": {
+          "lat": 42.34969,
+          "lon": -71.22646
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/newton-center-ma-02459",
+      "name": "Newton Center, Massachusetts",
+      "location": {
+        "city": "Newton Center",
+        "state": "Massachusetts",
+        "zip": "02459",
+        "coordinates": {
+          "lat": 42.31515,
+          "lon": -71.19174
+        }
+      }
+    },
+    {
       "url": "https://edgeofstoryproductions.com/video-production/chelmsford-ma-01824",
       "name": "Chelmsford, Massachusetts",
       "location": {
@@ -1044,6 +498,32 @@
         "coordinates": {
           "lat": 42.59156,
           "lon": -71.35553
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/south-easton-ma-02375",
+      "name": "South Easton, Massachusetts",
+      "location": {
+        "city": "South Easton",
+        "state": "Massachusetts",
+        "zip": "02375",
+        "coordinates": {
+          "lat": 42.01954,
+          "lon": -71.10381
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/lynnfield-ma-01940",
+      "name": "Lynnfield, Massachusetts",
+      "location": {
+        "city": "Lynnfield",
+        "state": "Massachusetts",
+        "zip": "01940",
+        "coordinates": {
+          "lat": 42.53523,
+          "lon": -71.03695
         }
       }
     },
@@ -1061,15 +541,15 @@
       }
     },
     {
-      "url": "https://edgeofstoryproductions.com/video-production/south-easton-ma-02375",
-      "name": "South Easton, Massachusetts",
+      "url": "https://edgeofstoryproductions.com/video-production/medway-ma-02053",
+      "name": "Medway, Massachusetts",
       "location": {
-        "city": "South Easton",
+        "city": "Medway",
         "state": "Massachusetts",
-        "zip": "02375",
+        "zip": "02053",
         "coordinates": {
-          "lat": 42.01954,
-          "lon": -71.10381
+          "lat": 42.15352,
+          "lon": -71.42906
         }
       }
     },
@@ -1100,15 +580,28 @@
       }
     },
     {
-      "url": "https://edgeofstoryproductions.com/video-production/lynnfield-ma-01940",
-      "name": "Lynnfield, Massachusetts",
+      "url": "https://edgeofstoryproductions.com/video-production/dedham-ma-02026",
+      "name": "Dedham, Massachusetts",
       "location": {
-        "city": "Lynnfield",
+        "city": "Dedham",
         "state": "Massachusetts",
-        "zip": "01940",
+        "zip": "02026",
         "coordinates": {
-          "lat": 42.53523,
-          "lon": -71.03695
+          "lat": 42.24665,
+          "lon": -71.1777
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/pepperell-ma-01463",
+      "name": "Pepperell, Massachusetts",
+      "location": {
+        "city": "Pepperell",
+        "state": "Massachusetts",
+        "zip": "01463",
+        "coordinates": {
+          "lat": 42.67126,
+          "lon": -71.60429
         }
       }
     },
@@ -1126,93 +619,15 @@
       }
     },
     {
-      "url": "https://edgeofstoryproductions.com/video-production/athol-ma-01331",
-      "name": "Athol, Massachusetts",
+      "url": "https://edgeofstoryproductions.com/video-production/hudson-ma-01749",
+      "name": "Hudson, Massachusetts",
       "location": {
-        "city": "Athol",
+        "city": "Hudson",
         "state": "Massachusetts",
-        "zip": "01331",
+        "zip": "01749",
         "coordinates": {
-          "lat": 42.56793,
-          "lon": -72.18324
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/dedham-ma-02026",
-      "name": "Dedham, Massachusetts",
-      "location": {
-        "city": "Dedham",
-        "state": "Massachusetts",
-        "zip": "02026",
-        "coordinates": {
-          "lat": 42.24665,
-          "lon": -71.1777
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/fairhaven-ma-02719",
-      "name": "Fairhaven, Massachusetts",
-      "location": {
-        "city": "Fairhaven",
-        "state": "Massachusetts",
-        "zip": "02719",
-        "coordinates": {
-          "lat": 41.63945,
-          "lon": -70.87322
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/west-newton-ma-02465",
-      "name": "West Newton, Massachusetts",
-      "location": {
-        "city": "West Newton",
-        "state": "Massachusetts",
-        "zip": "02465",
-        "coordinates": {
-          "lat": 42.34969,
-          "lon": -71.22646
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/winchester-ma-01890",
-      "name": "Winchester, Massachusetts",
-      "location": {
-        "city": "Winchester",
-        "state": "Massachusetts",
-        "zip": "01890",
-        "coordinates": {
-          "lat": 42.45177,
-          "lon": -71.14628
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/newton-center-ma-02459",
-      "name": "Newton Center, Massachusetts",
-      "location": {
-        "city": "Newton Center",
-        "state": "Massachusetts",
-        "zip": "02459",
-        "coordinates": {
-          "lat": 42.31515,
-          "lon": -71.19174
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/norwell-ma-02061",
-      "name": "Norwell, Massachusetts",
-      "location": {
-        "city": "Norwell",
-        "state": "Massachusetts",
-        "zip": "02061",
-        "coordinates": {
-          "lat": 42.16075,
-          "lon": -70.81772
+          "lat": 42.38868,
+          "lon": -71.54648
         }
       }
     },
@@ -1230,32 +645,6 @@
       }
     },
     {
-      "url": "https://edgeofstoryproductions.com/video-production/harwich-ma-02645",
-      "name": "Harwich, Massachusetts",
-      "location": {
-        "city": "Harwich",
-        "state": "Massachusetts",
-        "zip": "02645",
-        "coordinates": {
-          "lat": 41.70352,
-          "lon": -70.06215
-        }
-      }
-    },
-    {
-      "url": "https://edgeofstoryproductions.com/video-production/sudbury-ma-01776",
-      "name": "Sudbury, Massachusetts",
-      "location": {
-        "city": "Sudbury",
-        "state": "Massachusetts",
-        "zip": "01776",
-        "coordinates": {
-          "lat": 42.38456,
-          "lon": -71.42316
-        }
-      }
-    },
-    {
       "url": "https://edgeofstoryproductions.com/video-production/hanson-ma-02341",
       "name": "Hanson, Massachusetts",
       "location": {
@@ -1265,6 +654,45 @@
         "coordinates": {
           "lat": 42.05604,
           "lon": -70.87251
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/athol-ma-01331",
+      "name": "Athol, Massachusetts",
+      "location": {
+        "city": "Athol",
+        "state": "Massachusetts",
+        "zip": "01331",
+        "coordinates": {
+          "lat": 42.56793,
+          "lon": -72.18324
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/dracut-ma-01826",
+      "name": "Dracut, Massachusetts",
+      "location": {
+        "city": "Dracut",
+        "state": "Massachusetts",
+        "zip": "01826",
+        "coordinates": {
+          "lat": 42.68323,
+          "lon": -71.30063
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/harwich-ma-02645",
+      "name": "Harwich, Massachusetts",
+      "location": {
+        "city": "Harwich",
+        "state": "Massachusetts",
+        "zip": "02645",
+        "coordinates": {
+          "lat": 41.70352,
+          "lon": -70.06215
         }
       }
     },
@@ -1282,6 +710,19 @@
       }
     },
     {
+      "url": "https://edgeofstoryproductions.com/video-production/northampton-ma-01060",
+      "name": "Northampton, Massachusetts",
+      "location": {
+        "city": "Northampton",
+        "state": "Massachusetts",
+        "zip": "01060",
+        "coordinates": {
+          "lat": 42.32218,
+          "lon": -72.63126
+        }
+      }
+    },
+    {
       "url": "https://edgeofstoryproductions.com/video-production/greenfield-ma-01301",
       "name": "Greenfield, Massachusetts",
       "location": {
@@ -1295,15 +736,574 @@
       }
     },
     {
-      "url": "https://edgeofstoryproductions.com/video-production/southbridge-ma-01550",
-      "name": "Southbridge, Massachusetts",
+      "url": "https://edgeofstoryproductions.com/video-production/east-bridgewater-ma-02333",
+      "name": "East Bridgewater, Massachusetts",
       "location": {
-        "city": "Southbridge",
+        "city": "East Bridgewater",
         "state": "Massachusetts",
-        "zip": "01550",
+        "zip": "02333",
         "coordinates": {
-          "lat": 42.06039,
-          "lon": -72.03377
+          "lat": 42.03521,
+          "lon": -70.94235
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/duxbury-ma-02332",
+      "name": "Duxbury, Massachusetts",
+      "location": {
+        "city": "Duxbury",
+        "state": "Massachusetts",
+        "zip": "02332",
+        "coordinates": {
+          "lat": 42.04651,
+          "lon": -70.71388
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/north-reading-ma-01864",
+      "name": "North Reading, Massachusetts",
+      "location": {
+        "city": "North Reading",
+        "state": "Massachusetts",
+        "zip": "01864",
+        "coordinates": {
+          "lat": 42.58156,
+          "lon": -71.08759
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/leominster-ma-01453",
+      "name": "Leominster, Massachusetts",
+      "location": {
+        "city": "Leominster",
+        "state": "Massachusetts",
+        "zip": "01453",
+        "coordinates": {
+          "lat": 42.51961,
+          "lon": -71.76583
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/mashpee-ma-02649",
+      "name": "Mashpee, Massachusetts",
+      "location": {
+        "city": "Mashpee",
+        "state": "Massachusetts",
+        "zip": "02649",
+        "coordinates": {
+          "lat": 41.61778,
+          "lon": -70.49077
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/holliston-ma-01746",
+      "name": "Holliston, Massachusetts",
+      "location": {
+        "city": "Holliston",
+        "state": "Massachusetts",
+        "zip": "01746",
+        "coordinates": {
+          "lat": 42.19775,
+          "lon": -71.44499
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/quincy-ma-02169",
+      "name": "Quincy, Massachusetts",
+      "location": {
+        "city": "Quincy",
+        "state": "Massachusetts",
+        "zip": "02169",
+        "coordinates": {
+          "lat": 42.23971,
+          "lon": -71.01802
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/brockton-ma-02301",
+      "name": "Brockton, Massachusetts",
+      "location": {
+        "city": "Brockton",
+        "state": "Massachusetts",
+        "zip": "02301",
+        "coordinates": {
+          "lat": 42.07791,
+          "lon": -71.04223
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/dorchester-ma-02125",
+      "name": "Dorchester, Massachusetts",
+      "location": {
+        "city": "Dorchester",
+        "state": "Massachusetts",
+        "zip": "02125",
+        "coordinates": {
+          "lat": 42.31578,
+          "lon": -71.0562
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/peabody-ma-01960",
+      "name": "Peabody, Massachusetts",
+      "location": {
+        "city": "Peabody",
+        "state": "Massachusetts",
+        "zip": "01960",
+        "coordinates": {
+          "lat": 42.53374,
+          "lon": -70.97222
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/salem-ma-01970",
+      "name": "Salem, Massachusetts",
+      "location": {
+        "city": "Salem",
+        "state": "Massachusetts",
+        "zip": "01970",
+        "coordinates": {
+          "lat": 42.51298,
+          "lon": -70.90266
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/boston-ma-02115",
+      "name": "Boston, Massachusetts",
+      "location": {
+        "city": "Boston",
+        "state": "Massachusetts",
+        "zip": "02115",
+        "coordinates": {
+          "lat": 42.34046,
+          "lon": -71.09481
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/malden-ma-02148",
+      "name": "Malden, Massachusetts",
+      "location": {
+        "city": "Malden",
+        "state": "Massachusetts",
+        "zip": "02148",
+        "coordinates": {
+          "lat": 42.43048,
+          "lon": -71.05762
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/methuen-ma-01844",
+      "name": "Methuen, Massachusetts",
+      "location": {
+        "city": "Methuen",
+        "state": "Massachusetts",
+        "zip": "01844",
+        "coordinates": {
+          "lat": 42.73426,
+          "lon": -71.18858
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/braintree-ma-02184",
+      "name": "Braintree, Massachusetts",
+      "location": {
+        "city": "Braintree",
+        "state": "Massachusetts",
+        "zip": "02184",
+        "coordinates": {
+          "lat": 42.20386,
+          "lon": -71.0022
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/framingham-ma-01702",
+      "name": "Framingham, Massachusetts",
+      "location": {
+        "city": "Framingham",
+        "state": "Massachusetts",
+        "zip": "01702",
+        "coordinates": {
+          "lat": 42.28242,
+          "lon": -71.43428
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/revere-ma-02151",
+      "name": "Revere, Massachusetts",
+      "location": {
+        "city": "Revere",
+        "state": "Massachusetts",
+        "zip": "02151",
+        "coordinates": {
+          "lat": 42.41887,
+          "lon": -71.004
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/allston-ma-02134",
+      "name": "Allston, Massachusetts",
+      "location": {
+        "city": "Allston",
+        "state": "Massachusetts",
+        "zip": "02134",
+        "coordinates": {
+          "lat": 42.35855,
+          "lon": -71.12931
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/roslindale-ma-02131",
+      "name": "Roslindale, Massachusetts",
+      "location": {
+        "city": "Roslindale",
+        "state": "Massachusetts",
+        "zip": "02131",
+        "coordinates": {
+          "lat": 42.28392,
+          "lon": -71.12468
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/somerset-ma-02726",
+      "name": "Somerset, Massachusetts",
+      "location": {
+        "city": "Somerset",
+        "state": "Massachusetts",
+        "zip": "02726",
+        "coordinates": {
+          "lat": 41.76073,
+          "lon": -71.14444
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/littleton-ma-01460",
+      "name": "Littleton, Massachusetts",
+      "location": {
+        "city": "Littleton",
+        "state": "Massachusetts",
+        "zip": "01460",
+        "coordinates": {
+          "lat": 42.53503,
+          "lon": -71.4891
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/whitinsville-ma-01588",
+      "name": "Whitinsville, Massachusetts",
+      "location": {
+        "city": "Whitinsville",
+        "state": "Massachusetts",
+        "zip": "01588",
+        "coordinates": {
+          "lat": 42.11837,
+          "lon": -71.66836
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/fall-river-ma-02720",
+      "name": "Fall River, Massachusetts",
+      "location": {
+        "city": "Fall River",
+        "state": "Massachusetts",
+        "zip": "02720",
+        "coordinates": {
+          "lat": 41.73095,
+          "lon": -71.10932
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/belmont-ma-02478",
+      "name": "Belmont, Massachusetts",
+      "location": {
+        "city": "Belmont",
+        "state": "Massachusetts",
+        "zip": "02478",
+        "coordinates": {
+          "lat": 42.39602,
+          "lon": -71.17955
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/weymouth-ma-02188",
+      "name": "Weymouth, Massachusetts",
+      "location": {
+        "city": "Weymouth",
+        "state": "Massachusetts",
+        "zip": "02188",
+        "coordinates": {
+          "lat": 42.20724,
+          "lon": -70.95764
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/raynham-ma-02767",
+      "name": "Raynham, Massachusetts",
+      "location": {
+        "city": "Raynham",
+        "state": "Massachusetts",
+        "zip": "02767",
+        "coordinates": {
+          "lat": 41.93939,
+          "lon": -71.05191
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/chestnut-hill-ma-02467",
+      "name": "Chestnut Hill, Massachusetts",
+      "location": {
+        "city": "Chestnut Hill",
+        "state": "Massachusetts",
+        "zip": "02467",
+        "coordinates": {
+          "lat": 42.31725,
+          "lon": -71.16096
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/east-weymouth-ma-02189",
+      "name": "East Weymouth, Massachusetts",
+      "location": {
+        "city": "East Weymouth",
+        "state": "Massachusetts",
+        "zip": "02189",
+        "coordinates": {
+          "lat": 42.2111,
+          "lon": -70.93135
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/auburn-ma-01501",
+      "name": "Auburn, Massachusetts",
+      "location": {
+        "city": "Auburn",
+        "state": "Massachusetts",
+        "zip": "01501",
+        "coordinates": {
+          "lat": 42.19689,
+          "lon": -71.84549
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/hingham-ma-02043",
+      "name": "Hingham, Massachusetts",
+      "location": {
+        "city": "Hingham",
+        "state": "Massachusetts",
+        "zip": "02043",
+        "coordinates": {
+          "lat": 42.21678,
+          "lon": -70.88494
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/needham-ma-02492",
+      "name": "Needham, Massachusetts",
+      "location": {
+        "city": "Needham",
+        "state": "Massachusetts",
+        "zip": "02492",
+        "coordinates": {
+          "lat": 42.27615,
+          "lon": -71.24387
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/north-billerica-ma-01862",
+      "name": "North Billerica, Massachusetts",
+      "location": {
+        "city": "North Billerica",
+        "state": "Massachusetts",
+        "zip": "01862",
+        "coordinates": {
+          "lat": 42.57427,
+          "lon": -71.29437
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/millbury-ma-01527",
+      "name": "Millbury, Massachusetts",
+      "location": {
+        "city": "Millbury",
+        "state": "Massachusetts",
+        "zip": "01527",
+        "coordinates": {
+          "lat": 42.19228,
+          "lon": -71.77397
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/charlton-ma-01507",
+      "name": "Charlton, Massachusetts",
+      "location": {
+        "city": "Charlton",
+        "state": "Massachusetts",
+        "zip": "01507",
+        "coordinates": {
+          "lat": 42.13509,
+          "lon": -71.96803
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/dudley-ma-01571",
+      "name": "Dudley, Massachusetts",
+      "location": {
+        "city": "Dudley",
+        "state": "Massachusetts",
+        "zip": "01571",
+        "coordinates": {
+          "lat": 42.05501,
+          "lon": -71.93519
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/cambridge-ma-02139",
+      "name": "Cambridge, Massachusetts",
+      "location": {
+        "city": "Cambridge",
+        "state": "Massachusetts",
+        "zip": "02139",
+        "coordinates": {
+          "lat": 42.36224,
+          "lon": -71.10253
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/ashland-ma-01721",
+      "name": "Ashland, Massachusetts",
+      "location": {
+        "city": "Ashland",
+        "state": "Massachusetts",
+        "zip": "01721",
+        "coordinates": {
+          "lat": 42.25726,
+          "lon": -71.46867
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/middleboro-ma-02346",
+      "name": "Middleboro, Massachusetts",
+      "location": {
+        "city": "Middleboro",
+        "state": "Massachusetts",
+        "zip": "02346",
+        "coordinates": {
+          "lat": 41.88034,
+          "lon": -70.87446
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/newton-ma-02458",
+      "name": "Newton, Massachusetts",
+      "location": {
+        "city": "Newton",
+        "state": "Massachusetts",
+        "zip": "02458",
+        "coordinates": {
+          "lat": 42.35294,
+          "lon": -71.18763
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/roxbury-crossing-ma-02120",
+      "name": "Roxbury Crossing, Massachusetts",
+      "location": {
+        "city": "Roxbury Crossing",
+        "state": "Massachusetts",
+        "zip": "02120",
+        "coordinates": {
+          "lat": 42.33212,
+          "lon": -71.09654
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/bedford-ma-01730",
+      "name": "Bedford, Massachusetts",
+      "location": {
+        "city": "Bedford",
+        "state": "Massachusetts",
+        "zip": "01730",
+        "coordinates": {
+          "lat": 42.4995,
+          "lon": -71.27799
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/marshfield-ma-02050",
+      "name": "Marshfield, Massachusetts",
+      "location": {
+        "city": "Marshfield",
+        "state": "Massachusetts",
+        "zip": "02050",
+        "coordinates": {
+          "lat": 42.11443,
+          "lon": -70.71487
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/uxbridge-ma-01569",
+      "name": "Uxbridge, Massachusetts",
+      "location": {
+        "city": "Uxbridge",
+        "state": "Massachusetts",
+        "zip": "01569",
+        "coordinates": {
+          "lat": 42.05895,
+          "lon": -71.63741
+        }
+      }
+    },
+    {
+      "url": "https://edgeofstoryproductions.com/video-production/gloucester-ma-01930",
+      "name": "Gloucester, Massachusetts",
+      "location": {
+        "city": "Gloucester",
+        "state": "Massachusetts",
+        "zip": "01930",
+        "coordinates": {
+          "lat": 42.62605,
+          "lon": -70.68966
         }
       }
     }

@@ -20,7 +20,7 @@
 <meta name="theme-color" content="#a84000">
 
 <meta name="dateModified" content="2026-03-19">
-<meta name="dateModified" content="2026-03-20T05:40:27.179Z">
+<meta name="dateModified" content="2026-03-21T02:07:54.541Z">
 <link rel="canonical" href="https://edgeofstoryproductions.com/ma/greenfield/01301">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <style>
@@ -187,10 +187,10 @@
 .cta-inner{ display:flex; gap:1rem; align-items:center; justify-content:space-between; flex-wrap:wrap; padding:2rem 1rem; max-width:var(--max); margin:0 auto; }
 .cta-strip h2{ margin:0; font-size:1.8rem; font-weight:900; text-transform:uppercase; }
 .cta-strip p{ margin:0; opacity:.9; }  /* Timeline */
- 
-.tl-inner{ background:var(--dark); padding:2rem 0; --accent:#2563eb; --accent-2:#38bdf8; --text:#e5e7eb; --muted:#cbd5e1; --card:rgba(255,255,255,.10); --border:rgba(255,255,255,.15); }
- .tl-inner h2{ color:var(--text); text-align:center; margin:0 auto 1.25rem; max-width:1100px; padding:0 1rem; }
-.tl-steps{ position:relative; display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:32px; align-items:start; padding:8px 24px 0; max-width:1100px; margin:0 auto; }
+ #timeline{ --accent:#2563eb; --accent-2:#38bdf8; --text:#e5e7eb; --muted:#cbd5e1; --card:rgba(255,255,255,.05); --border:rgba(255,255,255,.08); padding-bottom:12px; }
+.tl-inner{ max-width:1100px; margin:0 auto; padding:0 16px; }
+ #timeline h2{ color:var(--text); text-align:center; margin:0 0 1.25rem; }
+.tl-steps{ position:relative; display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:32px; align-items:start; padding:8px 24px 0; }
 .tl-steps::before{ content:""; position:absolute; left:24px; right:24px; top:calc(46px / 2 + 2px); height:3px; background:linear-gradient(90deg,var(--accent),var(--accent-2)); opacity:.35; border-radius:3px; }
 .tl-step{ display:flex; flex-direction:column; align-items:center; text-align:center; min-width:0; }
 .tl-step-num{ width:52px; height:52px; border-radius:999px; display:grid; place-items:center; font-weight:800; color:#fff; background:linear-gradient(180deg,var(--accent-2),var(--accent)); box-shadow:0 6px 18px rgba(37,99,235,.35), inset 0 0 0 2px rgba(255,255,255,.15); margin:0 0 16px; position:relative; z-index:1; font-size:clamp(.9rem,1.1vw,1rem); }
@@ -258,8 +258,8 @@
 .mirror-qa summary{ cursor:pointer; padding:.875rem 1rem; font-size:.95rem; font-weight:600; color:#1e293b; list-style:none; display:flex; align-items:center; justify-content:space-between; gap:.5rem; transition:background.15s; }
 .mirror-qa summary:hover{ background:#f8fafc; }
 .mirror-qa summary::-webkit-details-marker{ display:none; }
-.mirror-qa summary .mq-chevron{ width:1.25rem; height:1.25rem; flex-shrink:0; transition:transform.2s; color:#94a3b8; }
-.mirror-qa[open] summary .mq-chevron{ transform:rotate(180deg); }
+.mirror-qa summary.mq-chevron{ width:1.25rem; height:1.25rem; flex-shrink:0; transition:transform.2s; color:#94a3b8; }
+.mirror-qa[open] summary.mq-chevron{ transform:rotate(180deg); }
 .mirror-qa[open] summary{ background:#f8fafc; border-bottom:1px solid #e2e8f0; }
 .mirror-answer{ margin:0; padding:.875rem 1rem; line-height:1.7; color:#475569; font-size:.93rem; }  /* Local signals */
 .local-signals-grid{ display:grid; grid-template-columns:1fr 1fr; gap:1.25rem; }
@@ -271,14 +271,14 @@
 <style>  @media (max-width: 768px) {  .directions-section > div {  grid-template-columns: 1fr !important;  }  }  </style>
 <script type="application/ld+json">{  "@context": "https://schema.org",  "@type": "WebPage",  "@id": "https://edgeofstoryproductions.com/ma/greenfield/01301#webpage",  "url": "https://edgeofstoryproductions.com/ma/greenfield/01301",  "name": "Video Production in Greenfield, Massachusetts",  "description": "Affordable Video Production without compromising quality in Greenfield",  "isPartOf": {  "@id": "https://edgeofstoryproductions.com#website"  },  "about": {  "@id": "https://edgeofstoryproductions.com/ma/greenfield/01301#localbusiness"  }
 }</script>
-<script type="application/ld+json">{  "@context": "https://schema.org",  "@type": "LocalBusiness",  "@id": "https://edgeofstoryproductions.com/ma/greenfield/01301#localbusiness",  "name": "Edge Of Story Films",  "description": "Greenfield's affordable Video Production with unmatched quality standards",  "url": "https://edgeofstoryproductions.com/ma/greenfield/01301",  "telephone": null,  "email": "info@edgeofstoryfilms.com",  "address": {  "@type": "PostalAddress",  "addressLocality": "Greenfield",  "addressRegion": "Massachusetts",  "postalCode": "01301",  "addressCountry": "US"  },  "sameAs": "https://edgeofstoryproductions.com#organization",  "geo": {  "@type": "GeoCoordinates",  "latitude": "42.62375",  "longitude": "-72.60379"  },  "areaServed": [  {  "@type": "City",  "name": "Greenfield"  },  {  "@type": "City",  "name": "Ludlow",  "url": "https://edgeofstoryproductions.com/video-production/ma/ludlow/01056/"  },  {  "@type": "City",  "name": "Charlton",  "url": "https://edgeofstoryproductions.com/video-production/ma/charlton/01507/"  },  {  "@type": "City",  "name": "Auburn",  "url": "https://edgeofstoryproductions.com/video-production/ma/auburn/01501/"  },  {  "@type": "City",  "name": "Dudley",  "url": "https://edgeofstoryproductions.com/video-production/ma/dudley/01571/"  },  {  "@type": "City",  "name": "Littleton",  "url": "https://edgeofstoryproductions.com/video-production/ma/littleton/01460/"  },  {  "@type": "AdministrativeArea",  "name": "Franklin"  },  {  "@type": "State",  "name": "Massachusetts"  }  ]
+<script type="application/ld+json">{  "@context": "https://schema.org",  "@type": "LocalBusiness",  "@id": "https://edgeofstoryproductions.com/ma/greenfield/01301#localbusiness",  "name": "Edge Of Story Films",  "description": "Greenfield's affordable Video Production with unmatched quality standards",  "url": "https://edgeofstoryproductions.com/ma/greenfield/01301",  "telephone": null,  "email": "info@edgeofstoryfilms.com",  "address": {  "@type": "PostalAddress",  "addressLocality": "Greenfield",  "addressRegion": "Massachusetts",  "postalCode": "01301",  "addressCountry": "US"  },  "sameAs": "https://edgeofstoryproductions.com#organization",  "geo": {  "@type": "GeoCoordinates",  "latitude": "42.62375",  "longitude": "-72.60379"  },  "areaServed": [  {  "@type": "City",  "name": "Greenfield"  },  {  "@type": "City",  "name": "Ludlow",  "url": "https://edgeofstoryproductions.com/video-production/ma/ludlow/01056/"  },  {  "@type": "City",  "name": "Auburn",  "url": "https://edgeofstoryproductions.com/video-production/ma/auburn/01501/"  },  {  "@type": "City",  "name": "Littleton",  "url": "https://edgeofstoryproductions.com/video-production/ma/littleton/01460/"  },  {  "@type": "City",  "name": "Whitinsville",  "url": "https://edgeofstoryproductions.com/video-production/ma/whitinsville/01588/"  },  {  "@type": "City",  "name": "Needham",  "url": "https://edgeofstoryproductions.com/video-production/ma/needham/02492/"  },  {  "@type": "AdministrativeArea",  "name": "Franklin"  },  {  "@type": "State",  "name": "Massachusetts"  }  ]
 }</script>
 <script type="application/ld+json">{  "@context": "https://schema.org",  "@type": "BreadcrumbList",  "itemListElement": [  {  "@type": "ListItem",  "position": 1,  "name": "Home",  "item": "https://edgeofstoryproductions.com"  },  {  "@type": "ListItem",  "position": 2,  "name": "Massachusetts",  "item": "https://edgeofstoryproductions.com/massachusetts"  },  {  "@type": "ListItem",  "position": 3,  "name": "Greenfield",  "item": "https://edgeofstoryproductions.com/ma/greenfield/01301"  }  ]
 }</script>
-<script type="application/ld+json">{  "@context": "https://schema.org",  "@type": "Dataset",  "@id": "https://edgeofstoryproductions.com/ma/greenfield/01301#dataset",  "name": "Local Signals for Greenfield, Massachusetts",  "description": "Comprehensive local data including weather, images, directions, and nearby locations for Greenfield, Massachusetts",  "url": "https://edgeofstoryproductions.com/ma/greenfield/01301",  "creator": {  "@id": "https://edgeofstoryproductions.com#organization"  },  "spatialCoverage": {  "@type": "Place",  "geo": {  "@type": "GeoCoordinates",  "latitude": "42.62375",  "longitude": "-72.60379"  },  "address": {  "@type": "PostalAddress",  "addressLocality": "Greenfield",  "addressRegion": "Massachusetts",  "postalCode": "01301",  "addressCountry": "US"  }  },  "distribution": [  {  "@type": "DataDownload",  "encodingFormat": "text/html",  "contentUrl": "https://edgeofstoryproductions.com/ma/greenfield/01301",  "description": "Current weather conditions for Greenfield, Massachusetts",  "name": "Local Weather Data"  },  {  "@type": "DataDownload",  "encodingFormat": "text/html",  "contentUrl": "https://edgeofstoryproductions.com/ma/greenfield/01301",  "description": "Interactive directions to Greenfield, Massachusetts",  "name": "Location Directions"  },  {  "@type": "DataDownload",  "encodingFormat": "text/html",  "contentUrl": "https://edgeofstoryproductions.com/ma/greenfield/01301",  "description": "Nearby cities and locations around Greenfield, Massachusetts",  "name": "Nearby Locations"  }  ],  "temporalCoverage": "2026-03-20"
+<script type="application/ld+json">{  "@context": "https://schema.org",  "@type": "Dataset",  "@id": "https://edgeofstoryproductions.com/ma/greenfield/01301#dataset",  "name": "Local Signals for Greenfield, Massachusetts",  "description": "Comprehensive local data including weather, images, directions, and nearby locations for Greenfield, Massachusetts",  "url": "https://edgeofstoryproductions.com/ma/greenfield/01301",  "creator": {  "@id": "https://edgeofstoryproductions.com#organization"  },  "spatialCoverage": {  "@type": "Place",  "geo": {  "@type": "GeoCoordinates",  "latitude": "42.62375",  "longitude": "-72.60379"  },  "address": {  "@type": "PostalAddress",  "addressLocality": "Greenfield",  "addressRegion": "Massachusetts",  "postalCode": "01301",  "addressCountry": "US"  }  },  "distribution": [  {  "@type": "DataDownload",  "encodingFormat": "text/html",  "contentUrl": "https://edgeofstoryproductions.com/ma/greenfield/01301",  "description": "Current weather conditions for Greenfield, Massachusetts",  "name": "Local Weather Data"  },  {  "@type": "DataDownload",  "encodingFormat": "text/html",  "contentUrl": "https://edgeofstoryproductions.com/ma/greenfield/01301",  "description": "Interactive directions to Greenfield, Massachusetts",  "name": "Location Directions"  },  {  "@type": "DataDownload",  "encodingFormat": "text/html",  "contentUrl": "https://edgeofstoryproductions.com/ma/greenfield/01301",  "description": "Nearby cities and locations around Greenfield, Massachusetts",  "name": "Nearby Locations"  }  ],  "temporalCoverage": "2026-03-21"
 }</script>
 <script type="application/ld+json">
-{  "@context": "https://schema.org",  "@type": "FAQPage",  "mainEntity": [  {  "@type": "Question",  "name": "How long does it take to produce a business video from start to finish in Greenfield?",  "acceptedAnswer": {  "@type": "Answer",  "text": "Producing a business video in Greenfield usually takes between 4 to 8 weeks, depending on the project's complexity and the scheduling of shoots. The process includes pre-production planning, filming, and post-production editing."  }  },  {  "@type": "Question",  "name": "How involved do I have to be in the video production process?",  "acceptedAnswer": {  "@type": "Answer",  "text": "Your involvement in the video production process can vary based on your preferences and the complexity of the project."  }  },  {  "@type": "Question",  "name": "What happens if I don't like the video after it's done?",  "acceptedAnswer": {  "@type": "Answer",  "text": "Most video production companies, including those in Greenfield, have a revision policy that allows for a certain number of revisions after the first draft is completed. This ensures that the final product aligns with your expectations."  }  },  {  "@type": "Question",  "name": "How much does professional video production cost for a small business in Greenfield?",  "acceptedAnswer": {  "@type": "Answer",  "text": "In Greenfield, small business video production typically ranges from $1,500 to $5,000 depending on the complexity of the project."  }  },  {  "@type": "Question",  "name": "Is hiring a video production company worth it or should I just film it myself?",  "acceptedAnswer": {  "@type": "Answer",  "text": "Hiring a professional video production company often results in higher quality content that can significantly enhance your brand image and lead generation. DIY videos may save costs but can lack the polish and storytelling that captivates audiences."  }  },  {  "@type": "Question",  "name": "What do you actually get when you hire a video production company?",  "acceptedAnswer": {  "@type": "Answer",  "text": "When you hire a video production company, you typically receive a complete package that includes concept development, scripting, filming, editing, and revisions. This ensures that the final product meets your vision and brand standards."  }  },  {  "@type": "Question",  "name": "What should I look for when hiring a video production company in Greenfield?",  "acceptedAnswer": {  "@type": "Answer",  "text": "When hiring a video production company, consider their portfolio, client testimonials, and experience with your industry. It's also important to evaluate their process for revisions and how they handle creative direction."  }  },  {  "@type": "Question",  "name": "What questions should I ask a video production company before signing a contract?",  "acceptedAnswer": {  "@type": "Answer",  "text": "Before signing a contract, ask about the ownership of footage, the number of revision rounds included, and their payment structure. It's also important to clarify timeline guarantees and how they manage scope changes."  }  },  {  "@type": "Question",  "name": "What's the difference between a video production company and a freelance videographer?",  "acceptedAnswer": {  "@type": "Answer",  "text": "A video production company typically has a team that can handle all aspects of production from concept to final edit, while a freelance videographer may only offer shooting and basic editing services."  }  },  {  "@type": "Question",  "name": "Is Video Production the right fit for my business in Greenfield?",  "acceptedAnswer": {  "@type": "Answer",  "text": "Video Production works well for Greenfield businesses of all sizes. Whether you're managing a single property or multiple locations, we scope each engagement to your specific needs and Greenfield market conditions."  }  },  {  "@type": "Question",  "name": "What warranty do you offer for Franklin properties?",  "acceptedAnswer": {  "@type": "Answer",  "text": "We provide written warranties on all video production work. Coverage terms are fully explained before any work begins on your Greenfield property, so you know exactly what's included."  }  },  {  "@type": "Question",  "name": "Why do central Greenfield and older sections of Greenfield properties have different video production considerations?",  "acceptedAnswer": {  "@type": "Answer",  "text": "central Greenfield properties often involve post-war residential and commercial buildings with standardized construction methods, while older sections of Greenfield typically features properties with aging infrastructure from multiple construction periods. Each situation calls for a tailored video production approach, and we're familiar with both from our work throughout Franklin."  }  },  {  "@type": "Question",  "name": "When is the best time to schedule video production in Greenfield?",  "acceptedAnswer": {  "@type": "Answer",  "text": "MA weather patterns can influence video production scheduling. We help clients find the best timing for their specific project, taking into account Greenfield's seasonal conditions to ensure quality, lasting results."  }  },  {  "@type": "Question",  "name": "Should I repair or replace for my Video Production needs?",  "acceptedAnswer": {  "@type": "Answer",  "text": "The right decision depends on the current condition and long-term goals for your property or operation. We can assess your situation and recommend the most practical and cost-effective approach."  }  }  ]
+{  "@context": "https://schema.org",  "@type": "FAQPage",  "mainEntity": [  {  "@type": "Question",  "name": "How long does it take to produce a business video from start to finish?",  "acceptedAnswer": {  "@type": "Answer",  "text": "Producing a business video typically takes 4 to 8 weeks from concept to delivery. This includes stages such as pre-production planning, shooting, and post-production editing."  }  },  {  "@type": "Question",  "name": "How involved do I have to be in the video production process?",  "acceptedAnswer": {  "@type": "Answer",  "text": "Your involvement in the video production process can vary based on your preferences. Initially, you will provide input on the concept and script, but much of the heavy lifting is handled by the production team."  }  },  {  "@type": "Question",  "name": "What happens if I don't like the video after it's done?",  "acceptedAnswer": {  "@type": "Answer",  "text": "If you're not satisfied with the video, most production companies have a revision process in place. Typically, you will have opportunities to provide feedback during editing stages, ensuring that adjustments can be made before final delivery."  }  },  {  "@type": "Question",  "name": "How much does professional video production cost for a small business in Greenfield?",  "acceptedAnswer": {  "@type": "Answer",  "text": "The cost of professional video production in Greenfield can range from $1,500 to $10,000, depending on the project's complexity and duration. Factors such as location, the need for multiple shooting days, and specialized equipment can drive costs up."  }  },  {  "@type": "Question",  "name": "Is hiring a video production company worth it or should I just film it myself?",  "acceptedAnswer": {  "@type": "Answer",  "text": "Hiring a professional video production company can significantly elevate the quality of your content compared to a DIY approach."  }  },  {  "@type": "Question",  "name": "What do you actually get when you hire a video production company?",  "acceptedAnswer": {  "@type": "Answer",  "text": "When you hire a video production company, you get a comprehensive service that includes concept development, scripting, filming, editing, and final delivery. This ensures that every aspect of the video aligns with your business goals."  }  },  {  "@type": "Question",  "name": "What should I look for when hiring a video production company?",  "acceptedAnswer": {  "@type": "Answer",  "text": "When hiring a video production company, consider their portfolio, client testimonials, and expertise in your industry. Look for a defined process that includes creative direction and a clear revision policy."  }  },  {  "@type": "Question",  "name": "What questions should I ask a video production company before signing a contract?",  "acceptedAnswer": {  "@type": "Answer",  "text": "Before signing a contract, ask about ownership of footage, the number of revision rounds included, and the payment structure. Additionally, inquire about timeline guarantees and how they handle scope changes."  }  },  {  "@type": "Question",  "name": "What's the difference between a video production company and a freelance videographer?",  "acceptedAnswer": {  "@type": "Answer",  "text": "A video production company typically has a full team with diverse skills, offering comprehensive services from concept to final edit. In contrast, a freelance videographer may lack the resources or scope to handle larger projects effectively."  }  },  {  "@type": "Question",  "name": "Should I repair or replace for my Video Production needs?",  "acceptedAnswer": {  "@type": "Answer",  "text": "The right decision depends on the current condition and long-term goals for your property or operation. We can assess your situation and recommend the most practical and cost-effective approach."  }  },  {  "@type": "Question",  "name": "What warranty do you offer on Video Production?",  "acceptedAnswer": {  "@type": "Answer",  "text": "We provide comprehensive warranties on our workmanship and materials to ensure your complete satisfaction and long-term protection."  }  }  ]
 }
 </script>
 <script type="application/ld+json">
@@ -428,7 +428,7 @@ section.mirror-questions h2.mb-6{margin-bottom:1.5rem}
  <span class="site-tag">Video Production · Greenfield, MA</span>
  </div>
  </header>  <main id="main-content">  
-<p class="local-context-intro" style="margin-bottom: 1.5rem;">Serving Greenfield, MA and the surrounding area with professional video production services. From routine maintenance to complex projects, we cover downtown neighborhoods, residential properties, and commercial areas near the town center.</p>
+<p class="local-context-intro" style="margin-bottom: 1.5rem;">Serving Greenfield, MA — Edge of Story Films is a professional video production company based in Wakefield, Massachusetts, serving the Greater Boston area and clients nationwide. Our Video Production reach covers all Greenfield service zones: downtown neighborhoods, residential areas, commercial corridors, and mixed-use districts throughout the region.</p>
 <!-- ── Hero video ── -->
  <section class="hero-section" aria-label="Edge of Story Films highlight reel">
  <video autoplay="autoplay" muted="muted" loop="loop" playsinline="playsinline" preload="metadata" poster="https://www.edgeofstoryfilms.com/wp-content/uploads/2023/11/logo.png" controlslist="nodownload noplaybackrate">
@@ -466,7 +466,10 @@ section.mirror-questions h2.mb-6{margin-bottom:1.5rem}
  </div>
  <div class="flex-1">
  <h2 class="text-lg font-bold text-slate-900 mb-2">Quick Answer</h2>
- <p class="text-slate-700 mb-4">Looking for reliable Video Production in Greenfield, Massachusetts? Edge Of Story Films provides licensed, insured service with free estimates and fast scheduling.</p>
+ <p class="text-slate-700 mb-4">Edge of Story Films is a professional video production company based in Wakefield, Massachusetts, serving the Greater Boston area and clients nationwide. The company was founded by Nathan Wilson, who serves as CEO and Executive Director. Edge of Story Films operates from two locations: 380 Lowell Street, Suite 202B, Wakefield, MA 01880, and a studio in Concord, MA. The main phone number is (781) 486-3565. The official website is edgeofstoryfilms.com.
+Edge of Story Films provides end-to-end video production services for businesses and organizations. Services include website videos, animated explainer videos, corporate video production, testimonial videos, marketing videos, promotional videos, social media videos, event video production, training videos, financial services video production, and about-us videos. The company handles every stage of production: creative concept development, filming, editing, motion graphics, animation, and final media delivery.
+The company's primary clients are businesses, law firms, investment management firms, schools, retailers, and B2B organizations that need professional video content to reach customers, investors, and employees. Edge of Story Films is not a wedding videography provider and is not affiliated with any standards body or trade association.
+Edge of Story Films differentiates itself as a boutique video production company that prioritizes strategy and measurable business outcomes over generic content creation. The company shoots in 4K and 6K high-definition video and serves clients both locally in Massachusetts and internationally. In 2024, Edge of Story Films received a New England Emmy nomination. The company is highly recommended on Alignable and has received consistent five-star reviews from named clients including attorneys, marketing directors, and business owners across multiple industries.</p>
  <ul class="space-y-2 mb-4">
  <li class="flex items-center gap-2 text-slate-600">
  <svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
@@ -474,7 +477,7 @@ section.mirror-questions h2.mb-6{margin-bottom:1.5rem}
  </li>
  <li class="flex items-center gap-2 text-slate-600">
  <svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
- <span>Tailored solutions for businesses in the Greenfield area</span>
+ <span>Tailored solutions for business owners in the Greenfield area</span>
  </li>
  <li class="flex items-center gap-2 text-slate-600">
  <svg class="w-5 h-5 text-emerald-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
@@ -607,14 +610,14 @@ section.mirror-questions h2.mb-6{margin-bottom:1.5rem}
  <div class="section-grid cards-3">
  <article class="card"><h3>Strategic Storytelling</h3><p>In Greenfield, creative that aligns with business goals — not just pretty pictures.</p></article>
  <article class="card"><h3>Local Expertise</h3><p>In Greenfield, concord studio + on-site production across Franklin County and Greater Boston.</p></article>
- <article class="card"><h3>Emmy-Nominated Craft</h3><p>Polished work, fast turnarounds, friendly focused crews.</p></article>
+ <article class="card"><h3>Emmy-Nominated Craft</h3><p>In Greenfield, polished work, fast turnarounds, friendly focused crews.</p></article>
  </div>
  </div>  <!-- ── CTA strip ── -->
 <div class="cta-strip">
 <div class="cta-inner">
  <div>
  <h2 class="white-title">Ready To Captivate Your Greenfield Audience?</h2>
- <p>Reach out today and let's tell your story.</p>
+ <p>In Greenfield, reach out today and let's tell your story.</p>
  </div>
  <div><a class="btn" href="tel:(555) 123-4567"><i class="fa-solid fa-phone"></i> Call (555) 123-4567</a></div>
  </div></div>  <!-- ── Timeline ── -->
@@ -642,16 +645,7 @@ section.mirror-questions h2.mb-6{margin-bottom:1.5rem}
  <h2>Greenfield Market Profile</h2>
  <div class="body-copy">
  
- <div>
-<p><strong>Development history:</strong> Greenfield saw significant growth in the mid-20th century, with substantial construction in older sections of Greenfield and newer areas of Greenfield during that period. This is relevant for video production work, reflecting the building practices of that era.</p>
-<p><strong>Primary residential:</strong> Greenfield features significant mid-century construction (1950s-1970s), with post-war residential and commercial buildings with standardized construction methods being common in the central Greenfield area. proximity to Franklin water features affecting seasonal water table fluctuations.</p>
-<p><strong>Building characteristics:</strong> Properties near central Greenfield often include post-war residential and commercial buildings with standardized construction methods, while older sections of Greenfield area buildings typically feature construction from various periods. Common service considerations include infrastructure built to early standardized building codes now reaching end of service life.</p>
-<p><strong>Commercial stock:</strong> Greenfield's commercial areas include strip retail and light industrial with construction methods and systems suited to their era.</p>
-<p><strong>Terrain and soils:</strong> Greenfield has moderate topography with clay-heavy soils showing significant expansion and contraction cycles. Local drainage relies on natural drainage to local waterways.</p>
-<p><strong>Water table:</strong> Greenfield has moderate seasonal fluctuation, which causes periodic hydrostatic pressure in lower older sections of Greenfield elevations. This is most relevant after heavy rain periods.</p>
-<p><strong>Common service factors:</strong> Franklin properties commonly involve heaving and horizontal wall pressure, and early prefabricated systems and aging mechanical, electrical, and structural components in older central Greenfield area structures.</p>
-<p><strong>Local regulations:</strong> Greenfield properties may have specific permit requirements depending on the scope of video production work</p>
-</div>
+ <div><p><strong>Active client industries:</strong> Greenfield hosts a variety of businesses, including law firms, technology startups, and educational institutions, all of which require compelling video content to effectively engage their audiences.</p><p><strong>Demand drivers:</strong> The presence of Greenfield Community College and local festivals creates a consistent need for promotional and educational videos, as businesses seek to connect with the community.</p><p>In Greenfield, <strong>Competitive landscape:</strong> A mix of established local firms and emerging startups drives competition for high-quality video production, making it essential for businesses to differentiate themselves through professional media.</p><p>In Greenfield, <strong>Key segments:</strong> Firms in personal injury, technology, and education sectors are particularly active in seeking video services to enhance their marketing strategies and reach their target demographics.</p><p>In Greenfield, <strong>Growth signals:</strong> The annual Franklin County Fair and Green River Festival signal an increase in community engagement, leading to heightened demand for event coverage and community-focused video storytelling.</p></div>
  
  </div>
  </section>
@@ -674,12 +668,7 @@ section.mirror-questions h2.mb-6{margin-bottom:1.5rem}
  <h2>Pricing Factors in Greenfield</h2>
  <div class="body-copy">
  
- <ul>
-<li><strong>Access in central Greenfield:</strong> Restricted access and central Greenfield's 1920s-era narrow alleys limit equipment access requiring early-morning staging may require additional setup time and equipment staging</li>
-<li><strong>Building age:</strong> Older Greenfield properties built before 1970 often require more preparation and specialized approaches for video production work</li>
-<li><strong>Seasonal demand:</strong> Spring and fall are typically peak seasons in MA for many video production services</li>
-<li><strong>Franklin property density:</strong> Urban Greenfield locations may have staging limitations that affect project scheduling</li>
-</ul>
+ <ul><li><strong>Scope complexity:</strong> Projects requiring detailed animations or multiple shooting locations in areas like central Greenfield can increase costs significantly due to logistical challenges.</li><li><strong>Turnaround/timeline demands:</strong> Businesses often need rapid delivery of video content for upcoming events, such as the Franklin County Fair, which can drive prices based on urgency.</li><li><strong>Deliverable volume:</strong> Companies wanting multiple videos for different platforms may find that bulk pricing is more cost-effective, especially in competitive sectors like B2B technology.</li><li><strong>Competitive pricing context:</strong> The presence of various video production firms in Greenfield creates pressure to maintain competitive rates while still delivering high-quality content, impacting budget decisions.</li></ul>
  
  </div>
  </section>
@@ -687,12 +676,7 @@ section.mirror-questions h2.mb-6{margin-bottom:1.5rem}
  <h2>Climate &amp; Scheduling in Greenfield</h2>
  <div class="body-copy">
  
- <div>
-<p><strong>Seasonal temperature patterns:</strong> Greenfield's post-war residential and commercial buildings with standardized construction methods can experience stress from MA's temperature swings, affecting material performance and video production scheduling across central Greenfield and older sections of Greenfield</p>
-<p><strong>Groundwater patterns:</strong> Greenfield's moderate topography with natural drainage to local waterways creates seasonal water table fluctuations affecting central Greenfield and older sections of Greenfield areas. concentrated runoff affecting uphill-facing property sides is common in this region.</p>
-<p><strong>Soil behavior:</strong> clay-heavy soils in Greenfield's older sections of Greenfield area show significant expansion and contraction cycles, while central Greenfield has different subsurface conditions affecting video production approaches</p>
-<p><strong>Optimal scheduling:</strong> Greenfield video production work benefits from MA's moderate seasonal windows — typically spring and fall — when conditions support quality outcomes and lasting results</p>
-</div>
+ <div><p><strong>Peak production season:</strong> Many businesses in Greenfield ramp up video production efforts during the spring and summer months to align with community events and festivals.</p><p>In Greenfield, <strong>Slower booking periods:</strong> The late fall and winter months typically see a reduction in video projects, as many companies focus on year-end reporting and planning for the new year.</p><p>In Greenfield, <strong>Year-round corporate demand:</strong> Businesses often require ongoing video content for training and marketing throughout the year, ensuring a steady flow of projects regardless of the season.</p><p><strong>Planning lead time:</strong> Companies often begin budgeting for video projects in advance of major events, such as Greenfield's annual festivals, to ensure timely execution.</p></div>
  
  </div>
  </section>
@@ -700,114 +684,75 @@ section.mirror-questions h2.mb-6{margin-bottom:1.5rem}
  <h2>Common Video Production Challenges in Greenfield</h2>
  <div class="body-copy">
  
- <ul>
-<li><strong>central Greenfield area:</strong> early prefabricated systems and aging mechanical, electrical, and structural components in 1950s-1970s properties, with infrastructure built to early standardized building codes now reaching end of service life being primary service considerations</li>
-<li><strong>older sections of Greenfield area:</strong> heaving and horizontal wall pressure due to clay-heavy soil conditions and significant expansion and contraction cycles</li>
-<li><strong>moderate topography areas:</strong> concentrated runoff affecting uphill-facing property sides — a relevant site condition for video production work</li>
-<li><strong>Throughout Franklin:</strong> Older Greenfield buildings in central Greenfield may have construction limitations that affect project approach options</li>
-</ul>
+ <ul><li><strong>Generic content pitfalls:</strong> Businesses that rely on low-quality video often miss the opportunity to connect with their audience, leading to diminished engagement and wasted marketing budgets.</li><li><strong>Inconsistent messaging issues:</strong> Without a cohesive video strategy, companies may confuse potential clients, resulting in lost leads and a lack of trust in their brand.</li><li><strong>Missed deadlines:</strong> Companies that hire providers without a proven track record may experience delays, jeopardizing marketing campaigns tied to specific events like the Green River Festival.</li><li><strong>Poor production quality:</strong> Low-quality video can harm a business's reputation, particularly in competitive sectors such as legal services and technology, where professionalism is crucial.</li></ul>
  
  </div>
  </section>  <section class="card-section mb">
  <h2>Risk &amp; Disclosure</h2>
  <div class="body-copy">
  
- <div class="risk-disclosure">
-<p><strong>Local repair context:</strong> Franklin properties sometimes show evidence of previous DIY work or deferred maintenance that we factor into our recommendations</p>
-<p><strong>Not every situation requires immediate action.</strong> Minor issues may only need monitoring or a simple adjustment. We'll give you an honest assessment of whether the timing is right to proceed with video production work — or whether a wait-and-see approach makes more sense.</p>
-<p><strong>Some symptoms indicate other underlying issues.</strong> In Greenfield's moderate topography, what appears to be a straightforward video production problem sometimes points to broader property conditions — such as heaving and horizontal wall pressure or concentrated runoff affecting uphill-facing property sides — worth addressing first.</p>
-<p><strong>We recommend what fits your situation.</strong> If a more conservative approach makes sense for your Franklin property, that's what we'll recommend. Our goal is the right outcome for your specific circumstances, not the largest project scope.</p>
-</div>
+ <div class="risk-disclosure"><p><strong>What to evaluate in a provider:</strong> Businesses should assess a provider's portfolio to ensure their style matches the desired brand message, especially in a diverse market like Greenfield.</p><p>In Greenfield, <strong>Common mistakes when vetting:</strong> Failing to check references or past work can lead to hiring a provider that does not understand the nuances of effective storytelling for local audiences.</p><p>In Greenfield, <strong>What to demand in writing:</strong> Clear deliverables and timelines should be outlined in any agreement to prevent misunderstandings, particularly for projects linked to specific local events.</p></div>
  
  </div>
  </section>  <section class="card-section mb">
  <h2>Project Scenarios in Greenfield</h2>
  <div class="body-copy">
  
- <div class="project-scenarios">
-<div class="scenario">
-<h4>Scenario: 1950s-1970s Property in central Greenfield</h4>
-<p><strong>Property:</strong> 1950s-1970s mid-century construction property in the central Greenfield area of Greenfield. The post-war residential and commercial buildings with standardized construction methods presented considerations typical of this construction period.</p>
-<p><strong>Symptom:</strong> infrastructure built to early standardized building codes now reaching end of service life — consistent with early prefabricated systems and aging mechanical, electrical, and structural components common in this area's building stock.</p>
-<p><strong>Initial assessment:</strong> We evaluated the property's overall condition relative to Greenfield's moderate topography, reviewed the impact of concentrated runoff affecting uphill-facing property sides on the site, and confirmed scope before recommending an approach.</p>
-<p><strong>Method:</strong> We addressed the infrastructure built to early standardized building codes now reaching end of service life using methods appropriate for post-war residential and commercial buildings with standardized construction methods. Given central Greenfield's 1920s-era narrow alleys limit equipment access requiring early-morning staging, we scheduled early morning work with proper staging to minimize disruption.</p>
-<p><strong>Result:</strong> Work completed efficiently with specific recommendations for ongoing maintenance suited to Greenfield's clay-heavy soil conditions.</p>
-</div>
-<div class="scenario">
-<h4>Scenario: Service Call in older sections of Greenfield</h4>
-<p><strong>Property:</strong> properties with aging infrastructure from multiple construction periods in Greenfield's older sections of Greenfield area, where clay-heavy soil conditions are a factor.</p>
-<p><strong>Symptom:</strong> heaving and horizontal wall pressure — consistent with significant expansion and contraction cycles common in Franklin properties of this type.</p>
-<p><strong>Initial assessment:</strong> We evaluated current conditions, reviewed the site's moderate topography characteristics, and checked for signs of concentrated runoff affecting uphill-facing property sides before confirming the appropriate video production approach.</p>
-<p><strong>Method:</strong> Applied methods suited to clay-heavy conditions in the older sections of Greenfield area. With older sections of Greenfield lot configurations with 15-foot driveways need precision trailer positioning, we staged efficiently while protecting the surrounding property.</p>
-<p>In Greenfield, <strong>Result:</strong> Project completed on schedule with recommendations to address concentrated runoff affecting uphill-facing property sides and prevent recurrence.</p>
-</div>
-</div>
+ <div class="project-scenarios"><h4>Scenario: Law Firm Video Content Creation</h4><p>In Greenfield, <strong>Client:</strong> A local law firm specializing in personal injury cases sought to enhance their online presence through engaging video content.</p><p><strong>Background:</strong> The firm faced challenges in connecting with potential clients, as their previous video efforts felt generic and failed to showcase their attorneys’ personalities.</p><p><strong>Approach:</strong> Edge of Story Films developed a series of attorney introduction videos, focusing on the firm's unique approach and the individual stories of their lawyers. Filming took place at Greenfield Hall, emphasizing community ties.</p><p><strong>Result:</strong> The new videos increased website traffic by 40% and led to a 25% rise in client inquiries within two months of launch.</p></div><div class="scenario"><h4>Scenario: Tech Startup Marketing Video</h4><p><strong>Client:</strong> A Series A tech startup based in central Greenfield needed an animated explainer video to clarify their complex software solution.</p><p><strong>Background:</strong> The startup struggled to convey their product's value proposition clearly, resulting in missed opportunities with potential enterprise clients.</p><p><strong>Approach:</strong> Edge of Story Films created a concise animated explainer video that highlighted key features and benefits, utilizing engaging visuals to simplify the technology. The video premiered at a local tech networking event.</p><p><strong>Result:</strong> Following the launch, the startup reported a 50% increase in demo requests and successfully closed a deal with a major client within three months.</p></div>
  
  </div>
  </section>  <!-- ── Mirror questions ── -->
  <section id="mirror-questions" class="card-section mb">
  <h2>What Greenfield Businesses Are Asking</h2>
  <div class="body-copy">
- 
-<section class="mirror-questions py-12 px-4 bg-gray-50">
-  <div class="max-w-6xl mx-auto">
-    <h2 class="text-2xl font-bold mb-6">Frequently Asked Questions</h2>
-    <details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
-<summary itemprop="name">How much does video production cost in Greenfield, MA?<svg class="mq-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+ <div class="mirror-questions">
+<h3 class="mirror-category">Repair Options &amp; Tradeoffs</h3>  <h3 class="mirror-category">Cost, Timing &amp; Warranties</h3>  <details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">How long does it take to produce a business video from start to finish?<svg class="mq-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
 <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-<p class="mirror-answer" itemprop="text">The cost of video production in Greenfield, MA 01301 varies based on project scope, materials, and complexity. Contact a local specialist for a free estimate.</p>
+<p class="mirror-answer" itemprop="text">Producing a business video typically takes 4 to 8 weeks from concept to delivery. This includes stages such as pre-production planning, shooting, and post-production editing.</p>
 </div>
-</details>
-<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
-<summary itemprop="name">How long does video production take in Greenfield?<svg class="mq-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+</details><details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">How involved do I have to be in the video production process?<svg class="mq-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
 <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-<p class="mirror-answer" itemprop="text">Most video production projects in Greenfield take 1-5 days depending on the scope. Larger projects may require additional time for proper completion.</p>
+<p class="mirror-answer" itemprop="text">Your involvement in the video production process can vary based on your preferences. Initially, you will provide input on the concept and script, but much of the heavy lifting is handled by the production team.</p>
 </div>
-</details>
-<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
-<summary itemprop="name">What are the signs I need video production?<svg class="mq-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+</details><details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">What happens if I don't like the video after it's done?<svg class="mq-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
 <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-<p class="mirror-answer" itemprop="text">Common signs include visible damage, structural concerns, and aging materials. Greenfield homeowners should watch for these indicators and schedule an inspection.</p>
+<p class="mirror-answer" itemprop="text">If you're not satisfied with the video, most production companies have a revision process in place. Typically, you will have opportunities to provide feedback during editing stages, ensuring that adjustments can be made before final delivery.</p>
 </div>
-</details>
-<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
-<summary itemprop="name">Do I need a permit for video production in Greenfield, MA?<svg class="mq-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+</details><details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">Is hiring a video production company worth it or should I just film it myself?<svg class="mq-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
 <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-<p class="mirror-answer" itemprop="text">Permit requirements for video production in Greenfield, MA depend on the project scope. Contact your local building department for specific requirements.</p>
+<p class="mirror-answer" itemprop="text">Hiring a professional video production company can significantly elevate the quality of your content compared to a DIY approach.</p>
 </div>
-</details>
-<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
-<summary itemprop="name">How do I find a reliable video production contractor in Greenfield?<svg class="mq-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+</details><details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">What do you actually get when you hire a video production company?<svg class="mq-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
 <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-<p class="mirror-answer" itemprop="text">Look for licensed, insured contractors with experience in Greenfield. Check reviews, ask for references, and get multiple estimates before deciding.</p>
+<p class="mirror-answer" itemprop="text">When you hire a video production company, you get a comprehensive service that includes concept development, scripting, filming, editing, and final delivery. This ensures that every aspect of the video aligns with your business goals.</p>
 </div>
-</details>
-<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
-<summary itemprop="name">What is the best time of year for video production in MA?<svg class="mq-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+</details><details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">What should I look for when hiring a video production company?<svg class="mq-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
 <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-<p class="mirror-answer" itemprop="text">In MA, spring and fall typically offer ideal conditions for video production. Avoid extreme temperatures when possible.</p>
+<p class="mirror-answer" itemprop="text">When hiring a video production company, consider their portfolio, client testimonials, and expertise in your industry. Look for a defined process that includes creative direction and a clear revision policy.</p>
 </div>
-</details>
-<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
-<summary itemprop="name">Can video production be done in winter in Greenfield?<svg class="mq-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+</details><details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">What questions should I ask a video production company before signing a contract?<svg class="mq-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
 <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-<p class="mirror-answer" itemprop="text">Winter work is possible in Greenfield but may require special considerations. Some projects benefit from waiting for warmer weather.</p>
+<p class="mirror-answer" itemprop="text">Before signing a contract, ask about ownership of footage, the number of revision rounds included, and the payment structure. Additionally, inquire about timeline guarantees and how they handle scope changes.</p>
 </div>
-</details>
-<details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
-<summary itemprop="name">What warranty should I expect for video production?<svg class="mq-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
+</details><details class="mirror-qa" itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
+<summary itemprop="name">What's the difference between a video production company and a freelance videographer?<svg class="mq-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
 <div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-<p class="mirror-answer" itemprop="text">Reputable video production contractors typically offer 1-5 year warranties on labor. Material warranties vary by product manufacturer.</p>
+<p class="mirror-answer" itemprop="text">A video production company typically has a full team with diverse skills, offering comprehensive services from concept to final edit. In contrast, a freelance videographer may lack the resources or scope to handle larger projects effectively.</p>
 </div>
-</details>
-  </div>
-</section>
+</details></div>
 
  </div>
  </section>  <!-- ── Local signals ── -->
- <div class="local-signals-grid mb">  <div class="local-signal-item"><h3 style="font-size:1rem;font-weight:600;margin:0 0 0.75rem 0;color:#334155;display:flex;align-items:center;gap:0.5rem;"><svg style="width:1.25rem;height:1.25rem;color:#f59e0b;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path></svg> Local Weather</h3><p style="font-size:0.95rem;color:#475569;line-height:1.6;margin:0;"><span class="weather-data" data-weather-date="2026-03-20">Currently 32°F and partly cloudy with winds at 6 mph <small class="text-muted">(as of 2026-03-20)</small></span></p><script>(function(){var el=document.querySelector('.weather-data');if(!el)return;var m=document.querySelector('meta[name="geo.position"]');if(!m)return;var p=m.content.split(';');var lat=p[0],lon=p[1];fetch('https://api.open-meteo.com/v1/forecast?latitude='+lat+'&longitude='+lon+'&current_weather=true&temperature_unit=fahrenheit').then(function(r){return r.json()}).then(function(d){if(!d.current_weather)return;var w=d.current_weather;var t=Math.round(w.temperature);var c=w.weathercode;var cn=c===0?'clear':c<=3?'partly cloudy':c<=48?'foggy':c<=57?'drizzling':c<=67?'rainy':c<=77?'snowy':c<=82?'rain showers':c<=86?'snow showers':c>=95?'thunderstorms':'variable conditions';var ws=Math.round(w.windspeed);var now=new Date();var ds=now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0')+'-'+String(now.getDate()).padStart(2,'0');el.innerHTML='Currently '+t+'\u00B0F and '+cn+' with winds at '+ws+' mph <small class="text-muted">(live)</small>';el.setAttribute('data-weather-date',ds)}).catch(function(){})})();</script></div>
+ <div class="local-signals-grid mb">  <div class="local-signal-item"><h3 style="font-size:1rem;font-weight:600;margin:0 0 0.75rem 0;color:#334155;display:flex;align-items:center;gap:0.5rem;"><svg style="width:1.25rem;height:1.25rem;color:#f59e0b;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path></svg> Local Weather</h3><p style="font-size:0.95rem;color:#475569;line-height:1.6;margin:0;"><span class="weather-data" data-weather-date="2026-03-21">Currently 43°F and drizzling with winds at 4 mph <small class="text-muted">(as of 2026-03-21)</small></span></p><script>(function(){var el=document.querySelector('.weather-data');if(!el)return;var m=document.querySelector('meta[name="geo.position"]');if(!m)return;var p=m.content.split(';');var lat=p[0],lon=p[1];fetch('https://api.open-meteo.com/v1/forecast?latitude='+lat+'&longitude='+lon+'&current_weather=true&temperature_unit=fahrenheit').then(function(r){return r.json()}).then(function(d){if(!d.current_weather)return;var w=d.current_weather;var t=Math.round(w.temperature);var c=w.weathercode;var cn=c===0?'clear':c<=3?'partly cloudy':c<=48?'foggy':c<=57?'drizzling':c<=67?'rainy':c<=77?'snowy':c<=82?'rain showers':c<=86?'snow showers':c>=95?'thunderstorms':'variable conditions';var ws=Math.round(w.windspeed);var now=new Date();var ds=now.getFullYear()+'-'+String(now.getMonth()+1).padStart(2,'0')+'-'+String(now.getDate()).padStart(2,'0');el.innerHTML='Currently '+t+'\u00B0F and '+cn+' with winds at '+ws+' mph <small class="text-muted">(live)</small>';el.setAttribute('data-weather-date',ds)}).catch(function(){})})();</script></div>
  </div>
- <div class="directions-section mb"><section class="directions-section" style="margin:2rem 0;">  <h2 style="font-size:1.5rem;font-weight:700;margin-bottom:1.5rem;color:#1e293b;">  📍 Directions to Greenfield, MA  </h2>  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;align-items:start;">  <!-- Directions Text -->  <div style="background:#f8fafc;padding:1.5rem;border-radius:0.5rem;border:1px solid #e2e8f0;">  <h3 style="font-size:1.1rem;font-weight:600;margin-bottom:1rem;color:#334155;display:flex;align-items:center;gap:0.5rem;">  <span>🚗</span> Driving Directions  </h3>  <div style="margin-bottom:1.5rem;">  <p style="font-size:0.95rem;color:#475569;line-height:1.6;margin:0 0 0.75rem 0;">  <strong>I-90 (Mass Pike) (Exit 4):</strong>  </p>  <ol style="font-size:0.9rem;color:#64748b;line-height:1.7;margin:0;padding-left:1.5rem;">  <li style="margin-bottom:0.5rem;">Keep right onto Mohawk Trail, MA 2A. Continue onto Solon Street.</li>  <li style="margin-bottom:0.5rem;">Turn left onto Solon Street, then turn right onto Devens Street.</li>  <li style="margin-bottom:0.5rem;">Turn left onto Conway Street. Keep right. Arrive in Greenfield, MA.</li>  </ol>  </div>  <a href="https://www.google.com/maps/dir/?api=1&amp;destination=42.62375,-72.60379&amp;travelmode=driving" target="_blank" rel="noopener noreferrer" style="display:inline-block;background:#3b82f6;color:white;padding:0.75rem 1.5rem;border-radius:0.375rem;text-decoration:none;font-weight:600;font-size:0.95rem;transition:background 0.2s;" onmouseover="this.style.background='#2563eb';" onmouseout="this.style.background='#3b82f6';">  Get Detailed Directions →  </a>  </div>  <!-- Google Maps Embed -->  <div style="background:#f8fafc;padding:1rem;border-radius:0.5rem;border:1px solid #e2e8f0;">  <div style="position:relative;padding-bottom:75%;height:0;overflow:hidden;border-radius:0.375rem;">  <iframe src="https://www.google.com/maps?q=Greenfield%2C%20MA&amp;output=embed" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map of Greenfield, MA" aria-label="Interactive map showing the location of Greenfield, MA"></iframe>  </div>  </div>  </div>  <!-- Mobile: Stack vertically on small screens -->  </section></div>  </div>
+ <div class="directions-section mb"><section class="directions-section" style="margin:2rem 0;">  <h2 style="font-size:1.5rem;font-weight:700;margin-bottom:1.5rem;color:#1e293b;">  📍 Directions to Greenfield, MA  </h2>  <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;align-items:start;">  <!-- Directions Text -->  <div style="background:#f8fafc;padding:1.5rem;border-radius:0.5rem;border:1px solid #e2e8f0;">  <h3 style="font-size:1.1rem;font-weight:600;margin-bottom:1rem;color:#334155;display:flex;align-items:center;gap:0.5rem;">  <span>🚗</span> Driving Directions  </h3>  <div style="margin-bottom:1.5rem;">  <p style="font-size:0.95rem;color:#475569;line-height:1.6;margin:0 0 0.75rem 0;">  <strong>I-90 (Mass Pike) (Exit 4):</strong>  </p>  <ol style="font-size:0.9rem;color:#64748b;line-height:1.7;margin:0;padding-left:1.5rem;">  <li style="margin-bottom:0.5rem;">Head toward Greenfield, MA from the nearest major highway</li>  <li style="margin-bottom:0.5rem;">Follow GPS navigation for precise turn-by-turn directions</li>  <li style="margin-bottom:0.5rem;">Arrive in Greenfield, MA</li>  </ol>  </div>  <a href="https://www.google.com/maps/dir/?api=1&amp;destination=42.62375,-72.60379&amp;travelmode=driving" target="_blank" rel="noopener noreferrer" style="display:inline-block;background:#3b82f6;color:white;padding:0.75rem 1.5rem;border-radius:0.375rem;text-decoration:none;font-weight:600;font-size:0.95rem;transition:background 0.2s;" onmouseover="this.style.background='#2563eb';" onmouseout="this.style.background='#3b82f6';">  Get Detailed Directions →  </a>  </div>  <!-- Google Maps Embed -->  <div style="background:#f8fafc;padding:1rem;border-radius:0.5rem;border:1px solid #e2e8f0;">  <div style="position:relative;padding-bottom:75%;height:0;overflow:hidden;border-radius:0.375rem;">  <iframe src="https://www.google.com/maps?q=Greenfield%2C%20MA&amp;output=embed" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map of Greenfield, MA" aria-label="Interactive map showing the location of Greenfield, MA"></iframe>  </div>  </div>  </div>  <!-- Mobile: Stack vertically on small screens -->  </section></div>  </div>
  <!-- ── Compare ── -->
 <div id="compare">
 <div class="compare-inner">
@@ -817,7 +762,7 @@ section.mirror-questions h2.mb-6{margin-bottom:1.5rem}
  <div class="compare-top">
  <h3>Video Production</h3>
  <p class="compare-mini">What it is</p>
- <p>In Greenfield, strategy through delivery: <strong>concept, scripting, filming, editorial, motion, sound, distribution.</strong></p>
+ <p>Strategy through delivery: <strong>concept, scripting, filming, editorial, motion, sound, distribution.</strong></p>
  <p class="compare-mini">Team</p>
  <p>In Greenfield, director, producer, DP, gaffer, audio, editor, colorist, motion designer.</p>
  <p class="compare-mini">Best for</p>
@@ -866,24 +811,7 @@ section.mirror-questions h2.mb-6{margin-bottom:1.5rem}
  <h2>Frequently Asked Questions — Greenfield</h2>
  <div class="body-copy">
  
- <div class="city-faqs">
-<details class="mirror-qa">
-<summary>Is Video Production the right fit for my business in Greenfield?<svg class="mq-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
-<p class="mirror-answer">Video Production works well for Greenfield businesses of all sizes. Whether you're managing a single property or multiple locations, we scope each engagement to your specific needs and Greenfield market conditions.</p>
-</details>
-<details class="mirror-qa">
-<summary>What warranty do you offer for Franklin properties?<svg class="mq-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
-<p class="mirror-answer">We provide written warranties on all video production work. Coverage terms are fully explained before any work begins on your Greenfield property, so you know exactly what's included.</p>
-</details>
-<details class="mirror-qa">
-<summary>Why do central Greenfield and older sections of Greenfield properties have different video production considerations?<svg class="mq-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
-<p class="mirror-answer">central Greenfield properties often involve post-war residential and commercial buildings with standardized construction methods, while older sections of Greenfield typically features properties with aging infrastructure from multiple construction periods. Each situation calls for a tailored video production approach, and we're familiar with both from our work throughout Franklin.</p>
-</details>
-<details class="mirror-qa">
-<summary>When is the best time to schedule video production in Greenfield?<svg class="mq-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></summary>
-<p class="mirror-answer">MA weather patterns can influence video production scheduling. We help clients find the best timing for their specific project, taking into account Greenfield's seasonal conditions to ensure quality, lasting results.</p>
-</details>
-</div>
+ <div class="city-faqs"></div>
  
  </div>
  </div>  <!-- ── Final CTA ── -->
@@ -916,7 +844,7 @@ section.mirror-questions h2.mb-6{margin-bottom:1.5rem}
  </form>
  </div>
  </section>      
-<h3 style="margin-bottom:1rem;color:#1e293b;">Nearby Service Areas</h3>  <ul style="list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.5rem;">  <li><a href="https://edgeofstoryproductions.com/video-production/ma/ludlow/01056/" style="color:#2563eb;text-decoration:none;">Ludlow</a></li>  <li><a href="https://edgeofstoryproductions.com/video-production/ma/charlton/01507/" style="color:#2563eb;text-decoration:none;">Charlton</a></li>  <li><a href="https://edgeofstoryproductions.com/video-production/ma/auburn/01501/" style="color:#2563eb;text-decoration:none;">Auburn</a></li>  <li><a href="https://edgeofstoryproductions.com/video-production/ma/dudley/01571/" style="color:#2563eb;text-decoration:none;">Dudley</a></li>  <li><a href="https://edgeofstoryproductions.com/video-production/ma/littleton/01460/" style="color:#2563eb;text-decoration:none;">Littleton</a></li>  </ul>
+<h3 style="margin-bottom:1rem;color:#1e293b;">Nearby Service Areas</h3>  <ul style="list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.5rem;">  <li><a href="https://edgeofstoryproductions.com/video-production/ma/ludlow/01056/" style="color:#2563eb;text-decoration:none;">Ludlow</a></li>  <li><a href="https://edgeofstoryproductions.com/video-production/ma/auburn/01501/" style="color:#2563eb;text-decoration:none;">Auburn</a></li>  <li><a href="https://edgeofstoryproductions.com/video-production/ma/littleton/01460/" style="color:#2563eb;text-decoration:none;">Littleton</a></li>  <li><a href="https://edgeofstoryproductions.com/video-production/ma/whitinsville/01588/" style="color:#2563eb;text-decoration:none;">Whitinsville</a></li>  <li><a href="https://edgeofstoryproductions.com/video-production/ma/needham/02492/" style="color:#2563eb;text-decoration:none;">Needham</a></li>  </ul>
 
     <!-- /main-content -->  <!-- ── Footer ── -->
 <footer class="footer-compact">
@@ -966,14 +894,14 @@ section.mirror-questions h2.mb-6{margin-bottom:1.5rem}
 <section style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-radius: 0.5rem;">
   <h3 style="margin: 0 0 1rem 0; font-size: 1.25rem; font-weight: 600;">Nearby Areas We Serve</h3>
   <ul style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.75rem;">
+    <li><a href="https://edgeofstoryproductions.com/video-production/ma/amherst/01002/" style="color: #2563eb; text-decoration: none; hover:underline">Amherst</a></li>
+    <li><a href="https://edgeofstoryproductions.com/video-production/ma/ludlow/01056/" style="color: #2563eb; text-decoration: none; hover:underline">Ludlow</a></li>
+    <li><a href="https://edgeofstoryproductions.com/video-production/ma/agawam/01001/" style="color: #2563eb; text-decoration: none; hover:underline">Agawam</a></li>
     <li><a href="https://edgeofstoryproductions.com/video-production/ma/lunenburg/01462/" style="color: #2563eb; text-decoration: none; hover:underline">Lunenburg</a></li>
-    <li><a href="https://edgeofstoryproductions.com/video-production/ma/charlton/01507/" style="color: #2563eb; text-decoration: none; hover:underline">Charlton</a></li>
-    <li><a href="https://edgeofstoryproductions.com/video-production/ma/auburn/01501/" style="color: #2563eb; text-decoration: none; hover:underline">Auburn</a></li>
     <li><a href="https://edgeofstoryproductions.com/video-production/ma/worcester/01604/" style="color: #2563eb; text-decoration: none; hover:underline">Worcester</a></li>
-    <li><a href="https://edgeofstoryproductions.com/video-production/ma/dudley/01571/" style="color: #2563eb; text-decoration: none; hover:underline">Dudley</a></li>
-    <li><a href="https://edgeofstoryproductions.com/video-production/ma/whitinsville/01588/" style="color: #2563eb; text-decoration: none; hover:underline">Whitinsville</a></li>
-    <li><a href="https://edgeofstoryproductions.com/video-production/ma/tyngsboro/01879/" style="color: #2563eb; text-decoration: none; hover:underline">Tyngsboro</a></li>
-    <li><a href="https://edgeofstoryproductions.com/video-production/ma/uxbridge/01569/" style="color: #2563eb; text-decoration: none; hover:underline">Uxbridge</a></li>
+    <li><a href="https://edgeofstoryproductions.com/video-production/ma/groton/01450/" style="color: #2563eb; text-decoration: none; hover:underline">Groton</a></li>
+    <li><a href="https://edgeofstoryproductions.com/video-production/ma/wayland/01778/" style="color: #2563eb; text-decoration: none; hover:underline">Wayland</a></li>
+    <li><a href="https://edgeofstoryproductions.com/video-production/ma/medfield/02052/" style="color: #2563eb; text-decoration: none; hover:underline">Medfield</a></li>
   </ul>
 </section>
 <!-- Interlinking: End -->
