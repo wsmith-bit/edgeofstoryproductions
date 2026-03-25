@@ -1,653 +1,944 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Edge Of Story Films — Video Production in Massachusetts</title>
-  <meta name="description" content="Edge Of Story Films — professional video production serving 204 cities across Massachusetts. Corporate video, brand films, documentaries, and more.">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Emmy-Nominated Boston Video Production | Edge of Story Films</title>
+  <meta name="description" content="Boston's Emmy-nominated video production studio crafting authentic, affordable films for law firms, startups & creative brands. Studio & on-location across Greater Boston."/>
+  <meta name="author" content="Edge of Story Films"/>
+  <meta name="robots" content="index, follow"/>
+  <meta name="theme-color" content="#a84000"/>
+  <link rel="canonical" href="https://www.edgeofstoryfilms.com/"/>
 
-  <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Organization","@id":"https://edgeofstoryproductions.com#organization","name":"Edge Of Story Films","url":"https://edgeofstoryproductions.com","contactPoint":{"@type":"ContactPoint","contactType":"customer service","areaServed":"US"}}
-  </script>
-  <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"WebSite","@id":"https://edgeofstoryproductions.com#website","url":"https://edgeofstoryproductions.com","name":"Edge Of Story Films","publisher":{"@id":"https://edgeofstoryproductions.com#organization"}}
-  </script>
+  <!-- Social Cards -->
+  <meta property="og:title" content="Emmy-Nominated Boston Video Production | Edge of Story Films"/>
+  <meta property="og:description" content="Handcrafted video storytelling trusted by Boston law firms, startups & creatives. Studio & on-site."/>
+  <meta property="og:image" content="https://www.edgeofstoryfilms.com/wp-content/uploads/2023/11/logo.png"/>
+  <meta property="og:url" content="https://www.edgeofstoryfilms.com/"/>
+  <meta property="og:type" content="website"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Edge of Story Films – Boston Video Production"/>
+  <meta name="twitter:description" content="Emmy-nominated, affordable, handcrafted videos that convert."/>
+  <meta name="twitter:image" content="https://www.edgeofstoryfilms.com/wp-content/uploads/2023/11/logo.png"/>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
 
   <style>
-    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-    :root {
-      --black: #080b10;
-      --dark: #0d1117;
-      --dark2: #141a24;
-      --dark3: #1c2333;
-      --gold: #c9a84c;
-      --gold2: #e8c96a;
-      --white: #f0f2f5;
-      --muted: #8b95a8;
-      --red: #e63946;
+    /* ===================== Core variables ===================== */
+    :root{
+      --brand:#a84000;
+      --ink:#1f1f1f;
+      --ink-soft:#575757;
+      --white:#ffffff;
+      --dark:#232323;
+      --rule:#e9e6e2;
+      --shadow:0 2px 10px rgba(0,0,0,.08);
+      --max:1200px;
+      --radius:12px;
+      --strip:28px;
+      --admin: 0px;
+      --tbH: 48px;
+      --holes-svg:url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='24'%20height='28'%20viewBox='0%200%2024%2028'%3E%3Crect%20x='9'%20y='4'%20width='6'%20height='4'%20rx='1'%20ry='1'%20fill='%23f8f7f5'/%3E%3Crect%20x='9'%20y='20'%20width='6'%20height='4'%20rx='1'%20ry='1'%20fill='%23f8f7f5'/%3E%3C/svg%3E");
     }
-    html { scroll-behavior: smooth; }
-    body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: var(--black); color: var(--white); line-height: 1.6; }
+    body.admin-bar{ --admin: 32px; }
+    @media (max-width:782px){ body.admin-bar{ --admin: 46px; } }
 
-    /* NAV */
-    nav {
-      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-      display: flex; align-items: center; justify-content: space-between;
-      padding: 0 2rem; height: 64px;
-      background: rgba(8,11,16,0.85); backdrop-filter: blur(12px);
-      border-bottom: 1px solid rgba(201,168,76,0.15);
+    /* ===================== Global / Canvas safety ===================== */
+    html{scroll-behavior:smooth}
+    html,body{overflow-x:hidden}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,'Segoe UI',Inter,Roboto,Arial,sans-serif;
+      background:#f8f7f5;color:var(--ink);line-height:1.6;
+      padding-top:0 !important;
     }
-    .nav-logo { font-size: 1.1rem; font-weight: 700; letter-spacing: 0.04em; color: var(--white); text-decoration: none; }
-    .nav-logo span { color: var(--gold); }
-    .nav-links { display: flex; gap: 2rem; list-style: none; }
-    .nav-links a { color: var(--muted); text-decoration: none; font-size: 0.875rem; letter-spacing: 0.06em; text-transform: uppercase; transition: color 0.2s; }
-    .nav-links a:hover { color: var(--gold); }
-    .nav-cta { background: var(--gold); color: var(--black); padding: 0.5rem 1.25rem; border-radius: 4px; font-size: 0.8rem; font-weight: 700; text-decoration: none; letter-spacing: 0.06em; text-transform: uppercase; transition: background 0.2s; }
-    .nav-cta:hover { background: var(--gold2); }
+    .elementor,.elementor-section,.elementor-container,.elementor-widget-html,.elementor-widget-container{
+      width:100% !important; max-width:100% !important; margin:0 auto !important;
+      padding:0 !important; box-sizing:border-box; overflow:visible !important;
+    }
 
-    /* HERO */
-    .hero {
-      min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center;
-      text-align: center; padding: 6rem 2rem 4rem;
-      background: radial-gradient(ellipse 80% 60% at 50% 40%, rgba(201,168,76,0.08) 0%, transparent 70%),
-                  linear-gradient(180deg, var(--black) 0%, var(--dark) 100%);
-      position: relative; overflow: hidden;
+    /* ===================== Film strip + reading progress ===================== */
+    #filmStripBase{
+      position:fixed; top:0; left:0; right:0; height:var(--strip); z-index:100003;
+      background:var(--holes-svg) repeat-x,
+        repeating-linear-gradient(90deg, rgba(255,255,255,0.16) 0 2px, transparent 2px 24px),
+        linear-gradient(#111,#111);
+      background-size:24px 100%,24px 100%,100% 100%;
+      box-shadow:inset 0 1px 0 rgba(255,255,255,.25), inset 0 -1px 0 rgba(0,0,0,.35), 0 2px 6px rgba(0,0,0,.15);
     }
-    .hero::before {
-      content: ''; position: absolute; inset: 0;
-      background: repeating-linear-gradient(0deg, transparent, transparent 59px, rgba(255,255,255,0.015) 60px),
-                  repeating-linear-gradient(90deg, transparent, transparent 59px, rgba(255,255,255,0.015) 60px);
+    #readingProgress{
+      position:fixed; top:0; left:0; height:var(--strip); width:0%; z-index:100004;
+      background:var(--holes-svg) repeat-x,
+        repeating-linear-gradient(90deg, rgba(255,255,255,0.18) 0 2px, transparent 2px 24px),
+        linear-gradient(var(--brand),var(--brand));
+      background-size:24px 100%,24px 100%,100% 100%;
+      border-right:1px solid rgba(0,0,0,.3);
     }
-    .hero-eyebrow { font-size: 0.75rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--gold); margin-bottom: 1.5rem; }
-    .hero h1 {
-      font-size: clamp(2.5rem, 7vw, 5.5rem); font-weight: 800; line-height: 1.05;
-      letter-spacing: -0.02em; margin-bottom: 1.5rem; position: relative;
+    #readingProgress::before{
+      content:"";position:absolute;inset:0;pointer-events:none;
+      background:linear-gradient(to bottom, rgba(255,255,255,.14), rgba(255,255,255,0) 45%, rgba(0,0,0,.10) 65%, rgba(0,0,0,0));
     }
-    .hero h1 em { font-style: normal; color: var(--gold); }
-    .hero-sub { font-size: clamp(1rem, 2vw, 1.2rem); color: var(--muted); max-width: 600px; margin: 0 auto 2.5rem; }
-    .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
-    .btn-primary { background: var(--gold); color: var(--black); padding: 0.875rem 2rem; border-radius: 4px; font-weight: 700; text-decoration: none; font-size: 0.9rem; letter-spacing: 0.04em; transition: all 0.2s; }
-    .btn-primary:hover { background: var(--gold2); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(201,168,76,0.3); }
-    .btn-ghost { border: 1px solid rgba(201,168,76,0.4); color: var(--gold); padding: 0.875rem 2rem; border-radius: 4px; font-weight: 600; text-decoration: none; font-size: 0.9rem; letter-spacing: 0.04em; transition: all 0.2s; }
-    .btn-ghost:hover { background: rgba(201,168,76,0.1); border-color: var(--gold); }
-    .hero-stats { display: flex; gap: 3rem; margin-top: 4rem; flex-wrap: wrap; justify-content: center; }
-    .stat { text-align: center; }
-    .stat-num { font-size: 2rem; font-weight: 800; color: var(--gold); display: block; }
-    .stat-label { font-size: 0.75rem; color: var(--muted); letter-spacing: 0.1em; text-transform: uppercase; }
 
-    /* SERVICES */
-    .section { padding: 6rem 2rem; }
-    .section-inner { max-width: 1200px; margin: 0 auto; }
-    .section-eyebrow { font-size: 0.75rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; text-align: center; }
-    .section-title { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 800; text-align: center; margin-bottom: 1rem; letter-spacing: -0.02em; }
-    .section-sub { color: var(--muted); text-align: center; max-width: 600px; margin: 0 auto 3.5rem; font-size: 1rem; }
-    .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; }
-    .service-card {
-      background: var(--dark2); border: 1px solid rgba(255,255,255,0.06); border-radius: 8px;
-      padding: 2rem; transition: all 0.3s; position: relative; overflow: hidden;
+    /* ===================== Fixed orange top bar ===================== */
+    #top-bar{
+      position: fixed !important;
+      top: calc(var(--strip) + var(--admin) - 5px) !important;
+      left: 0 !important;
+      right: 0 !important;
+      width: 100vw !important;
+      max-width: none !important;
+      margin: 0 !important;
+      background:var(--brand); color:#fff;
+      border-bottom:1px solid rgba(255,255,255,.15);
+      z-index: 100002;
     }
-    .service-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--gold), var(--gold2)); transform: scaleX(0); transform-origin: left; transition: transform 0.3s; }
-    .service-card:hover { border-color: rgba(201,168,76,0.3); transform: translateY(-4px); box-shadow: 0 16px 40px rgba(0,0,0,0.4); }
-    .service-card:hover::before { transform: scaleX(1); }
-    .service-icon { font-size: 2rem; margin-bottom: 1rem; display: block; }
-    .service-card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem; }
-    .service-card p { font-size: 0.875rem; color: var(--muted); line-height: 1.6; }
+    #top-bar .bar-row{
+      max-width:var(--max); margin:0 auto; padding:.6rem 16px;
+      display:flex; gap:.75rem; align-items:center; justify-content:space-between; flex-wrap:wrap;
+    }
+    #top-bar a{color:#fff;}
+    #top-bar .social ul{display:flex; gap:.75rem; list-style:none; margin:0; padding:0}
 
-    /* MAP */
-    #map { background: var(--dark); }
-    .map-wrap { background: var(--dark2); border: 1px solid rgba(255,255,255,0.06); border-radius: 12px; overflow: hidden; position: relative; }
-    .map-search-bar { padding: 1.25rem 1.5rem; background: var(--dark3); border-bottom: 1px solid rgba(255,255,255,0.06); display: flex; align-items: center; gap: 0.75rem; }
-    .map-search-bar input {
-      flex: 1; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
-      border-radius: 6px; padding: 0.6rem 1rem; color: var(--white); font-size: 0.9rem;
-      outline: none; transition: border-color 0.2s;
+    #top-bar-spacer{ 
+      display: block !important;
+      height: var(--tbH) !important;
     }
-    .map-search-bar input::placeholder { color: var(--muted); }
-    .map-search-bar input:focus { border-color: var(--gold); }
-    .map-search-bar span { font-size: 0.8rem; color: var(--muted); white-space: nowrap; }
-    .map-body { display: grid; grid-template-columns: 1fr 340px; }
-    .map-svg-wrap { padding: 1.5rem; position: relative; }
-    .map-svg-wrap svg { width: 100%; height: auto; display: block; }
-    .city-dot { cursor: pointer; transition: all 0.2s; }
-    .city-dot circle { fill: var(--gold); opacity: 0.7; transition: all 0.2s; }
-    .city-dot:hover circle, .city-dot.active circle { fill: var(--gold2); opacity: 1; r: 6; }
-    .map-tooltip {
-      position: absolute; background: var(--dark3); border: 1px solid rgba(201,168,76,0.4);
-      border-radius: 6px; padding: 0.5rem 0.875rem; font-size: 0.8rem; pointer-events: none;
-      white-space: nowrap; opacity: 0; transition: opacity 0.15s; z-index: 10;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.5);
-    }
-    .map-tooltip.visible { opacity: 1; }
-    .map-tooltip strong { color: var(--gold); display: block; }
-    .map-list { border-left: 1px solid rgba(255,255,255,0.06); overflow-y: auto; max-height: 480px; }
-    .map-list-item {
-      display: block; padding: 0.7rem 1.25rem; text-decoration: none; color: var(--white);
-      border-bottom: 1px solid rgba(255,255,255,0.04); font-size: 0.85rem; transition: all 0.15s;
-      display: flex; justify-content: space-between; align-items: center;
-    }
-    .map-list-item:hover, .map-list-item.active { background: rgba(201,168,76,0.1); color: var(--gold); }
-    .map-list-item .zip { font-size: 0.75rem; color: var(--muted); }
-    .map-list-item:hover .zip, .map-list-item.active .zip { color: rgba(201,168,76,0.6); }
-    .map-no-results { padding: 2rem; text-align: center; color: var(--muted); font-size: 0.875rem; display: none; }
 
-    /* WHY */
-    #why { background: var(--dark); }
-    .why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; }
-    .why-item { text-align: center; }
-    .why-num { font-size: 3rem; font-weight: 800; color: var(--gold); line-height: 1; margin-bottom: 0.5rem; }
-    .why-item h3 { font-size: 1rem; font-weight: 700; margin-bottom: 0.5rem; }
-    .why-item p { font-size: 0.875rem; color: var(--muted); }
+    /* ===================== Full-bleed header + hero ===================== */
+    .elementor-top-section:first-child,
+    .elementor-section:first-child,
+    header.site-header{
+      margin-top:0 !important; padding-top:0 !important;
+    }
 
-    /* CONTACT */
-    #contact { background: var(--black); }
-    .contact-box {
-      max-width: 680px; margin: 0 auto; background: var(--dark2);
-      border: 1px solid rgba(201,168,76,0.2); border-radius: 12px; padding: 3rem;
+    header.site-header,
+    .hero-video{
+      width:100vw; max-width:100vw;
+      margin-left:calc(50% - 50vw) !important;
+      margin-right:calc(50% - 50vw) !important;
+      overflow:hidden;
+    }
+    @supports (width: 100dvw){
+      header.site-header, .hero-video{
+        width:100dvw; max-width:100dvw;
+        margin-left:calc(50% - 50dvw) !important;
+        margin-right:calc(50% - 50dvw) !important;
+      }
+    }
+
+    /* ===================== Logo/title header ===================== */
+    header.site-header{
+      background:#fff;
+      box-shadow:var(--shadow, 0 2px 16px rgba(0,0,0,.08));
+      display:flex; align-items:center; justify-content:center; gap:1rem;
+      padding: 16px 16px 16px;
+      text-align:left;
+      position: relative;
+      z-index: 1;
+      margin-top: 0 !important;
+      padding-top: 35px !important;
+      overflow: visible !important;
+    }
+    header.site-header img{
+      display: block;
+      max-height: 72px;
+      height: auto;
+      width: auto;
+    }
+    header.site-header h1{
+      font-size:1.75rem; margin:0;
+    }
+    header.site-header .tag{
+      display:block; color:var(--brand, #a84000);
+      font-weight:600; font-size:1rem; margin-top:.25rem;
+    }
+
+    /* Hero video */
+    .hero-video{
+      position:relative; height:clamp(280px,56.25vw,760px); background:#000; margin-top:0 !important;
+    }
+    .hero-video video{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover }
+    .hero-video::after{
+      content:""; position:absolute; inset:0; pointer-events:none;
+      background:linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,.25));
+    }
+    .hero-video .cta{ position:absolute; bottom:1.5rem; right:1.5rem; z-index:2 }
+    .hero-video .cta a{ display:inline-block; background:#a84000; color:#fff; font-weight:600; padding:.75rem 1.25rem; border-radius:4px; text-decoration:none }
+    .hero-video .cta a:hover{ background:#000 }
+
+    /* ===================== Sections / layout ===================== */
+    .section{ width:100%; margin:0; padding:2rem 0 }
+    .section.white{ background:#fff; color:var(--ink) }
+    .section.orange{ background:var(--brand); color:#fff }
+    .section.dark{ background:var(--dark); color:#fff }
+    .section .inner{ max-width:var(--max); margin:0 auto; padding:0 16px }
+    .section h2{ font-size:2rem; letter-spacing:.5px; font-weight:900; margin:0 0 1rem; text-transform:uppercase }
+    .section.white h2{ color:var(--brand) }
+    .rule{ height:1px; background:var(--rule); opacity:.6; margin:1.25rem 0 }
+
+    /* TOC */
+    details.toc{ background:#fff; border:1px solid var(--rule); border-radius:var(--radius); box-shadow:var(--shadow); margin-left:auto; margin-right:auto }
+    details.toc>summary{ list-style:none; padding:1rem 1.25rem; cursor:pointer; user-select:none; font-weight:800; color:var(--brand); display:flex; align-items:center; gap:.5rem }
+    details.toc>summary::marker, details.toc>summary::-webkit-details-marker{ display:none }
+    .toc-body{ padding:0 1.25rem 1rem }
+    .toc-body ul{ columns:2; gap:2rem; list-style:none; margin:0; padding:0 }
+    .toc-body a{ color:inherit; text-decoration:none }
+    .toc-body a:hover{ color:var(--brand) }
+    @media (max-width:720px){ .toc-body ul{ columns:1 } }
+
+    /* Grid / Cards */
+    .section .grid{ display:grid }
+    .section .grid.cards-3{ grid-template-columns:repeat(3,minmax(0,1fr)); gap:1.5rem }
+    .section .grid.cards-2{ grid-template-columns:repeat(2,minmax(0,1fr)); gap:1.5rem }
+    @media (max-width:980px){ .section .grid.cards-3{ grid-template-columns:repeat(2,1fr) } }
+    @media (max-width:640px){ .section .grid.cards-3, .section .grid.cards-2{ grid-template-columns:1fr } }
+
+    .card{ position:relative; box-sizing:border-box; background:#fff; border:1px solid var(--rule); border-radius:12px; box-shadow:var(--shadow); padding:1.25rem; text-align:center; color:var(--ink) }
+    .card img{ width:100%; height:auto; border-radius:10px; margin-bottom:.75rem; aspect-ratio:4/3; object-fit:cover }
+
+    .btn{ display:inline-block; padding:.75rem 1.1rem; border-radius:10px; font-weight:800; background:var(--brand); color:#fff; text-decoration:none; border:0; transition:background .15s ease }
+    .btn:hover{ background:#000 }
+
+    /* Videos grid */
+    .video-grid{ display:grid; gap:1rem; grid-template-columns:repeat(4,minmax(0,1fr)) }
+    @media (max-width:1100px){ .video-grid{ grid-template-columns:repeat(2,1fr) } }
+    @media (max-width:560px){ .video-grid{ grid-template-columns:1fr } }
+    .video{ position:relative; padding-top:56.25%; border-radius:12px; overflow:hidden; box-shadow:var(--shadow); background:transparent }
+    .video iframe{ position:absolute; inset:0; width:100%; height:100%; border:0; background:transparent }
+    .video.single{ max-width:880px; margin:0 auto }
+
+    /* Author box */
+    .author{ display:grid; gap:1rem; grid-template-columns:100px 1fr; align-items:center; background:#fff; border:1px solid var(--rule); border-radius:12px; box-shadow:var(--shadow); padding:1rem; color:var(--ink) }
+    .author .avatar{ width:100px; height:100px; border-radius:100px; background:#fff; display:flex; align-items:center; justify-content:center; overflow:hidden; border:1px solid var(--rule) }
+    .author .avatar img{ width:100%; height:100%; object-fit:contain }
+    @media (max-width:560px){ .author{ grid-template-columns:1fr } }
+
+    /* Brand list bullets */
+    .brand-list{ list-style:none; margin:0; padding:0 }
+    .brand-list li{
+      position:relative; font-size:17px; padding:10px 16px 10px 52px; color:#fff; font-weight:700;
+      background-color:var(--brand); margin-bottom:10px; text-align:left; border-radius:8px; transition:background .25s ease
+    }
+    .brand-list li::before{ content:"\f00c"; font-family:"FontAwesome"; position:absolute; left:20px; top:50%; transform:translateY(-50%); color:#fff; font-weight:900 }
+    .brand-list li:hover{ background:#000 }
+
+    /* CTA strip */
+    .cta-strip{ background:var(--brand); color:#fff }
+    .cta-strip .inner{ display:flex; gap:1rem; align-items:center; justify-content:space-between; flex-wrap:wrap; padding:2rem 1rem; max-width:var(--max); margin:0 auto }
+    .cta-strip h3{ margin:0; font-size:1.8rem; font-weight:900; text-transform:uppercase }
+    .cta-strip p{ margin:0; opacity:.9 }
+
+    /* Timeline */
+    #timeline{ --accent:#2563eb; --accent-2:#38bdf8; --text:#e5e7eb; --muted:#cbd5e1; --card:rgba(255,255,255,.05); --border:rgba(255,255,255,.08); --badge:46px; --gap:28px; --box-lines:2; --line:1.35em; --padY:12px; padding-bottom:12px }
+    #timeline .inner{ max-width:1100px; margin:0 auto; padding:0 16px }
+    #timeline h2{ color:var(--text); text-align:center; margin:0 0 1.25rem }
+    #timeline .steps{ position:relative; display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:32px; align-items:start; padding:8px 24px 0 }
+    #timeline .steps::before{ content:""; position:absolute; left:24px; right:24px; top: calc(var(--badge)/2 + 2px); height:3px; background:linear-gradient(90deg,var(--accent),var(--accent-2)); opacity:.35; border-radius:3px }
+    #timeline .step{ display:flex; flex-direction:column; align-items:center; text-align:center; min-width:0 }
+    #timeline .step-num{ width:52px; height:52px; border-radius:999px; display:grid; place-items:center; font-weight:800; color:#fff; background:linear-gradient(180deg,var(--accent-2),var(--accent)); box-shadow:0 6px 18px rgba(37,99,235,.35), inset 0 0 0 2px rgba(255,255,255,.15); margin:0 0 16px; position:relative; z-index:1; font-size:clamp(.9rem,1.1vw,1rem) }
+    #timeline .step-num::after{ content:""; position:absolute; bottom:-10px; left:50%; transform:translateX(-50%); width:2px; height:10px; background:rgba(255,255,255,.25) }
+    #timeline .box{ margin:0; color:var(--muted); background:var(--card); border:1px solid var(--border); padding:18px 16px; border-radius:14px; backdrop-filter:blur(2px); line-height:1.45; display:flex; align-items:center; justify-content:center; min-height:120px; width:100% }
+    #timeline .box strong{ color:var(--text) }
+    @media (max-width:900px){ #timeline .steps{ grid-template-columns:repeat(3,1fr); gap:26px } }
+    @media (max-width:640px){ #timeline .steps{ grid-template-columns:repeat(2,1fr); gap:22px } #timeline .steps::before{ display:none } #timeline .box{ min-height:110px } }
+
+    /* Compare panels - UPDATED */
+    #compare { 
+      background:#2b2b2b; 
+      color:#fff; 
+      padding: 3rem 1rem;
+    }
+    #compare .inner{ 
+      max-width:1100px; 
+      margin:0 auto;
+    }
+    #compare h2{ 
+      letter-spacing:.2px; 
+      margin-bottom:.75rem; 
+      color:#fff;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 800;
+      margin-bottom: 2rem;
+    }
+    .compare-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+      gap: 2rem;
+      align-items: stretch;
+    }
+    @media (max-width: 900px) {
+      .compare-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .compare-card {
+      display: flex;
+      flex-direction: column;
+      background-color: #b34a1d;
+      border: 3px solid #fff;
+      padding: 2rem;
+      height: 100%;
+    }
+    .compare-top {
+      flex: 1 1 auto;
       text-align: center;
     }
-    .contact-box h2 { font-size: 2rem; font-weight: 800; margin-bottom: 1rem; }
-    .contact-box p { color: var(--muted); margin-bottom: 2rem; }
-    .contact-details { display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem; }
-    .contact-item { font-size: 1rem; color: var(--white); }
-    .contact-item span { color: var(--gold); font-weight: 700; }
-
-    /* FOOTER */
-    footer { background: var(--dark); border-top: 1px solid rgba(255,255,255,0.06); padding: 2rem; text-align: center; }
-    footer p { color: var(--muted); font-size: 0.8rem; }
-    footer a { color: var(--muted); text-decoration: none; }
-    footer a:hover { color: var(--gold); }
-    .footer-links { display: flex; gap: 1.5rem; justify-content: center; margin-bottom: 1rem; }
-
-    /* MOBILE */
-    @media (max-width: 900px) {
-      .map-body { grid-template-columns: 1fr; }
-      .map-list { border-left: none; border-top: 1px solid rgba(255,255,255,0.06); max-height: 300px; }
-      .nav-links { display: none; }
+    .compare-top h3 {
+      font-size: 1.6rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      margin: 0 0 1rem 0;
+      color: #2f2f2f;
     }
-    @media (max-width: 600px) {
-      nav { padding: 0 1rem; }
-      .section { padding: 4rem 1rem; }
-      .hero { padding: 5rem 1rem 3rem; }
-      .contact-box { padding: 2rem 1.25rem; }
+    .compare-top .mini {
+      font-weight: 700;
+      font-size: 1.2rem;
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .compare-top p {
+      margin: 0.5rem 0;
+      line-height: 1.4;
+      max-width: 350px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .compare-note {
+      background-color: #2f2f2f;
+      border: 2px solid #222;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: auto;
+      min-height: 220px;
+      flex: 0 0 auto;
+    }
+    .compare-note > div {
+      max-width: 90%;
+      margin: 0 auto;
+    }
+    .compare-note p {
+      margin: 0.5rem 0;
+      line-height: 1.5;
+      color: #eee;
+    }
+    .compare-note strong {
+      color: #fff;
+      font-weight: 700;
+    }
+    @media (max-width: 500px) {
+      .compare-grid {
+        grid-template-columns: 1fr;
+      }
+      .compare-card {
+        padding: 1.5rem;
+      }
+      .compare-note {
+        min-height: 200px;
+        padding: 1.25rem;
+      }
+    }
+
+    /* Footer */
+    footer.footer-compact{
+      --bg:#2b2b2b; --text:#eaeaea; --muted:#cfcfcf; --border:rgba(255,255,255,.12);
+      background:var(--bg); color:var(--text); font-size:16px; margin-top:0;
+      display:block; clear:both; width:100%; margin-left:auto; margin-right:auto; position:relative; left:0; right:0
+    }
+    .footer-compact a{ color:#ffffff; text-decoration:none }
+    .footer-compact .foot-inner{ max-width:1100px; margin:0 auto; padding:22px 20px; box-sizing:border-box }
+    .footer-compact .cols{ display:grid; gap:20px; grid-template-columns:2fr 1.2fr 1.2fr 1.2fr; align-items:start }
+    @media (max-width:960px){ .footer-compact .cols{ grid-template-columns:1fr 1fr } }
+    @media (max-width:560px){ .footer-compact .cols{ grid-template-columns:1fr } }
+    .footer-compact h4{ margin:.2rem 0 .45rem; font-size:1rem; color:#fff }
+    .footer-compact p{ margin:.35rem 0; opacity:.92 }
+    .footer-compact .map-embed{ margin-top:.3rem; border:1px solid var(--border); border-radius:12px; overflow:hidden; background:#242424 }
+    .footer-compact .map-embed iframe{ display:block; width:100%; height:130px; border:0 }
+    .footer-compact .bottom{ border-top:1px solid var(--border); margin-top:1rem; padding-top:.75rem; display:flex; justify-content:space-between; flex-wrap:wrap; gap:.75rem; font-size:.95rem; opacity:.88 }
+
+    :target{ scroll-margin-top: calc(var(--strip) + var(--admin) + var(--tbH)) }
+
+    h2.white-title, h1.white-title{
+      color:#ffffff !important;
+      font-size:32px;
+      font-family:system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      font-weight:700;
+      text-transform:uppercase;
+      margin-bottom:16px;
     }
   </style>
-</head>
-<body>
 
-<nav>
-  <a href="/" class="nav-logo">Edge Of <span>Story</span> Films</a>
-  <ul class="nav-links">
-    <li><a href="#services">Services</a></li>
-    <li><a href="#map">Service Areas</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-  <a href="#contact" class="nav-cta">Get a Quote</a>
-</nav>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"SpeakableSpecification","cssSelector":["#tldr h2","#tldr ul","#contact h2","#contact p"]}
+  </script>
 
-<section class="hero">
-  <p class="hero-eyebrow">Massachusetts Video Production</p>
-  <h1>Your Story.<br><em>Told Boldly.</em></h1>
-  <p class="hero-sub">Professional video production for brands, businesses, and organizations across all of Massachusetts.</p>
-  <div class="hero-actions">
-    <a href="#contact" class="btn-primary">Start Your Project</a>
-    <a href="#map" class="btn-ghost">Find Your City</a>
-  </div>
-  <div class="hero-stats">
-    <div class="stat"><span class="stat-num">204</span><span class="stat-label">Cities Served</span></div>
-    <div class="stat"><span class="stat-num">10+</span><span class="stat-label">Years Experience</span></div>
-    <div class="stat"><span class="stat-num">500+</span><span class="stat-label">Projects Completed</span></div>
-    <div class="stat"><span class="stat-num">MA</span><span class="stat-label">Statewide Coverage</span></div>
-  </div>
-</section>
-
-<section class="section" id="services">
-  <div class="section-inner">
-    <p class="section-eyebrow">What We Do</p>
-    <h2 class="section-title">Full-Service Production</h2>
-    <p class="section-sub">From concept to final cut, we deliver cinematic quality video for every type of project.</p>
-    <div class="services-grid">
-      <div class="service-card">
-        <span class="service-icon">🎬</span>
-        <h3>Corporate Video</h3>
-        <p>Company overviews, training videos, internal communications, and executive profiles that represent your brand at its best.</p>
-      </div>
-      <div class="service-card">
-        <span class="service-icon">📣</span>
-        <h3>Brand Films</h3>
-        <p>Emotionally driven brand stories and commercials that connect with your audience and drive real business results.</p>
-      </div>
-      <div class="service-card">
-        <span class="service-icon">🎤</span>
-        <h3>Event Coverage</h3>
-        <p>Conferences, product launches, galas, and live events captured with multi-camera professionalism.</p>
-      </div>
-      <div class="service-card">
-        <span class="service-icon">📱</span>
-        <h3>Social &amp; Digital</h3>
-        <p>Short-form content optimized for Instagram, LinkedIn, YouTube, and every platform your audience lives on.</p>
-      </div>
-      <div class="service-card">
-        <span class="service-icon">🏠</span>
-        <h3>Real Estate Video</h3>
-        <p>Property walkthroughs, aerial drone footage, and neighborhood tours that sell homes faster.</p>
-      </div>
-      <div class="service-card">
-        <span class="service-icon">🎓</span>
-        <h3>Documentary &amp; Non-Profit</h3>
-        <p>Mission-driven storytelling for non-profits, educational institutions, and community organizations.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="map">
-  <div class="section-inner">
-    <p class="section-eyebrow">Service Areas</p>
-    <h2 class="section-title">We Come to You — Anywhere in MA</h2>
-    <p class="section-sub">Click a city on the map or search the list to find your local production page.</p>
-    <div class="map-wrap">
-      <div class="map-search-bar">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:#8b95a8;flex-shrink:0"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-        <input type="text" id="citySearch" placeholder="Search city or zip code..." autocomplete="off">
-        <span id="cityCount">204 cities</span>
-      </div>
-      <div class="map-body">
-        <div class="map-svg-wrap" id="mapSvgWrap">
-          <div class="map-tooltip" id="mapTooltip"></div>
-          <svg id="maSvg" viewBox="0 0 820 440" xmlns="http://www.w3.org/2000/svg">
-            <!-- MA state outline (simplified) -->
-            <path d="M66,80 L97,45 L155,38 L220,35 L290,32 L370,30 L440,28 L510,28 L570,25 L620,22 L665,20 L700,22 L730,28 L755,38 L770,52 L778,68 L775,82 L765,92 L752,100 L742,112 L738,128 L745,140 L758,148 L770,155 L775,168 L770,182 L760,192 L748,202 L738,215 L730,228 L722,240 L715,252 L710,265 L705,278 L700,288 L696,298 L692,308 L688,316 L682,322 L674,326 L666,328 L656,326 L646,320 L638,312 L628,308 L618,306 L608,304 L598,304 L588,306 L578,310 L568,316 L558,322 L548,326 L536,328 L522,328 L510,326 L498,322 L488,316 L478,310 L468,308 L456,308 L446,310 L436,314 L428,318 L418,320 L408,318 L398,314 L388,308 L378,302 L368,298 L356,296 L344,296 L332,298 L320,302 L308,306 L296,308 L284,308 L272,306 L260,302 L248,296 L236,290 L224,284 L212,278 L200,272 L188,266 L176,260 L164,254 L152,248 L140,242 L128,236 L116,228 L106,220 L98,210 L92,198 L88,186 L84,172 L80,158 L76,144 L72,130 L68,114 L66,100 Z" fill="rgba(255,255,255,0.03)" stroke="rgba(201,168,76,0.25)" stroke-width="1.5"/>
-            <!-- Cape Cod peninsula -->
-            <path d="M640,310 L655,308 L670,308 L685,310 L700,314 L715,318 L730,322 L745,324 L758,322 L768,316 L772,306 L770,296 L764,288 L756,282 L748,278 L740,280 L732,284 L724,290 L716,296 L708,300 L698,302 L686,302 L674,300 L664,298 L656,298 L648,300 L642,306 Z" fill="rgba(255,255,255,0.03)" stroke="rgba(201,168,76,0.2)" stroke-width="1.5"/>
-            <!-- Nantucket -->
-            <ellipse cx="765" cy="396" rx="18" ry="10" fill="rgba(255,255,255,0.03)" stroke="rgba(201,168,76,0.2)" stroke-width="1.5"/>
-            <!-- City dots will be injected by JS -->
-            <g id="cityDots"></g>
-          </svg>
-        </div>
-        <div class="map-list" id="mapList">
-          <!-- Populated by JS -->
-        </div>
-      </div>
-      <div class="map-no-results" id="noResults">No cities match your search.</div>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="why" style="background:var(--dark);">
-  <div class="section-inner">
-    <p class="section-eyebrow">Why Choose Us</p>
-    <h2 class="section-title">Built for Massachusetts</h2>
-    <p class="section-sub">We know every corner of this state — from the Berkshires to the Cape — and we bring that local knowledge to every shoot.</p>
-    <div class="why-grid">
-      <div class="why-item">
-        <div class="why-num">4K</div>
-        <h3>Cinema Quality</h3>
-        <p>Professional cinema cameras, lenses, and lighting for every production size.</p>
-      </div>
-      <div class="why-item">
-        <div class="why-num">48h</div>
-        <h3>Fast Turnaround</h3>
-        <p>Rush delivery available. We meet your deadlines without sacrificing quality.</p>
-      </div>
-      <div class="why-item">
-        <div class="why-num">100%</div>
-        <h3>Satisfaction</h3>
-        <p>We don't stop until you're proud to share it. Revisions included.</p>
-      </div>
-      <div class="why-item">
-        <div class="why-num">MA</div>
-        <h3>Local Crew</h3>
-        <p>No travel fees. We're based here and know your locations inside out.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="contact">
-  <div class="section-inner">
-    <div class="contact-box">
-      <h2>Ready to Tell Your Story?</h2>
-      <p>Tell us about your project and we'll get back to you within one business day.</p>
-      <div class="contact-details">
-        <div class="contact-item"><span>📞</span> (781) 486-3565</div>
-        <div class="contact-item"><span>✉️</span> nathan@edgeofstoryfilms.com</div>
-      </div>
-      <a href="mailto:nathan@edgeofstoryfilms.com" class="btn-primary">Send Us a Message</a>
-    </div>
-  </div>
-</section>
-
-<footer>
-  <div class="footer-links">
-    <a href="/about">About</a>
-    <a href="/video-production">Services</a>
-    <a href="#map">Service Areas</a>
-    <a href="/contact">Contact</a>
-    <a href="/privacy-policy">Privacy Policy</a>
-    <a href="/terms-of-service">Terms</a>
-  </div>
-  <p>&copy; 2026 Edge Of Story Films. Professional video production across Massachusetts.</p>
-</footer>
-
-<script>
-const CITIES = [
-  {name:"Abington",slug:"abington",zip:"02351",x:578.4,y:196.9},
-  {name:"Acton",slug:"acton",zip:"01720",x:469.8,y:109.2},
-  {name:"Acushnet",slug:"acushnet",zip:"02743",x:585.1,y:303.7},
-  {name:"Agawam",slug:"agawam",zip:"01001",x:206.1,y:208.8},
-  {name:"Allston",slug:"allston",zip:"02134",x:536.3,y:142.4},
-  {name:"Amesbury",slug:"amesbury",zip:"01913",x:580.6,y:23.7},
-  {name:"Amherst",slug:"amherst",zip:"01002",x:228.3,y:137.6},
-  {name:"Andover",slug:"andover",zip:"01810",x:534.1,y:68.8},
-  {name:"Arlington",slug:"arlington",zip:"02474",x:529.7,y:125.8},
-  {name:"Ashland",slug:"ashland",zip:"01721",x:463.2,y:163.7},
-  {name:"Athol",slug:"athol",zip:"01331",x:292.5,y:83.1},
-  {name:"Attleboro",slug:"attleboro",zip:"02703",x:500.9,y:237.3},
-  {name:"Auburn",slug:"auburn",zip:"01501",x:381.2,y:178.0},
-  {name:"Bedford",slug:"bedford",zip:"01730",x:503.1,y:109.2},
-  {name:"Belchertown",slug:"belchertown",zip:"01007",x:252.6,y:159.0},
-  {name:"Bellingham",slug:"bellingham",zip:"02019",x:458.8,y:206.4},
-  {name:"Belmont",slug:"belmont",zip:"02478",x:525.2,y:130.5},
-  {name:"Beverly",slug:"beverly",zip:"01915",x:591.7,y:94.9},
-  {name:"Billerica",slug:"billerica",zip:"01821",x:505.3,y:92.5},
-  {name:"Boston",slug:"boston",zip:"02115",x:551.8,y:140.0},
-  {name:"Braintree",slug:"braintree",zip:"02184",x:565.1,y:175.6},
-  {name:"Brewster",slug:"brewster",zip:"02631",x:769.0,y:282.4},
-  {name:"Bridgewater",slug:"bridgewater",zip:"02324",x:571.8,y:227.8},
-  {name:"Brighton",slug:"brighton",zip:"02135",x:531.9,y:142.4},
-  {name:"Brockton",slug:"brockton",zip:"02301",x:560.7,y:206.4},
-  {name:"Brookline",slug:"brookline",zip:"02446",x:538.5,y:147.1},
-  {name:"Burlington",slug:"burlington",zip:"01803",x:520.8,y:106.8},
-  {name:"Buzzards Bay",slug:"buzzards-bay",zip:"02532",x:649.4,y:284.7},
-  {name:"Cambridge",slug:"cambridge",zip:"02139",x:540.8,y:137.6},
-  {name:"Canton",slug:"canton",zip:"02021",x:531.9,y:187.5},
-  {name:"Carver",slug:"carver",zip:"02330",x:616.1,y:251.5},
-  {name:"Centerville",slug:"centerville",zip:"02632",x:707.0,y:308.5},
-  {name:"Charlestown",slug:"charlestown",zip:"02129",x:551.8,y:135.3},
-  {name:"Charlton",slug:"charlton",zip:"01507",x:350.2,y:194.6},
-  {name:"Chelmsford",slug:"chelmsford",zip:"01824",x:483.1,y:83.1},
-  {name:"Chelsea",slug:"chelsea",zip:"02150",x:558.5,y:132.9},
-  {name:"Chestnut Hill",slug:"chestnut-hill",zip:"02467",x:527.5,y:149.5},
-  {name:"Chicopee",slug:"chicopee",zip:"01020",x:208.3,y:189.8},
-  {name:"Clinton",slug:"clinton",zip:"01510",x:414.4,y:125.8},
-  {name:"Concord",slug:"concord",zip:"01742",x:487.6,y:116.3},
-  {name:"Danvers",slug:"danvers",zip:"01923",x:580.6,y:90.2},
-  {name:"Dedham",slug:"dedham",zip:"02026",x:527.5,y:168.5},
-  {name:"Dorchester Center",slug:"dorchester-center",zip:"02124",x:549.6,y:154.2},
-  {name:"Dorchester",slug:"dorchester",zip:"02125",x:549.6,y:154.2},
-  {name:"Dracut",slug:"dracut",zip:"01826",x:498.6,y:64.1},
-  {name:"Dudley",slug:"dudley",zip:"01571",x:359.0,y:211.2},
-  {name:"Duxbury",slug:"duxbury",zip:"02332",x:638.3,y:215.9},
-  {name:"East Boston",slug:"east-boston",zip:"02128",x:560.7,y:137.6},
-  {name:"East Bridgewater",slug:"east-bridgewater",zip:"02333",x:582.9,y:220.7},
-  {name:"East Falmouth",slug:"east-falmouth",zip:"02536",x:660.4,y:327.5},
-  {name:"East Longmeadow",slug:"east-longmeadow",zip:"01028",x:228.3,y:208.8},
-  {name:"East Weymouth",slug:"east-weymouth",zip:"02189",x:578.4,y:173.2},
-  {name:"Easthampton",slug:"easthampton",zip:"01027",x:195.0,y:161.4},
-  {name:"Everett",slug:"everett",zip:"02149",x:554.1,y:130.5},
-  {name:"Fairhaven",slug:"fairhaven",zip:"02719",x:587.3,y:310.8},
-  {name:"Fall River",slug:"fall-river",zip:"02720",x:529.7,y:296.6},
-  {name:"Feeding Hills",slug:"feeding-hills",zip:"01030",x:197.2,y:208.8},
-  {name:"Fitchburg",slug:"fitchburg",zip:"01420",x:387.8,y:87.8},
-  {name:"Foxboro",slug:"foxboro",zip:"02035",x:509.7,y:211.2},
-  {name:"Framingham",slug:"framingham",zip:"01702",x:472.1,y:159.0},
-  {name:"Franklin",slug:"franklin",zip:"02038",x:476.5,y:206.4},
-  {name:"Gardner",slug:"gardner",zip:"01440",x:345.7,y:90.2},
-  {name:"Gloucester",slug:"gloucester",zip:"01930",x:640.5,y:80.7},
-  {name:"Greenfield",slug:"greenfield",zip:"01301",x:210.5,y:85.4},
-  {name:"Groton",slug:"groton",zip:"01450",x:438.8,y:78.3},
-  {name:"Hanover",slug:"hanover",zip:"02339",x:607.2,y:199.3},
-  {name:"Hanson",slug:"hanson",zip:"02341",x:591.7,y:213.6},
-  {name:"Harwich",slug:"harwich",zip:"02645",x:771.2,y:299.0},
-  {name:"Haverhill",slug:"haverhill",zip:"01830",x:547.4,y:40.3},
-  {name:"Hingham",slug:"hingham",zip:"02043",x:589.5,y:168.5},
-  {name:"Holbrook",slug:"holbrook",zip:"02343",x:562.9,y:199.3},
-  {name:"Holden",slug:"holden",zip:"01520",x:374.5,y:142.4},
-  {name:"Holliston",slug:"holliston",zip:"01746",x:469.8,y:178.0},
-  {name:"Holyoke",slug:"holyoke",zip:"01040",x:206.1,y:178.0},
-  {name:"Hopkinton",slug:"hopkinton",zip:"01748",x:449.9,y:170.8},
-  {name:"Hudson",slug:"hudson",zip:"01749",x:438.8,y:132.9},
-  {name:"Hull",slug:"hull",zip:"02045",x:582.9,y:154.2},
-  {name:"Hyannis",slug:"hyannis",zip:"02601",x:724.7,y:308.5},
-  {name:"Hyde Park",slug:"hyde-park",zip:"02136",x:538.5,y:163.7},
-  {name:"Ipswich",slug:"ipswich",zip:"01938",x:600.6,y:64.1},
-  {name:"Jamaica Plain",slug:"jamaica-plain",zip:"02130",x:540.8,y:151.9},
-  {name:"Kingston",slug:"kingston",zip:"02364",x:627.2,y:230.2},
-  {name:"Lakeville",slug:"lakeville",zip:"02347",x:576.2,y:265.8},
-  {name:"Lawrence",slug:"lawrence",zip:"01841",x:529.7,y:56.9},
-  {name:"Leominster",slug:"leominster",zip:"01453",x:396.7,y:99.7},
-  {name:"Lexington",slug:"lexington",zip:"02421",x:514.2,y:118.6},
-  {name:"Littleton",slug:"littleton",zip:"01460",x:456.5,y:97.3},
-  {name:"Longmeadow",slug:"longmeadow",zip:"01106",x:215.0,y:213.6},
-  {name:"Lowell",slug:"lowell",zip:"01852",x:494.2,y:75.9},
-  {name:"Ludlow",slug:"ludlow",zip:"01056",x:237.1,y:187.5},
-  {name:"Lunenburg",slug:"lunenburg",zip:"01462",x:405.6,y:85.4},
-  {name:"Lynn",slug:"lynn",zip:"01902",x:576.2,y:113.9},
-  {name:"Lynnfield",slug:"lynnfield",zip:"01940",x:558.5,y:97.3},
-  {name:"Malden",slug:"malden",zip:"02148",x:549.6,y:123.4},
-  {name:"Mansfield",slug:"mansfield",zip:"02048",x:516.4,y:218.3},
-  {name:"Marblehead",slug:"marblehead",zip:"01945",x:596.2,y:106.8},
-  {name:"Marlborough",slug:"marlborough",zip:"01752",x:443.2,y:142.4},
-  {name:"Marshfield",slug:"marshfield",zip:"02050",x:629.4,y:204.1},
-  {name:"Mashpee",slug:"mashpee",zip:"02649",x:680.4,y:308.5},
-  {name:"Mattapan",slug:"mattapan",zip:"02126",x:545.2,y:161.4},
-  {name:"Maynard",slug:"maynard",zip:"01754",x:465.4,y:123.4},
-  {name:"Medfield",slug:"medfield",zip:"02052",x:496.4,y:180.3},
-  {name:"Medford",slug:"medford",zip:"02155",x:540.8,y:125.8},
-  {name:"Medway",slug:"medway",zip:"02053",x:476.5,y:189.8},
-  {name:"Melrose",slug:"melrose",zip:"02176",x:551.8,y:116.3},
-  {name:"Methuen",slug:"methuen",zip:"01844",x:523.0,y:52.2},
-  {name:"Middleboro",slug:"middleboro",zip:"02346",x:582.9,y:251.5},
-  {name:"Milford",slug:"milford",zip:"01757",x:449.9,y:192.2},
-  {name:"Millbury",slug:"millbury",zip:"01527",x:394.5,y:180.3},
-  {name:"Milton",slug:"milton",zip:"02186",x:549.6,y:166.1},
-  {name:"Nantucket",slug:"nantucket",zip:"02554",x:764.6,y:396.3},
-  {name:"Natick",slug:"natick",zip:"01760",x:487.6,y:159.0},
-  {name:"Needham",slug:"needham",zip:"02492",x:514.2,y:159.0},
-  {name:"Needham Heights",slug:"needham-heights",zip:"02494",x:514.2,y:156.6},
-  {name:"New Bedford",slug:"new-bedford",zip:"02740",x:580.6,y:313.2},
-  {name:"Newburyport",slug:"newburyport",zip:"01950",x:591.7,y:33.2},
-  {name:"Newton",slug:"newton",zip:"02458",x:518.6,y:144.7},
-  {name:"Newton Center",slug:"newton-center",zip:"02459",x:520.8,y:147.1},
-  {name:"Newtonville",slug:"newtonville",zip:"02460",x:518.6,y:142.4},
-  {name:"Norfolk",slug:"norfolk",zip:"02056",x:492.0,y:196.9},
-  {name:"North Adams",slug:"north-adams",zip:"01247",x:97.5,y:59.3},
-  {name:"North Andover",slug:"north-andover",zip:"01845",x:536.3,y:59.3},
-  {name:"North Attleboro",slug:"north-attleboro",zip:"02760",x:492.0,y:230.2},
-  {name:"North Billerica",slug:"north-billerica",zip:"01862",x:505.3,y:83.1},
-  {name:"North Dartmouth",slug:"north-dartmouth",zip:"02747",x:571.8,y:308.5},
-  {name:"North Easton",slug:"north-easton",zip:"02356",x:540.8,y:211.2},
-  {name:"North Reading",slug:"north-reading",zip:"01864",x:547.4,y:87.8},
-  {name:"Northampton",slug:"northampton",zip:"01060",x:203.9,y:147.1},
-  {name:"Northborough",slug:"northborough",zip:"01532",x:421.1,y:149.5},
-  {name:"Norton",slug:"norton",zip:"02766",x:523.0,y:232.5},
-  {name:"Norwell",slug:"norwell",zip:"02061",x:611.7,y:187.5},
-  {name:"Norwood",slug:"norwood",zip:"02062",x:523.0,y:180.3},
-  {name:"Oxford",slug:"oxford",zip:"01540",x:374.5,y:196.9},
-  {name:"Peabody",slug:"peabody",zip:"01960",x:571.8,y:99.7},
-  {name:"Pembroke",slug:"pembroke",zip:"02359",x:609.5,y:208.8},
-  {name:"Pepperell",slug:"pepperell",zip:"01463",x:434.4,y:66.4},
-  {name:"Pittsfield",slug:"pittsfield",zip:"01201",x:66.5,y:118.6},
-  {name:"Plymouth",slug:"plymouth",zip:"02360",x:638.3,y:234.9},
-  {name:"Quincy",slug:"quincy",zip:"02169",x:565.1,y:166.1},
-  {name:"Randolph",slug:"randolph",zip:"02368",x:554.1,y:187.5},
-  {name:"Raynham",slug:"raynham",zip:"02767",x:554.1,y:239.7},
-  {name:"Reading",slug:"reading",zip:"01867",x:543.0,y:102.0},
-  {name:"Rehoboth",slug:"rehoboth",zip:"02769",x:487.6,y:261.0},
-  {name:"Revere",slug:"revere",zip:"02151",x:562.9,y:128.1},
-  {name:"Rockland",slug:"rockland",zip:"02370",x:587.3,y:194.6},
-  {name:"Roslindale",slug:"roslindale",zip:"02131",x:536.3,y:159.0},
-  {name:"Roxbury",slug:"roxbury",zip:"02119",x:545.2,y:149.5},
-  {name:"Roxbury Crossing",slug:"roxbury-crossing",zip:"02120",x:543.0,y:147.1},
-  {name:"Salem",slug:"salem",zip:"01970",x:587.3,y:102.0},
-  {name:"Sandwich",slug:"sandwich",zip:"02563",x:678.2,y:282.4},
-  {name:"Saugus",slug:"saugus",zip:"01906",x:562.9,y:113.9},
-  {name:"Scituate",slug:"scituate",zip:"02066",x:625.0,y:178.0},
-  {name:"Seekonk",slug:"seekonk",zip:"02771",x:494.2,y:263.4},
-  {name:"Sharon",slug:"sharon",zip:"02067",x:525.2,y:196.9},
-  {name:"Shrewsbury",slug:"shrewsbury",zip:"01545",x:405.6,y:154.2},
-  {name:"Somerset",slug:"somerset",zip:"02726",x:531.9,y:287.1},
-  {name:"Somerville",slug:"somerville",zip:"02145",x:543.0,y:132.9},
-  {name:"South Boston",slug:"south-boston",zip:"02127",x:554.1,y:144.7},
-  {name:"South Dartmouth",slug:"south-dartmouth",zip:"02748",x:574.0,y:329.8},
-  {name:"South Easton",slug:"south-easton",zip:"02375",x:543.0,y:218.3},
-  {name:"South Hadley",slug:"south-hadley",zip:"01075",x:215.0,y:163.7},
-  {name:"South Weymouth",slug:"south-weymouth",zip:"02190",x:574.0,y:180.3},
-  {name:"Southbridge",slug:"southbridge",zip:"01550",x:336.9,y:208.8},
-  {name:"Spencer",slug:"spencer",zip:"01562",x:345.7,y:168.5},
-  {name:"Springfield",slug:"springfield",zip:"01109",x:212.8,y:201.7},
-  {name:"Stoneham",slug:"stoneham",zip:"02180",x:543.0,y:111.5},
-  {name:"Stoughton",slug:"stoughton",zip:"02072",x:543.0,y:196.9},
-  {name:"Sudbury",slug:"sudbury",zip:"01776",x:472.1,y:135.3},
-  {name:"Swampscott",slug:"swampscott",zip:"01907",x:582.9,y:113.9},
-  {name:"Swansea",slug:"swansea",zip:"02777",x:518.6,y:282.4},
-  {name:"Taunton",slug:"taunton",zip:"02780",x:545.2,y:249.2},
-  {name:"Tewksbury",slug:"tewksbury",zip:"01876",x:514.2,y:80.7},
-  {name:"Tyngsboro",slug:"tyngsboro",zip:"01879",x:472.1,y:66.4},
-  {name:"Uxbridge",slug:"uxbridge",zip:"01569",x:427.7,y:206.4},
-  {name:"Wakefield",slug:"wakefield",zip:"01880",x:549.6,y:104.4},
-  {name:"Walpole",slug:"walpole",zip:"02081",x:509.7,y:189.8},
-  {name:"Waltham",slug:"waltham",zip:"02453",x:511.9,y:137.6},
-  {name:"Ware",slug:"ware",zip:"01082",x:290.3,y:163.7},
-  {name:"Wareham",slug:"wareham",zip:"02571",x:627.2,y:282.4},
-  {name:"Watertown",slug:"watertown",zip:"02472",x:525.2,y:137.6},
-  {name:"Wayland",slug:"wayland",zip:"01778",x:485.4,y:140.0},
-  {name:"Webster",slug:"webster",zip:"01570",x:370.1,y:213.6},
-  {name:"Wellesley",slug:"wellesley",zip:"02482",x:503.1,y:154.2},
-  {name:"Wellesley Hills",slug:"wellesley-hills",zip:"02481",x:505.3,y:151.9},
-  {name:"West Newton",slug:"west-newton",zip:"02465",x:514.2,y:142.4},
-  {name:"West Roxbury",slug:"west-roxbury",zip:"02132",x:529.7,y:159.0},
-  {name:"West Springfield",slug:"west-springfield",zip:"01089",x:201.7,y:201.7},
-  {name:"Westborough",slug:"westborough",zip:"01581",x:427.7,y:161.4},
-  {name:"Westfield",slug:"westfield",zip:"01085",x:177.3,y:196.9},
-  {name:"Westford",slug:"westford",zip:"01886",x:467.6,y:87.8},
-  {name:"Weston",slug:"weston",zip:"02493",x:498.6,y:137.6},
-  {name:"Westport",slug:"westport",zip:"02790",x:547.4,y:327.5},
-  {name:"Westwood",slug:"westwood",zip:"02090",x:516.4,y:173.2},
-  {name:"Weymouth",slug:"weymouth",zip:"02188",x:578.4,y:175.6},
-  {name:"Whitinsville",slug:"whitinsville",zip:"01588",x:416.6,y:196.9},
-  {name:"Whitman",slug:"whitman",zip:"02382",x:580.6,y:206.4},
-  {name:"Wilbraham",slug:"wilbraham",zip:"01095",x:246.0,y:196.9},
-  {name:"Wilmington",slug:"wilmington",zip:"01887",x:527.5,y:94.9},
-  {name:"Winchendon",slug:"winchendon",zip:"01475",x:334.6,y:64.1},
-  {name:"Winchester",slug:"winchester",zip:"01890",x:534.1,y:118.6},
-  {name:"Winthrop",slug:"winthrop",zip:"02152",x:569.6,y:137.6},
-  {name:"Woburn",slug:"woburn",zip:"01801",x:531.9,y:111.5},
-  {name:"Worcester",slug:"worcester",zip:"01604",x:387.8,y:161.4},
-  {name:"Wrentham",slug:"wrentham",zip:"02093",x:487.6,y:211.2},
-];
-// total: 204
-
-function init() {
-  const dotsGroup = document.getElementById('cityDots');
-  const mapList = document.getElementById('mapList');
-  const searchInput = document.getElementById('citySearch');
-  const countEl = document.getElementById('cityCount');
-  const tooltip = document.getElementById('mapTooltip');
-  const svgWrap = document.getElementById('mapSvgWrap');
-  const noResults = document.getElementById('noResults');
-
-  let activeCity = null;
-
-  // Build dot map
-  CITIES.forEach(city => {
-    const g = document.createElementNS('http://www.w3.org/2000/svg','g');
-    g.classList.add('city-dot');
-    g.dataset.slug = city.slug;
-    const c = document.createElementNS('http://www.w3.org/2000/svg','circle');
-    c.setAttribute('cx', city.x);
-    c.setAttribute('cy', city.y);
-    c.setAttribute('r', '4');
-    g.appendChild(c);
-    g.addEventListener('mouseenter', e => showTooltip(city, g, e));
-    g.addEventListener('mouseleave', hideTooltip);
-    g.addEventListener('click', () => goCity(city));
-    dotsGroup.appendChild(g);
-  });
-
-  // Build list
-  function buildList(cities) {
-    mapList.innerHTML = '';
-    if (cities.length === 0) {
-      noResults.style.display = 'block';
-      mapList.style.display = 'none';
-      return;
-    }
-    noResults.style.display = 'none';
-    mapList.style.display = 'block';
-    cities.forEach(city => {
-      const a = document.createElement('a');
-      a.href = `video-production/ma/${city.slug}/${city.zip}/`;
-      a.className = 'map-list-item';
-      a.dataset.slug = city.slug;
-      a.innerHTML = `<span>${city.name}</span><span class="zip">${city.zip}</span>`;
-      a.addEventListener('mouseenter', () => highlightDot(city.slug));
-      a.addEventListener('mouseleave', () => unhighlightDot(city.slug));
-      mapList.appendChild(a);
+  <script>
+    addEventListener('scroll', () => {
+      const h = document.documentElement.scrollHeight - innerHeight;
+      const p = h > 0 ? (scrollY / h) * 100 : 0;
+      const bar = document.getElementById('readingProgress');
+      if (bar) bar.style.width = p + '%';
     });
-    countEl.textContent = cities.length + (cities.length === 204 ? ' cities' : ' results');
-  }
+  </script>
 
-  buildList(CITIES);
+  <script>
+    function setTopBarHeight(){
+      const bar = document.getElementById('top-bar');
+      if (!bar) return;
+      const h = bar.offsetHeight || 48;
+      document.documentElement.style.setProperty('--tbH', h + 'px');
+      requestAnimationFrame(() => {
+        document.documentElement.style.setProperty('--tbH', bar.offsetHeight + 'px');
+      });
+    }
+    window.addEventListener('load', setTopBarHeight);
+    window.addEventListener('resize', setTopBarHeight);
+  </script>
+</head>
 
-  // Search
-  searchInput.addEventListener('input', () => {
-    const q = searchInput.value.trim().toLowerCase();
-    if (!q) { buildList(CITIES); return; }
-    const filtered = CITIES.filter(c => c.name.toLowerCase().includes(q) || c.zip.includes(q) || c.slug.includes(q));
-    buildList(filtered);
-  });
+<body>
+  <div id="filmStripBase" aria-hidden="true"></div>
+  <div id="readingProgress" aria-hidden="true"></div>
 
-  function showTooltip(city, el, e) {
-    tooltip.innerHTML = `<strong>${city.name}</strong>${city.zip}`;
-    tooltip.classList.add('visible');
-    // position relative to svgWrap
-    const svgRect = svgWrap.getBoundingClientRect();
-    const svg = document.getElementById('maSvg');
-    const svgW = svg.getBoundingClientRect().width;
-    const scale = svgW / 820;
-    let tx = city.x * scale - tooltip.offsetWidth / 2;
-    let ty = city.y * scale - 52;
-    if (ty < 0) ty = city.y * scale + 12;
-    tooltip.style.left = Math.max(0, tx) + 'px';
-    tooltip.style.top = ty + 'px';
-    highlightDot(city.slug);
-  }
+  <section id="top-bar" aria-label="Company contact bar">
+    <div class="bar-row">
+      <div><i class="fa-solid fa-location-dot"></i> 380 Lowell ST. Ste. #202B, Wakefield, MA 01880</div>
+      <div><a href="https://www.edgeofstoryfilms.com/contact-us/"><i class="fa-regular fa-envelope"></i> Contact Us</a></div>
+      <div><i class="fa-regular fa-clock"></i> Office Hours: 09:00 AM – 05:00 PM</div>
+      <div class="social" aria-label="Social links">
+        <ul>
+          <li><a href="https://www.facebook.com/profile.php?id=100035369001655" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="https://ec.linkedin.com/company/edge-of-story-films" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+          <li><a href="https://www.instagram.com/edgeofstoryfilms/?hl=en" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://www.youtube.com/channel/UCwOQtrU1LDrxRsF7LIueYMQ" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
+          <li><a href="https://www.threads.net/@edgeofstoryfilms" target="_blank" rel="noopener" aria-label="Threads"><i class="fa-brands fa-threads"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-  function hideTooltip() {
-    tooltip.classList.remove('visible');
-    if (activeCity) highlightDot(activeCity); else unhighlightAllDots();
-  }
+  <div id="top-bar-spacer" aria-hidden="true"></div>
 
-  function highlightDot(slug) {
-    document.querySelectorAll('.city-dot').forEach(d => d.classList.toggle('active', d.dataset.slug === slug));
-    document.querySelectorAll('.map-list-item').forEach(i => i.classList.toggle('active', i.dataset.slug === slug));
-    const el = mapList.querySelector(`[data-slug="${slug}"]`);
-    if (el) el.scrollIntoView({ block: 'nearest' });
-  }
+  <header class="site-header" id="top">
+    <img src="https://www.edgeofstoryfilms.com/wp-content/uploads/2023/11/logo.png"
+         alt="Edge of Story Films logo" width="160" height="60" loading="eager" fetchpriority="high"/>
+    <div class="site-title">
+      <h1>Edge of Story Films</h1>
+      <span class="tag">Boston's Emmy-nominated video storytellers</span>
+    </div>
+  </header>
 
-  function unhighlightDot(slug) {
-    document.querySelectorAll('.city-dot').forEach(d => d.classList.remove('active'));
-    document.querySelectorAll('.map-list-item').forEach(i => i.classList.remove('active'));
-  }
+  <section class="hero-video" aria-label="Edge of Story Films highlight reel">
+    <video autoplay muted loop playsinline preload="metadata"
+           poster="https://www.edgeofstoryfilms.com/wp-content/uploads/2023/11/logo.png"
+           controlslist="nodownload noplaybackrate">
+      <source src="https://www.edgeofstoryfilms.com/wp-content/themes/edgeofstory/images/home.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="cta"><a href="https://www.edgeofstoryfilms.com/show-reel-video/" target="_blank" rel="noopener">Show Reel →</a></div>
+  </section>
 
-  function unhighlightAllDots() {
-    document.querySelectorAll('.city-dot').forEach(d => d.classList.remove('active'));
-    document.querySelectorAll('.map-list-item').forEach(i => i.classList.remove('active'));
-  }
+  <section class="section white">
+    <div class="inner">
+      <details class="toc">
+        <summary>🔖 On This Page</summary>
+        <div class="toc-body">
+          <ul>
+            <li><a href="#tldr">Why Edge of Story Films</a></li>
+            <li><a href="#services">Core Services</a></li>
+            <li><a href="#portfolio">Featured Work</a></li>
+            <li><a href="#why">Why Choose Us</a></li>
+            <li><a href="#timeline">Production Timeline</a></li>
+            <li><a href="#optimize">Optimization Tips</a></li>
+            <li><a href="#compare">Video Production vs. Videography</a></li>
+            <li><a href="#author">About Edge of Story Films</a></li>
+            <li><a href="#faq">FAQs</a></li>
+            <li><a href="#contact">Get Started</a></li>
+          </ul>
+        </div>
+      </details>
+    </div>
+  </section>
 
-  function goCity(city) {
-    window.location.href = `video-production/ma/${city.slug}/${city.zip}/`;
-  }
+  <section class="section orange" id="tldr">
+    <div class="inner">
+      <h1 class="white-title">🎬 Why Edge Of Story Films</h1>
+      <ul class="brand-list">
+        <li>Emmy-nominated Boston video production studio.</li>
+        <li>Handcrafted storytelling for businesses and brands.</li>
+        <li>In-studio (Concord, MA) & on-location across Greater Boston.</li>
+        <li>Full service: creative concept, scripting, filming, editing, motion, sound, media management.</li>
+        <li>Fast, affordable, and conversion-focused.</li>
+      </ul>
+    </div>
+  </section>
 
-  // Nav scroll effect
-  window.addEventListener('scroll', () => {
-    document.querySelector('nav').style.borderBottomColor = window.scrollY > 20 ? 'rgba(201,168,76,0.25)' : 'rgba(201,168,76,0.15)';
-  });
+  <section class="section white" id="services" aria-labelledby="services-h2">
+    <div class="inner">
+      <h2 id="services-h2">🎥 Our Core Video Production Services In Boston, MA</h2>
+
+      <div class="grid cards-3">
+        <article class="card">
+          <img src="https://www.edgeofstoryfilms.com/wp-content/uploads/2023/11/Lavelle-robot-photo-320x240.png" alt="Website videos thumbnail with robotics scene" loading="lazy" width="640" height="480">
+          <h3>Website Videos</h3>
+          <p>Homepage and product videos that elevate credibility and drive action.</p>
+          <a class="btn" href="https://www.edgeofstoryfilms.com/website-videos/">Explore Website Videos</a>
+        </article>
+
+        <article class="card">
+          <img src="https://www.edgeofstoryfilms.com/wp-content/uploads/2023/11/Animated-Explainer-Still-320x240.jpg" alt="Animated explainer frame with branded graphics" loading="lazy" width="640" height="480">
+          <h3>Animated Explainers</h3>
+          <p>Break down complex ideas with clarity and style using custom animation.</p>
+          <a class="btn" href="https://www.edgeofstoryfilms.com/animated-explainer-videos/">View Explainer Videos</a>
+        </article>
+
+        <article class="card">
+          <img src="https://www.edgeofstoryfilms.com/wp-content/uploads/2023/11/testimonials-photo--320x240.png" alt="Client testimonial filming setup in studio" loading="lazy" width="640" height="480">
+          <h3>Testimonial Videos</h3>
+          <p>Authentic client stories that build trust and increase conversions.</p>
+          <a class="btn" href="https://www.edgeofstoryfilms.com/testimonial-videos/">See Testimonial Videos</a>
+        </article>
+
+        <article class="card">
+          <img src="https://www.edgeofstoryfilms.com/wp-content/uploads/2023/11/home-featured-03-320x240.png" alt="Social media video grid preview" loading="lazy" width="640" height="480">
+          <h3>Social Media Content</h3>
+          <p>Short-form content tailored for Instagram, LinkedIn, YouTube & TikTok.</p>
+          <a class="btn" href="https://www.edgeofstoryfilms.com/social-media-videos/">Social Media Videos</a>
+        </article>
+
+        <article class="card">
+          <img src="https://www.edgeofstoryfilms.com/wp-content/uploads/2025/09/Marketing-scaled.png" alt="Marketing video production – Edge of Story Films" loading="lazy" width="640" height="480">
+          <h3>Marketing Videos</h3>
+          <p>Brand storytelling designed to connect emotionally and deliver ROI.</p>
+          <a class="btn" href="https://www.edgeofstoryfilms.com/marketing-videos/">Marketing Videos</a>
+        </article>
+
+        <article class="card">
+          <img src="https://www.edgeofstoryfilms.com/wp-content/uploads/2025/09/About-Us-scaled.png" alt="About Us videos – Edge of Story Films" loading="lazy" width="640" height="480">
+          <h3>About Us Videos</h3>
+          <p>Hand-crafted storytelling to showcase your brand's identity and values.</p>
+          <a class="btn" href="https://www.edgeofstoryfilms.com/about-us-videos/">About Us Videos</a>
+        </article>
+
+        <article class="card">
+          <img src="https://www.edgeofstoryfilms.com/wp-content/uploads/2025/09/Corporate-video-scaled.png" alt="Corporate video production – Edge of Story Films" loading="lazy" width="640" height="480">
+          <h3>Corporate Video Production</h3>
+          <p>Strategic storytelling for Boston's businesses and enterprise teams.</p>
+          <a class="btn" href="https://www.edgeofstoryfilms.com/corporate-video-production/">Corporate Services Videos</a>
+        </article>
+
+        <article class="card">
+          <img src="https://www.edgeofstoryfilms.com/wp-content/uploads/2025/09/Event-scaled.png" alt="Event video production – Edge of Story Films" loading="lazy" width="640" height="480">
+          <h3>Event Video Production</h3>
+          <p>Capture the energy of Boston events, from conferences to galas.</p>
+          <a class="btn" href="https://www.edgeofstoryfilms.com/event-video-production/">Event Highlight Videos</a>
+        </article>
+
+        <article class="card">
+          <img src="https://www.edgeofstoryfilms.com/wp-content/uploads/2025/09/Financial--scaled.png" alt="Financial services video production – Edge of Story Films" loading="lazy" width="640" height="480">
+          <h3>Financial Services Videos</h3>
+          <p>Clear, compelling content for Boston's financial and fintech brands.</p>
+          <a class="btn" href="https://www.edgeofstoryfilms.com/financial-services-video-production/">See Finance Videos</a>
+        </article>
+      </div>
+
+      <div class="grid cards-2">
+        <article class="card">
+          <img src="https://www.edgeofstoryfilms.com/wp-content/uploads/2025/09/Promotional-videos-scaled.png" alt="Promotional videos – Edge of Story Films" loading="lazy" width="640" height="480">
+          <h3>Promotional Videos</h3>
+          <p>Dynamic content to highlight launches, offers, and key Boston campaigns.</p>
+          <a class="btn" href="https://www.edgeofstoryfilms.com/promotional-videos/">View Promo Videos</a>
+        </article>
+
+        <article class="card">
+          <img src="https://www.edgeofstoryfilms.com/wp-content/uploads/2025/09/Training-scaled.png" alt="Training and educational videos – Edge of Story Films" loading="lazy" width="640" height="480">
+          <h3>Training / Educational Videos</h3>
+          <p>Elevate learning for Boston teams with clear, visually immersive training.</p>
+          <a class="btn" href="https://www.edgeofstoryfilms.com/training-videos/">Training Videos</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section white" id="portfolio">
+    <div class="inner">
+      <h2>🎞️ Featured Client Work</h2>
+      <div class="video-grid" style="margin-bottom:1rem;">
+        <div class="video"><iframe src="https://player.vimeo.com/video/862258144?title=0&byline=0&portrait=0&transparent=1" title="Edge of Story Demo Reel" allowfullscreen loading="lazy"></iframe></div>
+        <div class="video"><iframe src="https://player.vimeo.com/video/888862218?title=0&byline=0&portrait=0&transparent=1" title="Animated Explainer Sample" allowfullscreen loading="lazy"></iframe></div>
+        <div class="video"><iframe src="https://player.vimeo.com/video/906045502?title=0&byline=0&portrait=0&transparent=1" title="Client Testimonial Sample" allowfullscreen loading="lazy"></iframe></div>
+        <div class="video"><iframe src="https://player.vimeo.com/video/1056505659?title=0&byline=0&portrait=0&transparent=1" title="Social Media Ad Sample" allowfullscreen loading="lazy"></iframe></div>
+      </div>
+      <div class="video single"><iframe src="https://player.vimeo.com/video/1081942960?title=0&byline=0&portrait=0&transparent=1" title="Marketing Overview Video" allowfullscreen loading="lazy"></iframe></div>
+    </div>
+  </section>
+
+  <section class="section white" id="why">
+    <div class="inner">
+      <h2>💡 Why Boston Businesses Choose Us</h2>
+      <div class="grid cards-3">
+        <article class="card"><h3>🎯 Strategic Storytelling</h3><p>Creative that aligns with business goals – not just pretty pictures.</p></article>
+        <article class="card"><h3>📍 Local Expertise</h3><p>Concord studio + on-site production across Greater Boston.</p></article>
+        <article class="card"><h3>🏆 Emmy-Nominated Craft</h3><p>Polished work, fast turnarounds, friendly, focused crews.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-strip">
+    <div class="inner">
+      <div>
+        <h2 class="white-title">Ready To Captivate Your Audience?</h2>
+        <p>Reach out today to discuss your project, and let's tell your story.</p>
+      </div>
+      <div><a class="btn" href="https://www.edgeofstoryfilms.com/contact-us/">Get In Touch</a></div>
+    </div>
+  </section>
+
+  <section class="section white" id="optimize">
+    <div class="inner">
+      <h2>🚀 How To Maximize Your Video ROI</h2>
+      <ul class="brand-list" style="max-width:820px;margin:auto;">
+        <li>Feature a key video on your homepage to increase dwell time.</li>
+        <li>Use captions for accessibility and SEO.</li>
+        <li>Repurpose short clips for social and email campaigns.</li>
+        <li>Ask for testimonials and weave them into edits.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="compare">
+    <div class="inner">
+      <h2>📊 VIDEO PRODUCTION VS. VIDEOGRAPHY</h2>
+
+      <div class="compare-grid">
+        <article class="compare-card">
+          <div class="compare-top">
+            <h3>VIDEO PRODUCTION</h3>
+            <p class="mini">What it is</p>
+            <p>Strategy through delivery: <strong>concept, scripting, filming, editorial, motion, sound, distribution.</strong></p>
+
+            <p class="mini">Team</p>
+            <p>Director, producer, DP, gaffer, audio, editor, colorist, motion designer.</p>
+
+            <p class="mini">Best for</p>
+            <p>Product launches, brand films, commercials, customer stories, explainers, recruiting, thought leadership.</p>
+          </div>
+
+          <div class="compare-note">
+            <div>
+              <p>We are a full-service video production company serving B2B organizations.</p>
+              <p><strong>Our Process:</strong> Discovery, story, production, post-production, distribution.</p>
+              <p><strong>Our Outcomes:</strong> Clear messaging, on-brand visuals, measurable impact.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="compare-card">
+          <div class="compare-top">
+            <h3>VIDEOGRAPHY</h3>
+            <p class="mini">What it is</p>
+            <p>Independent, less experienced videographer focused on capturing moments with light editing.</p>
+
+            <p class="mini">Team</p>
+            <p>Single videographer.</p>
+
+            <p class="mini">Best for</p>
+            <p>Weddings, graduations, live music, recitals, local sports.</p>
+          </div>
+
+          <div class="compare-note">
+            <div>
+              <p>Our core work is B2B video production. We develop event videos for B2B clients, but we do not produce wedding videos.</p>
+              <p>If you need event style videography, we can scope the right approach or recommend a trusted specialist.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section dark" id="author" aria-labelledby="author-h2">
+    <div class="inner">
+      <h2 id="author-h2">🎬 About Edge Of Story Films</h2>
+      <div class="author">
+        <div class="avatar" aria-hidden="true">
+          <img src="https://www.edgeofstoryfilms.com/wp-content/uploads/2023/11/logo.png" alt="Edge of Story Films logo avatar">
+        </div>
+        <div>
+          <p><strong>Edge of Story Films</strong> – A Boston-based video production company specializing in B2B brand storytelling, marketing, and corporate films.</p>
+          <p>We partner with businesses, law firms, startups, and creative brands to craft authentic, cinematic stories that drive measurable results. From concept development to distribution, our team blends strategy and creativity to help your brand stand out.</p>
+          <p><a href="mailto:info@edgeofstoryfilms.com" style="color:#fff;text-decoration:underline;">info@edgeofstoryfilms.com</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section white" id="faq">
+    <div class="inner">
+      <h2>❓ Frequently Asked Questions</h2>
+      <details>
+        <summary><strong>What's your average turnaround time?</strong></summary>
+        <p>Most videos are completed within 3–5 weeks depending on scope and review rounds.</p>
+      </details>
+      <details>
+        <summary><strong>Do you work with small budgets or startups?</strong></summary>
+        <p>Yes. We tailor concepts to your goals so you don't overpay for what you don't need.</p>
+      </details>
+      <details>
+        <summary><strong>Do you film on-location in Boston?</strong></summary>
+        <p>Absolutely. We shoot on-site throughout the Boston metro and surrounding areas.</p>
+      </details>
+      <details>
+        <summary><strong>Do you include script, VO, music, and captions?</strong></summary>
+        <p>Yes. Our packages include scripting, voiceover sourcing, music licensing, and captions.</p>
+      </details>
+    </div>
+  </section>
+
+  <section class="section orange">
+    <div style="text-align:center;">
+      <h1 class="white-title">🎞️ Ready To Tell Your Story?</h1>
+      <p>📊 Video Production vs. Videography</p>
+      <p>Let's collaborate on a video your audience will remember – and act on.</p>
+      <p>
+        <a class="btn" href="/contact-us/"><i class="fa-regular fa-envelope"></i> Email Us</a>
+        <a class="btn" href="tel:+17814863565"><i class="fa-solid fa-phone"></i> (781) 486-3565</a>
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer-compact">
+    <div class="foot-inner">
+      <div class="cols">
+        <div>
+          <img width="100" height="44" src="https://www.edgeofstoryfilms.com/wp-content/uploads/2023/11/logo-white.png" class="image wp-image-15  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" decoding="async">
+          <p>Everyone has a story to tell. The real question is how to tell it in an impactful and effective way. At Edge of Story Films, we do just that.</p>
+          <p class="social">
+            <a href="https://www.facebook.com/profile.php?id=100035369001655" target="_blank" rel="noopener">Facebook</a> ·
+            <a href="https://ec.linkedin.com/company/edge-of-story-films" target="_blank" rel="noopener">LinkedIn</a> ·
+            <a href="https://www.instagram.com/edgeofstoryfilms/?hl=en" target="_blank" rel="noopener">Instagram</a> ·
+            <a href="https://www.youtube.com/channel/UCwOQtrU1LDrxRsF7LIueYMQ" target="_blank" rel="noopener">YouTube</a>
+          </p>
+        </div>
+
+        <div>
+          <h4 style="margin:.2rem 0 .6rem;">Wakefield</h4>
+          <p>380 Lowell St STE 202B, Wakefield, MA 01880</p>
+          <div class="map-embed" aria-label="Map to Wakefield office">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d23527.41270264772!2d-71.06152888675537!3d42.514368045513734!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e30ddd4444f9cd%3A0x5d90c445f3990e24!2sEdge%20of%20Story%20Films!5e0!3m2!1sen!2sus!4v1689879490471!5m2!1sen!2sus"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Wakefield map"></iframe>
+          </div>
+        </div>
+
+        <div>
+          <h4 style="margin:.2rem 0 .6rem;">Concord Studio</h4>
+          <p>152 Commonwealth Ave, Concord, MA 01742</p>
+          <div class="map-embed" aria-label="Map to Concord Studio">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2943.552116956028!2d-71.39652889999999!3d42.4585448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e39106e801409b%3A0x6cedc0f574f3ac97!2sEdge%20of%20Story%20Films!5e0!3m2!1sen!2sus!4v1746545805645!5m2!1sen!2sus"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Concord Studio map"></iframe>
+          </div>
+        </div>
+
+        <div>
+          <h4 style="margin:.2rem 0 .6rem;">Get In Touch</h4>
+          <p>Phone: <a href="tel:+17814863565">(781) 486-3565</a><br/>
+             Email: <a href="/contact-us/">Contact Us</a></p>
+        </div>
+      </div>
+
+      <div class="bottom">
+        <div>© 2025 Edge of Story Films</div>
+        <div><a href="https://www.edgeofstoryfilms.com/contact-us/">Contact</a></div>
+      </div>
+    </div>
+  </footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.edgeofstoryfilms.com/best-video-production-company-in-ma-bostons-1-video-production/",
+      "url": "https://www.edgeofstoryfilms.com/best-video-production-company-in-ma-bostons-1-video-production/",
+      "name": "Boston's #1 Video Production Company in MA | Edge of Story Films",
+      "description": "Edge of Story Films is Boston's top-rated, Emmy-nominated video production company serving Greater Boston and beyond with branded storytelling, animation, and corporate video.",
+      "inLanguage": "en-US",
+      "isPartOf": { "@id": "https://www.edgeofstoryfilms.com/#website" },
+      "breadcrumb": { "@id": "https://www.edgeofstoryfilms.com/best-video-production-company-in-ma-bostons-1-video-production/#breadcrumb" },
+      "datePublished": "2025-10-01",
+      "dateModified": "2025-10-01",
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://www.edgeofstoryfilms.com/wp-content/uploads/2023/11/logo.png",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.edgeofstoryfilms.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Boston's #1 Video Production Company in MA", "item": "https://www.edgeofstoryfilms.com/best-video-production-company-in-ma-bostons-1-video-production/" }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.edgeofstoryfilms.com/#organization",
+      "name": "Edge of Story Films",
+      "url": "https://www.edgeofstoryfilms.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.edgeofstoryfilms.com/wp-content/uploads/2023/11/logo.png"
+      },
+      "sameAs": [
+        "https://www.facebook.com/profile.php?id=100035369001655",
+        "https://ec.linkedin.com/company/edge-of-story-films",
+        "https://www.instagram.com/edgeofstoryfilms/?hl=en",
+        "https://www.youtube.com/channel/UCwOQtrU1LDrxRsF7LIueYMQ",
+        "https://www.threads.net/@edgeofstoryfilms"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-781-486-3565",
+        "email": "nathan@edgeofstoryfilms.com",
+        "contactType": "Customer Service",
+        "areaServed": "US",
+        "availableLanguage": "English"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "380 Lowell St Ste #202B",
+        "addressLocality": "Wakefield",
+        "addressRegion": "MA",
+        "postalCode": "01880",
+        "addressCountry": "US"
+      }
+    },
+    {
+      "@type": "Place",
+      "name": "Edge of Story Films - Concord Studio",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "152 Commonwealth Ave",
+        "addressLocality": "Concord",
+        "addressRegion": "MA",
+        "postalCode": "01742",
+        "addressCountry": "US"
+      }
+    },
+    {
+      "@type": "HowTo",
+      "name": "Typical Video Production Timeline",
+      "description": "Step-by-step process used by Edge of Story Films for video production in Massachusetts.",
+      "totalTime": "P5W",
+      "supply": ["Creative Brief", "Script", "Storyboard", "Talent", "Camera Gear"],
+      "tool": ["Editing Software", "Lighting Kit", "Audio Equipment"],
+      "step": [
+        { "@type": "HowToStep", "name": "Week 1", "text": "Creative kickoff, define goals, and script outline." },
+        { "@type": "HowToStep", "name": "Week 2", "text": "Storyboard creation, casting, and production scheduling." },
+        { "@type": "HowToStep", "name": "Week 3", "text": "On-location or studio filming." },
+        { "@type": "HowToStep", "name": "Week 4", "text": "Post-production: editing, motion graphics, sound design." },
+        { "@type": "HowToStep", "name": "Week 5", "text": "Client reviews, revisions, and final delivery." }
+      ],
+      "performer": { "@type": "Organization", "name": "Edge of Story Films" }
+    },
+    {
+      "@type": "DefinedTermSet",
+      "name": "Video Production vs. Videography",
+      "hasDefinedTerm": [
+        { "@type": "DefinedTerm", "name": "Video Production", "description": "Full-service content creation: concept to delivery, involving a team of specialists." },
+        { "@type": "DefinedTerm", "name": "Videography", "description": "Single-person shoot typically focused on capturing footage with minimal editing." }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "How To Maximize Your Video ROI",
+      "description": "Best practices for repurposing and optimizing video content across platforms.",
+      "educationalUse": "Marketing",
+      "learningResourceType": "Guide",
+      "author": { "@type": "Organization", "name": "Edge of Story Films" },
+      "keywords": ["Video ROI", "Homepage Videos", "Video Marketing", "Repurposing Content"]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "What's your average turnaround time?", "acceptedAnswer": { "@type": "Answer", "text": "Most videos are completed within 3–5 weeks depending on scope and review rounds." } },
+        { "@type": "Question", "name": "Do you work with small budgets or startups?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We tailor concepts to your goals so you don't overpay for what you don't need." } },
+        { "@type": "Question", "name": "Do you film on-location in Boston?", "acceptedAnswer": { "@type": "Answer", "text": "Absolutely. We shoot on-site throughout the Boston metro and surrounding areas." } },
+        { "@type": "Question", "name": "Do you include script, VO, music, and captions?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Our packages include scripting, voiceover sourcing, music licensing, and captions." } }
+      ]
+    },
+    {
+      "@type": "OfferCatalog",
+      "name": "Video Production Services",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website Videos", "description": "Homepage and product videos that elevate credibility and drive action." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Animated Explainer Videos", "description": "Break down complex ideas with clarity and style using custom animation." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Testimonial Videos", "description": "Authentic client stories that build trust and increase conversions." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Social Media Video Content", "description": "Short-form videos for Instagram, LinkedIn, YouTube, TikTok." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Marketing Videos", "description": "Brand storytelling designed to connect emotionally and deliver ROI." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Corporate Video Production", "description": "Strategic storytelling for Boston's businesses and enterprise teams." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Event Video Production", "description": "Capture the energy of Boston events, from conferences to galas." } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Financial Services Video", "description": "Content for Boston's financial and fintech brands." } }
+      ]
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Edge of Story Client Testimonial",
+      "description": "Video testimonial from a satisfied Boston-based client.",
+      "thumbnailUrl": "https://www.edgeofstoryfilms.com/wp-content/uploads/2023/11/logo.png",
+      "uploadDate": "2025-10-01",
+      "contentUrl": "https://player.vimeo.com/video/862258144",
+      "embedUrl": "https://player.vimeo.com/video/862258144"
+    },
+    {
+      "@type": "ImageObject",
+      "name": "Service Thumbnails",
+      "caption": "Custom thumbnails for each video service type",
+      "representativeOfPage": true,
+      "thumbnail": [
+        "https://www.edgeofstoryfilms.com/wp-content/uploads/2023/11/homepage-video-thumbnail.jpg",
+        "https://www.edgeofstoryfilms.com/wp-content/uploads/2023/11/animation-explainer-thumbnail.jpg",
+        "https://www.edgeofstoryfilms.com/wp-content/uploads/2023/11/testimonial-thumbnail.jpg",
+        "https://www.edgeofstoryfilms.com/wp-content/uploads/2023/11/social-content-thumbnail.jpg"
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "name": "Edge of Story Company Stats",
+      "description": "Service impact and industry credentials",
+      "creator": { "@type": "Organization", "name": "Edge of Story Films" },
+      "variableMeasured": [
+        { "@type": "PropertyValue", "name": "Clients Served", "value": "150+" },
+        { "@type": "PropertyValue", "name": "Industries", "value": "20+" },
+        { "@type": "PropertyValue", "name": "Videos Produced", "value": "500+" },
+        { "@type": "PropertyValue", "name": "Award Nominations", "value": "1 Emmy" }
+      ]
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Video ROI Optimization Guide",
+      "additionalType": "Chart",
+      "description": "Visual breakdown of tactics to maximize return on video investment:",
+      "educationalUse": "Marketing",
+      "hasPart": [
+        { "@type": "ListItem", "position": 1, "name": "Use homepage placement for high visibility" },
+        { "@type": "ListItem", "position": 2, "name": "Add captions for silent autoplay on social" },
+        { "@type": "ListItem", "position": 3, "name": "Repurpose testimonial quotes in text" },
+        { "@type": "ListItem", "position": 4, "name": "Segment long content into shorts for IG/TikTok" }
+      ],
+      "author": { "@type": "Organization", "name": "Edge of Story Films" }
+    }
+  ]
 }
-
-document.addEventListener('DOMContentLoaded', init);
 </script>
 </body>
 </html>
